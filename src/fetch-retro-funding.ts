@@ -47,6 +47,7 @@ interface CombinedProject {
   latest_star_count: number;
   latest_fork_count: number;
   rounds: Record<string, RoundInfo>;
+  repos: string[];
   oso_data?: any;
 }
 
@@ -63,6 +64,18 @@ interface SimplifiedProject {
   oso_project_id: string;
   repos: string[];
   description?: string | null;
+}
+
+interface Artifact {
+  artifactId: string;
+  artifactName: string;
+  projectId: string;
+}
+
+interface Repository {
+  artifactId: string;
+  artifactName: string;
+  artifactUrl: string;
 }
 
 const OSO_API_URL = "https://www.opensource.observer/api/v1/graphql";
@@ -142,6 +155,7 @@ function combineRounds(roundsData: RoundData[]): Map<string, CombinedProject> {
           total_op_reward: project.op_reward,
           latest_star_count: project.star_count,
           latest_fork_count: project.fork_count,
+          repos: [],
           rounds: {
             [round.round]: {
               op_reward: project.op_reward,
@@ -213,6 +227,275 @@ async function queryOSOProjects(
     console.error("Error querying OSO API:", error);
     return new Map();
   }
+}
+
+async function fetchArtifactsForProjects(
+  projectIds: string[]
+): Promise<Artifact[]> {
+  const query = `
+    query GetArtifacts($projectIds: [String!]!, $limit: Int!, $offset: Int!) {
+      oso_artifactsByProjectV1(
+        where: { projectId: { _in: $projectIds } }
+        limit: $limit
+        offset: $offset
+      ) {
+        artifactId
+        artifactName
+        projectId
+      }
+    }
+  `;
+
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${DEVELOPER_API_KEY}`,
+  };
+
+  const projectBatchSize = 50; 
+  const limit = 1000; 
+  const allArtifacts: Artifact[] = [];
+
+  console.log(
+    `Fetching artifacts for ${projectIds.length} unique project IDs...`
+  );
+
+  for (let i = 0; i < projectIds.length; i += projectBatchSize) {
+    const projectBatch = projectIds.slice(i, i + projectBatchSize);
+    const batchNumber = Math.floor(i / projectBatchSize) + 1;
+    const totalBatches = Math.ceil(projectIds.length / projectBatchSize);
+
+    console.log(
+      `  Project Batch ${batchNumber}/${totalBatches} (${projectBatch.length} projects)...`
+    );
+
+    let offset = 0;
+    let hasMore = true;
+    let batchTotal = 0;
+
+    while (hasMore) {
+      try {
+        const response = await fetch(OSO_API_URL, {
+          method: "POST",
+          headers: headers,
+          body: JSON.stringify({
+            query: query,
+            variables: {
+              projectIds: projectBatch,
+              limit,
+              offset,
+            },
+          }),
+        });
+
+        if (!response.ok) {
+          console.error(`    Failed at offset ${offset}: ${response.status}`);
+          break;
+        }
+
+        const result = await response.json();
+        const artifacts = result.data?.oso_artifactsByProjectV1 || [];
+
+        if (artifacts.length === 0) {
+          hasMore = false;
+        } else {
+          allArtifacts.push(...artifacts);
+          batchTotal += artifacts.length;
+          offset += limit;
+
+          if (batchTotal % 5000 === 0 || artifacts.length < limit) {
+            console.log(
+              `    Progress: ${batchTotal} artifacts from this batch...`
+            );
+          }
+
+          if (artifacts.length < limit) {
+            hasMore = false;
+          }
+        }
+
+        await new Promise((resolve) => setTimeout(resolve, 200));
+      } catch (error) {
+        console.error(`    Error at offset ${offset}:`, error);
+        break;
+      }
+    }
+
+    console.log(
+      `    ✓ Batch complete: ${batchTotal} artifacts (Total so far: ${allArtifacts.length})`
+    );
+    await new Promise((resolve) => setTimeout(resolve, 500));
+  }
+
+  console.log(`✓ Total artifacts fetched: ${allArtifacts.length}`);
+  return allArtifacts;
+}
+
+async function fetchRepositoriesForArtifacts(
+  artifactIds: string[]
+): Promise<Repository[]> {
+  const query = `
+    query GetRepositories($artifactIds: [String!]!, $limit: Int!, $offset: Int!) {
+      oso_repositoriesV0(
+        where: { artifactId: { _in: $artifactIds } }
+        limit: $limit
+        offset: $offset
+      ) {
+        artifactId
+        artifactName
+        artifactUrl
+      }
+    }
+  `;
+
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${DEVELOPER_API_KEY}`,
+  };
+
+  const artifactBatchSize = 100;
+  const limit = 1000;
+  const allRepositories: Repository[] = [];
+
+  console.log(
+    `Fetching repositories for ${artifactIds.length} unique artifact IDs...`
+  );
+
+  for (let i = 0; i < artifactIds.length; i += artifactBatchSize) {
+    const artifactBatch = artifactIds.slice(i, i + artifactBatchSize);
+    const batchNumber = Math.floor(i / artifactBatchSize) + 1;
+    const totalBatches = Math.ceil(artifactIds.length / artifactBatchSize);
+
+    console.log(
+      `  Artifact Batch ${batchNumber}/${totalBatches} (${artifactBatch.length} artifacts)...`
+    );
+
+    let offset = 0;
+    let hasMore = true;
+    let batchTotal = 0;
+
+    while (hasMore) {
+      try {
+        const response = await fetch(OSO_API_URL, {
+          method: "POST",
+          headers: headers,
+          body: JSON.stringify({
+            query: query,
+            variables: {
+              artifactIds: artifactBatch,
+              limit,
+              offset,
+            },
+          }),
+        });
+
+        if (!response.ok) {
+          console.error(`    Failed at offset ${offset}: ${response.status}`);
+          break;
+        }
+
+        const result = await response.json();
+        const repositories = result.data?.oso_repositoriesV0 || [];
+
+        if (repositories.length === 0) {
+          hasMore = false;
+        } else {
+          allRepositories.push(...repositories);
+          batchTotal += repositories.length;
+          offset += limit;
+
+          if (batchTotal % 2000 === 0 || repositories.length < limit) {
+            console.log(
+              `    Progress: ${batchTotal} repositories from this batch...`
+            );
+          }
+
+          if (repositories.length < limit) {
+            hasMore = false;
+          }
+        }
+
+        await new Promise((resolve) => setTimeout(resolve, 200));
+      } catch (error) {
+        console.error(`    Error at offset ${offset}:`, error);
+        break;
+      }
+    }
+
+    console.log(
+      `    ✓ Batch complete: ${batchTotal} repositories (Total so far: ${allRepositories.length})`
+    );
+    await new Promise((resolve) => setTimeout(resolve, 500));
+  }
+
+  console.log(`✓ Total repositories fetched: ${allRepositories.length}`);
+  return allRepositories;
+}
+
+function linkProjectsToRepositories(
+  projects: CombinedProject[],
+  artifacts: Artifact[],
+  repositories: Repository[]
+): CombinedProject[] {
+  console.log("\n--- Linking Projects to Repositories ---");
+
+  const artifactsByProjectId = new Map<string, Artifact[]>();
+  for (const artifact of artifacts) {
+    if (!artifactsByProjectId.has(artifact.projectId)) {
+      artifactsByProjectId.set(artifact.projectId, []);
+    }
+    artifactsByProjectId.get(artifact.projectId)!.push(artifact);
+  }
+
+  const repositoriesByArtifactId = new Map<string, Repository[]>();
+  for (const repo of repositories) {
+    if (!repositoriesByArtifactId.has(repo.artifactId)) {
+      repositoriesByArtifactId.set(repo.artifactId, []);
+    }
+    repositoriesByArtifactId.get(repo.artifactId)!.push(repo);
+  }
+
+  let totalReposLinked = 0;
+  let projectsWithRepos = 0;
+
+  for (const project of projects) {
+    const repoUrls = new Set<string>();
+
+    const artifactIds = new Set<string>();
+
+    const ownArtifacts = artifactsByProjectId.get(project.oso_project_id) || [];
+    for (const artifact of ownArtifacts) {
+      artifactIds.add(artifact.artifactId);
+    }
+
+    for (const builderId of project.onchain_builder_oso_project_ids || []) {
+      const builderArtifacts = artifactsByProjectId.get(builderId) || [];
+      for (const artifact of builderArtifacts) {
+        artifactIds.add(artifact.artifactId);
+      }
+    }
+
+    for (const artifactId of artifactIds) {
+      const repos = repositoriesByArtifactId.get(artifactId) || [];
+      for (const repo of repos) {
+        if (repo.artifactUrl) {
+          repoUrls.add(repo.artifactUrl);
+        }
+      }
+    }
+
+    project.repos = Array.from(repoUrls).sort();
+
+    if (project.repos.length > 0) {
+      projectsWithRepos++;
+      totalReposLinked += project.repos.length;
+    }
+  }
+
+  console.log(`✓ Linked repositories to projects`);
+  console.log(`  Projects with repos: ${projectsWithRepos}/${projects.length}`);
+  console.log(`  Total repository URLs: ${totalReposLinked}`);
+
+  return projects;
 }
 
 async function enrichWithOSOData(
@@ -291,6 +574,42 @@ async function main() {
     );
   });
 
+  console.log("\n--- Fetching Artifacts and Repositories ---");
+
+  const uniqueProjectIds = new Set<string>();
+  for (const project of projectsArray) {
+    if (project.oso_project_id) {
+      uniqueProjectIds.add(project.oso_project_id);
+    }
+    for (const builderId of project.onchain_builder_oso_project_ids || []) {
+      if (builderId) {
+        uniqueProjectIds.add(builderId);
+      }
+    }
+  }
+
+  console.log(`Total unique project IDs to fetch: ${uniqueProjectIds.size}`);
+
+  const artifacts = await fetchArtifactsForProjects(
+    Array.from(uniqueProjectIds)
+  );
+
+  const uniqueArtifactIds = new Set<string>();
+  for (const artifact of artifacts) {
+    if (artifact.artifactId) {
+      uniqueArtifactIds.add(artifact.artifactId);
+    }
+  }
+
+  console.log(`Total unique artifact IDs to fetch: ${uniqueArtifactIds.size}`);
+
+  const repositories = await fetchRepositoriesForArtifacts(
+    Array.from(uniqueArtifactIds)
+  );
+
+  console.log("\n--- Linking Projects to Repositories ---");
+  linkProjectsToRepositories(projectsArray, artifacts, repositories);
+
   console.log("\n--- Enriching with OSO Data ---");
   const enrichedData = await enrichWithOSOData(projectsArray);
 
@@ -304,7 +623,7 @@ async function main() {
   const simplifiedData: SimplifiedProject[] = enrichedData.map((project) => ({
     name: project.display_name,
     oso_project_id: project.oso_project_id,
-    repos: [],
+    repos: project.repos,
     description: project.oso_data?.description || null,
   }));
 
@@ -344,6 +663,7 @@ async function main() {
     stats: {
       totalProjects: enrichedData.length,
       projectsWithOSOData: enrichedData.filter((p) => p.oso_data).length,
+      projectsWithRepos: enrichedData.filter((p) => p.repos.length > 0).length,
       totalRewards: enrichedData.reduce((sum, p) => sum + p.total_op_reward, 0),
     },
   };
