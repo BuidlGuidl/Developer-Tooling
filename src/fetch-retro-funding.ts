@@ -48,9 +48,6 @@ interface CombinedProject {
   latest_fork_count: number;
   rounds: Record<string, RoundInfo>;
   oso_data?: any;
-  description?: string | null;
-  oso_project_name?: string | null;
-  oso_display_name?: string;
 }
 
 interface RoundInfo {
@@ -256,9 +253,6 @@ async function enrichWithOSOData(
     return {
       ...project,
       oso_data: osoData || undefined,
-      description: osoData?.description || null,
-      oso_project_name: osoData?.projectName || null,
-      oso_display_name: osoData?.displayName || project.display_name,
     };
   });
 
@@ -310,8 +304,8 @@ async function main() {
   const simplifiedData: SimplifiedProject[] = enrichedData.map((project) => ({
     name: project.display_name,
     oso_project_id: project.oso_project_id,
-    repos: project.onchain_builder_project_names || [],
-    description: project.description,
+    repos: [],
+    description: project.oso_data?.description || null,
   }));
 
   console.log("\n--- Saving JSON Files ---");
