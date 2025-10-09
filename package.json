@@ -1,0 +1,17 @@
+{
+  "name": "developer-tooling",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx src/fetch-retro-funding.ts",
+    "fetch:bun": "bun run src/fetch-retro-funding.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
