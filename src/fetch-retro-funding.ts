@@ -80,6 +80,7 @@ interface Repository {
 
 const OSO_API_URL = "https://www.opensource.observer/api/v1/graphql";
 const DEVELOPER_API_KEY = process.env.DEVELOPER_API_KEY;
+const MAX_PROJECTS = 20; 
 
 async function fetchRoundData(month: string): Promise<Project[]> {
   const url = `https://raw.githubusercontent.com/ethereum-optimism/Retro-Funding/refs/heads/main/results/S7/${month}/outputs/devtooling__results.json`;
@@ -235,7 +236,10 @@ async function fetchArtifactsForProjects(
   const query = `
     query GetArtifacts($projectIds: [String!]!, $limit: Int!, $offset: Int!) {
       oso_artifactsByProjectV1(
-        where: { projectId: { _in: $projectIds } }
+        where: { 
+          projectId: { _in: $projectIds }
+          artifactSource: { _eq: "GITHUB" }
+        }
         limit: $limit
         offset: $offset
       ) {
@@ -251,8 +255,8 @@ async function fetchArtifactsForProjects(
     Authorization: `Bearer ${DEVELOPER_API_KEY}`,
   };
 
-  const projectBatchSize = 50; 
-  const limit = 1000; 
+  const projectBatchSize = 50;
+  const limit = 1000;
   const allArtifacts: Artifact[] = [];
 
   console.log(
@@ -544,7 +548,7 @@ async function enrichWithOSOData(
 
 async function main() {
   console.log("=".repeat(60));
-  console.log("Developer Tooling Data Fetcher");
+  console.log("Developer Tooling Data Fetcher (Limited to 20 Projects)");
   console.log("=".repeat(60));
 
   const roundsData = await fetchAllRounds();
@@ -561,9 +565,15 @@ async function main() {
   const combinedProjects = combineRounds(roundsData);
   console.log(`Unique projects: ${combinedProjects.size}`);
 
-  const projectsArray = Array.from(combinedProjects.values());
+  let projectsArray = Array.from(combinedProjects.values());
 
   projectsArray.sort((a, b) => b.total_op_reward - a.total_op_reward);
+
+  console.log(
+    `\n⚠️  Limiting to top ${MAX_PROJECTS} projects by total rewards...`
+  );
+  projectsArray = projectsArray.slice(0, MAX_PROJECTS);
+  console.log(`Processing ${projectsArray.length} projects`);
 
   console.log("\n--- Top 10 Projects by Total Rewards ---");
   projectsArray.slice(0, 10).forEach((project, index) => {
