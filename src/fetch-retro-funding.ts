@@ -9,6 +9,25 @@ config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+const EXCLUDED_PROJECT_IDS = new Set([
+  "JEGKohqd4SMdF2XsPQx53SuYckF5GP2RrdX9vLzovBk=",
+  "o6breg8faNvvKQn7n+MVsLpnPjfrMzmIHkhW2KeHtus=",
+  "fUkDvtE6aGHLHs9dfhp8rzhhzh7uintrSaO61/OVooU=",
+  "aACSS9iyRvZbEQP67MW1qVYf+mIYh8e1L1PZ8+ct9MM=",
+  "5DRU+kSqJj07dgVZUng7jkEn6Pqn3SZm2yQWrZEAS8M=",
+  "fFZ4/okuS+whKFMNfZiydVjZdIbOulD8cc5DbiChoZY=",
+  "Do7XmLDYP7t4xDWAldvqGF8KevofT/SUPeKGpg089ag=",
+  "4t3CyBp0VQB7NDpZslCAl68AHcCuQkw3QZ79zYNyV78=",
+  "HjQOBpXNmQ+YHuVW4sV0c6a0Ld5cPv31h4rPjvVE5Ok=",
+  "8Cgztczct8fnsJW6D2OQcFRY6nClKNyOC7Le0soED94=",
+  "XbRj/1I9gRExomQ5ClJhhNT42+/C/4NFTIukle+d1G4=",
+  "iRL7HC30DiL3CfAxmFhFI1d6/zzZ7U7C0m6jScMGKuY=",
+  "NgoVNxiNTOzlsAv1ChtyIaJk2GnReYxexUZDOQJq4aU=",
+  "1trB/l9QKhGRlHWNxeKxae3DYXIRAKtuzUHXcvpnpN8=",
+  "owZ14rxpDWPBMxBXsdu3ybsF/7IsdtcyAz5JpAp8sb0=",
+  "eQqCoZ6ZUM1ejuDhFMANJnjGAF32f7Pf7cWVAbVCSC4=",
+]);
+
 interface Project {
   oso_project_id: string;
   op_atlas_id: string;
@@ -80,8 +99,8 @@ interface Repository {
 }
 
 const OSO_API_URL = "https://www.opensource.observer/api/v1/graphql";
-const DEVELOPER_API_KEY = process.env.DEVELOPER_API_KEY;
-const MAX_PROJECTS = 256**256;
+const OSO_API_KEY = process.env.OSO_API_KEY;
+const MAX_PROJECTS = 256 ** 256;
 
 function promptUser(question: string): Promise<string> {
   const rl = readline.createInterface({
@@ -108,8 +127,16 @@ async function fetchRoundData(month: string): Promise<Project[]> {
       );
     }
     const data: Project[] = await response.json();
-    console.log(`✓ Fetched ${month}: ${data.length} projects`);
-    return data;
+
+    const filtered = data.filter(
+      (project) => !EXCLUDED_PROJECT_IDS.has(project.oso_project_id)
+    );
+    const excludedCount = data.length - filtered.length;
+
+    console.log(
+      `✓ Fetched ${month}: ${filtered.length} projects (${excludedCount} excluded)`
+    );
+    return filtered;
   } catch (error) {
     console.error(`✗ Error fetching ${month}:`, error);
     return [];
@@ -138,6 +165,10 @@ function combineRounds(roundsData: RoundData[]): Map<string, CombinedProject> {
 
   for (const round of roundsData) {
     for (const project of round.projects) {
+      if (EXCLUDED_PROJECT_IDS.has(project.oso_project_id)) {
+        continue;
+      }
+
       const key = project.oso_project_id || project.op_atlas_id;
 
       if (projectsMap.has(key)) {
@@ -208,7 +239,7 @@ async function queryOSOProjects(
   try {
     const headers = {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${DEVELOPER_API_KEY}`,
+      Authorization: `Bearer ${OSO_API_KEY}`,
     };
 
     const response = await fetch(OSO_API_URL, {
@@ -267,7 +298,7 @@ async function fetchArtifactsForProjects(
 
   const headers = {
     "Content-Type": "application/json",
-    Authorization: `Bearer ${DEVELOPER_API_KEY}`,
+    Authorization: `Bearer ${OSO_API_KEY}`,
   };
 
   const projectBatchSize = 50;
@@ -368,7 +399,7 @@ async function fetchRepositoriesForArtifacts(
 
   const headers = {
     "Content-Type": "application/json",
-    Authorization: `Bearer ${DEVELOPER_API_KEY}`,
+    Authorization: `Bearer ${OSO_API_KEY}`,
   };
 
   const artifactBatchSize = 100;
@@ -563,7 +594,8 @@ async function enrichWithOSOData(
 
 async function main() {
   console.log("=".repeat(60));
-  console.log("Developer Tooling Data Fetcher (Limited to 20 Projects)");
+  console.log("Developer Tooling Data Fetcher");
+  console.log(`Excluding ${EXCLUDED_PROJECT_IDS.size} projects`);
   console.log("=".repeat(60));
 
   const roundsData = await fetchAllRounds();
@@ -601,7 +633,7 @@ async function main() {
 
   console.log("\n");
   const answer = await promptUser(
-    "Include repository URLs in the output? (y/N) [default: N]: "
+    "Include repository URLs in the output? (Including drains api credits) (y/N) [default: N]: "
   );
   const includeRepos = answer === "yes" || answer === "y" || answer === "Y";
 
@@ -711,6 +743,7 @@ async function main() {
       projectsWithRepos: enrichedData.filter((p) => p.repos.length > 0).length,
       totalRewards: enrichedData.reduce((sum, p) => sum + p.total_op_reward, 0),
       includeRepos: includeRepos,
+      excludedProjects: EXCLUDED_PROJECT_IDS.size,
     },
   };
 }

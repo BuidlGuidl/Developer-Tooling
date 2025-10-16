@@ -496,6 +496,10 @@
     "description": "blocksmith.js is a minimal Javascript testing framework for Ethereum contract development using foundry-rs and ethers.  It is a lightweight wrapper around forge and anvil, so you can script Foundry however you want.  It is primarily designed for developing cross-chain applications that cannot be tested inside of a single EVM instance."
   },
   {
+    "name": "Skeleton ERA 💀",
+    "description": "Hello, I am an NFT designer. I have created 4 solid collections in Superchain. I am 25 years old. And I want to do more."
+  },
+  {
     "name": "8 Bit Cats☑️",
     "description": "8-bit cats are NFTs produced with artificial intelligence. It is a successful nft collection that has reached 420 network interactions on the base network with its unique designs."
   },
