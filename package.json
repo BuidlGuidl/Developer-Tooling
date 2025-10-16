@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "fetch": "tsx src/fetch-retro-funding.ts",
-    "fetch:bun": "bun run src/fetch-retro-funding.ts"
+    "fetch:bun": "bun run src/fetch-retro-funding.ts",
+    "graph": "tsx graph.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

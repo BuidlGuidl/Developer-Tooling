@@ -2,6 +2,7 @@ import { config } from "dotenv";
 import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import * as readline from "readline";
 
 config();
 
@@ -61,8 +62,8 @@ interface RoundInfo {
 
 interface SimplifiedProject {
   name: string;
-  oso_project_id: string;
-  repos: string[];
+  oso_project_id?: string;
+  repos?: string[];
   description?: string | null;
 }
 
@@ -80,7 +81,21 @@ interface Repository {
 
 const OSO_API_URL = "https://www.opensource.observer/api/v1/graphql";
 const DEVELOPER_API_KEY = process.env.DEVELOPER_API_KEY;
-const MAX_PROJECTS = 20; 
+const MAX_PROJECTS = 256**256;
+
+function promptUser(question: string): Promise<string> {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  return new Promise((resolve) => {
+    rl.question(question, (answer) => {
+      rl.close();
+      resolve(answer.trim().toLowerCase());
+    });
+  });
+}
 
 async function fetchRoundData(month: string): Promise<Project[]> {
   const url = `https://raw.githubusercontent.com/ethereum-optimism/Retro-Funding/refs/heads/main/results/S7/${month}/outputs/devtooling__results.json`;
@@ -238,7 +253,7 @@ async function fetchArtifactsForProjects(
       oso_artifactsByProjectV1(
         where: { 
           projectId: { _in: $projectIds }
-          artifactSource: { _eq: "GITHUB" }
+          artifactSource: { _eq: "GITHUB"}
         }
         limit: $limit
         offset: $offset
@@ -584,41 +599,54 @@ async function main() {
     );
   });
 
-  console.log("\n--- Fetching Artifacts and Repositories ---");
+  console.log("\n");
+  const answer = await promptUser(
+    "Include repository URLs in the output? (y/N) [default: N]: "
+  );
+  const includeRepos = answer === "yes" || answer === "y" || answer === "Y";
 
-  const uniqueProjectIds = new Set<string>();
-  for (const project of projectsArray) {
-    if (project.oso_project_id) {
-      uniqueProjectIds.add(project.oso_project_id);
-    }
-    for (const builderId of project.onchain_builder_oso_project_ids || []) {
-      if (builderId) {
-        uniqueProjectIds.add(builderId);
+  if (includeRepos) {
+    console.log("\n✓ Repository URLs will be included in the output");
+    console.log("\n--- Fetching Artifacts and Repositories ---");
+
+    const uniqueProjectIds = new Set<string>();
+    for (const project of projectsArray) {
+      if (project.oso_project_id) {
+        uniqueProjectIds.add(project.oso_project_id);
+      }
+      for (const builderId of project.onchain_builder_oso_project_ids || []) {
+        if (builderId) {
+          uniqueProjectIds.add(builderId);
+        }
       }
     }
-  }
 
-  console.log(`Total unique project IDs to fetch: ${uniqueProjectIds.size}`);
+    console.log(`Total unique project IDs to fetch: ${uniqueProjectIds.size}`);
 
-  const artifacts = await fetchArtifactsForProjects(
-    Array.from(uniqueProjectIds)
-  );
+    const artifacts = await fetchArtifactsForProjects(
+      Array.from(uniqueProjectIds)
+    );
 
-  const uniqueArtifactIds = new Set<string>();
-  for (const artifact of artifacts) {
-    if (artifact.artifactId) {
-      uniqueArtifactIds.add(artifact.artifactId);
+    const uniqueArtifactIds = new Set<string>();
+    for (const artifact of artifacts) {
+      if (artifact.artifactId) {
+        uniqueArtifactIds.add(artifact.artifactId);
+      }
     }
+
+    console.log(
+      `Total unique artifact IDs to fetch: ${uniqueArtifactIds.size}`
+    );
+
+    const repositories = await fetchRepositoriesForArtifacts(
+      Array.from(uniqueArtifactIds)
+    );
+
+    console.log("\n--- Linking Projects to Repositories ---");
+    linkProjectsToRepositories(projectsArray, artifacts, repositories);
+  } else {
+    console.log("\n✓ Skipping repository data (repos will be empty arrays)");
   }
-
-  console.log(`Total unique artifact IDs to fetch: ${uniqueArtifactIds.size}`);
-
-  const repositories = await fetchRepositoriesForArtifacts(
-    Array.from(uniqueArtifactIds)
-  );
-
-  console.log("\n--- Linking Projects to Repositories ---");
-  linkProjectsToRepositories(projectsArray, artifacts, repositories);
 
   console.log("\n--- Enriching with OSO Data ---");
   const enrichedData = await enrichWithOSOData(projectsArray);
@@ -630,12 +658,19 @@ async function main() {
     }`
   );
 
-  const simplifiedData: SimplifiedProject[] = enrichedData.map((project) => ({
-    name: project.display_name,
-    oso_project_id: project.oso_project_id,
-    repos: project.repos,
-    description: project.oso_data?.description || null,
-  }));
+  const simplifiedData: SimplifiedProject[] = enrichedData.map((project) => {
+    const baseProject: SimplifiedProject = {
+      name: project.display_name,
+      // oso_project_id: project.oso_project_id,
+      description: project.oso_data?.description || null,
+    };
+
+    if (includeRepos) {
+      baseProject.repos = project.repos;
+    }
+
+    return baseProject;
+  });
 
   console.log("\n--- Saving JSON Files ---");
 
@@ -675,6 +710,7 @@ async function main() {
       projectsWithOSOData: enrichedData.filter((p) => p.oso_data).length,
       projectsWithRepos: enrichedData.filter((p) => p.repos.length > 0).length,
       totalRewards: enrichedData.reduce((sum, p) => sum + p.total_op_reward, 0),
+      includeRepos: includeRepos,
     },
   };
 }
