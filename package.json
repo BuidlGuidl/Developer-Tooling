@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "@google-cloud/bigquery": "^7.9.1",
-    "@anthropic-ai/sdk": "^0.32.1",
     "@types/node": "^20.0.0",
     "tsx": "^4.20.6",
     "typescript": "^5.0.0"
