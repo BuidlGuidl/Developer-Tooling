@@ -74,9 +74,6 @@ function loadCheckpoint(): Checkpoint | null {
   }
 }
 
-/**
- * Save checkpoint
- */
 function saveCheckpoint(checkpoint: Checkpoint): void {
   const data = {
     lastProcessedIndex: checkpoint.lastProcessedIndex,
@@ -86,9 +83,6 @@ function saveCheckpoint(checkpoint: Checkpoint): void {
   writeFileSync(CHECKPOINT_FILE, JSON.stringify(data, null, 2));
 }
 
-/**
- * Generate tags for a project using Groq API
- */
 async function generateTagsWithGroq(
   project: Project,
   retryCount = 0
