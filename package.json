@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "fetch": "tsx src/fetch-retro-funding.ts",
-    "fetch:bigquery": "tsx src/fetch-bigquery.ts",
+    "fetch": "tsx src/fetch-bigquery.ts",
     "tag": "tsx src/add-project-tags.ts",
     "tag:resume": "tsx src/add-project-tags.ts",
     "tag:ollama": "tsx src/add-project-tags-ollama.ts"
