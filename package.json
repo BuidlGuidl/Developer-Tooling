@@ -5,7 +5,9 @@
   "scripts": {
     "fetch": "tsx src/fetch-retro-funding.ts",
     "fetch:bigquery": "tsx src/fetch-bigquery.ts",
-    "fetch:bigquery:tagging": "tsx src/fetch-bigquery-tagging.ts"
+    "tag": "tsx src/add-project-tags.ts",
+    "tag:resume": "tsx src/add-project-tags.ts",
+    "tag:ollama": "tsx src/add-project-tags-ollama.ts"
   },
   "devDependencies": {
     "@google-cloud/bigquery": "^7.9.1",

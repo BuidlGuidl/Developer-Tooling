@@ -3,14 +3,12 @@ import { config } from "dotenv";
 import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import * as readline from "readline";
 
 config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Configuration
 const PROJECT_ID = "sylvan-mode-443511-h0";
 const DATASET = "op_atlas";
 
@@ -34,20 +32,6 @@ interface CombinedProject {
   banner_url: string | null;
   twitter: string | null;
   repos: string[];
-}
-
-function promptUser(question: string): Promise<string> {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-
-  return new Promise((resolve) => {
-    rl.question(question, (answer) => {
-      rl.close();
-      resolve(answer.trim().toLowerCase());
-    });
-  });
 }
 
 async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
@@ -79,7 +63,6 @@ async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
   console.log();
 
   try {
-    // Estimate query cost first
     console.log("Estimating query cost...");
     const [dryRunJob] = await bigquery.createQueryJob({
       query,
@@ -91,7 +74,7 @@ async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
       dryRunJob.metadata.statistics.totalBytesProcessed
     );
     const gbProcessed = bytesProcessed / 1024 ** 3;
-    const estimatedCost = (gbProcessed / 1024) * 5; // $5 per TB
+    const estimatedCost = (gbProcessed / 1024) * 5; 
 
     console.log(
       `Estimated bytes to process: ${bytesProcessed.toLocaleString()}`
@@ -100,17 +83,15 @@ async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
     console.log(`Estimated cost: $${estimatedCost.toFixed(6)}`);
     console.log();
 
-    // Execute the actual query with no row limit
     console.log("Executing query (fetching ALL data)...");
     const [rows] = await bigquery.query({
       query,
       location: "US",
-      maxResults: 100000, // Set high limit to ensure we get everything
+      maxResults: 100000,
     });
 
     console.log(`✓ Query complete: Fetched ${rows.length} rows`);
 
-    // Check if we might have hit a limit
     if (rows.length >= 100000) {
       console.warn("⚠️  Warning: Result set may be truncated at 100,000 rows.");
       console.warn("   Consider using pagination if you need more data.");
@@ -148,13 +129,11 @@ function combineProjectRepos(
 
   for (const row of rows) {
     if (projectsMap.has(row.id)) {
-      // Add repo to existing project
       const existing = projectsMap.get(row.id)!;
       if (row.repo_url && !existing.repos.includes(row.repo_url)) {
         existing.repos.push(row.repo_url);
       }
     } else {
-      // Create new project entry
       projectsMap.set(row.id, {
         id: row.id,
         name: row.name,
@@ -192,17 +171,13 @@ async function main() {
   console.log("=".repeat(60));
   console.log();
 
-  // Fetch data from BigQuery
   const rawData = await fetchOpAtlasProjects();
 
-  // Combine projects with their repositories
   const projectsMap = combineProjectRepos(rawData);
   const projectsArray = Array.from(projectsMap.values());
 
-  // Sort by name
   projectsArray.sort((a, b) => a.name.localeCompare(b.name));
 
-  // Display sample data
   console.log("\n--- Sample Projects (First 5) ---");
   projectsArray.slice(0, 5).forEach((project, index) => {
     console.log(`${index + 1}. ${project.name}`);
@@ -218,7 +193,6 @@ async function main() {
     console.log();
   });
 
-  // Statistics
   console.log("\n--- Statistics ---");
   const projectsWithDescriptions = projectsArray.filter(
     (p) => p.description && p.description.length > 0
@@ -239,7 +213,6 @@ async function main() {
   console.log(`Projects with Twitter: ${projectsWithTwitter}`);
   console.log(`Projects with thumbnail: ${projectsWithThumbnail}`);
 
-  // Category breakdown
   const categoryCount = new Map<string, number>();
   for (const project of projectsArray) {
     const cat = project.category || "Uncategorized";
@@ -254,50 +227,24 @@ async function main() {
     console.log(`${category}: ${count}`);
   });
 
-  // Ask about simplified output
-  console.log();
-  const answer = await promptUser(
-    "Create simplified output (name + repos only)? (y/N) [default: N]: "
-  );
-  const createSimplified = answer === "yes" || answer === "y";
-
-  // Prepare output directory
   const outputDir = join(__dirname, "..", "output");
   if (!existsSync(outputDir)) {
     mkdirSync(outputDir, { recursive: true });
-    console.log(`✓ Created output directory: ${outputDir}`);
+    console.log(`\n✓ Created output directory: ${outputDir}`);
   }
 
-  // Save full dataset
   console.log("\n--- Saving Files ---");
   const fullJson = JSON.stringify(projectsArray, null, 2);
   const fullPath = join(outputDir, "op-atlas-projects-full.json");
   writeFileSync(fullPath, fullJson);
   console.log(
-    `✓ Saved full dataset: ${fullPath} (${(fullJson.length / 1024).toFixed(
-      2
-    )} KB)`
+    `✓ Saved full dataset: ${fullPath} (${(
+      fullJson.length /
+      1024 /
+      1024
+    ).toFixed(2)} MB)`
   );
 
-  // Save simplified dataset if requested
-  if (createSimplified) {
-    const simplifiedData = projectsArray.map((project) => ({
-      name: project.name,
-      repos: project.repos,
-      description: project.description,
-    }));
-
-    const simplifiedJson = JSON.stringify(simplifiedData, null, 2);
-    const simplifiedPath = join(outputDir, "op-atlas-projects-simplified.json");
-    writeFileSync(simplifiedPath, simplifiedJson);
-    console.log(
-      `✓ Saved simplified dataset: ${simplifiedPath} (${(
-        simplifiedJson.length / 1024
-      ).toFixed(2)} KB)`
-    );
-  }
-
-  // Save categories breakdown
   const categoriesData = {
     total_projects: projectsArray.length,
     categories: Object.fromEntries(sortedCategories),
@@ -307,7 +254,17 @@ async function main() {
   console.log(`✓ Saved categories: ${categoriesPath}`);
 
   console.log("\n" + "=".repeat(60));
-  console.log("✓ Complete! All files saved to output directory.");
+  console.log("✓ Complete! Full dataset saved.");
+  console.log();
+  console.log("📝 Next Steps:");
+  console.log("   1. Run the tagging script to add tags:");
+  console.log("      npm run tag");
+  console.log();
+  console.log("   2. The tagging script will:");
+  console.log("      - Read op-atlas-projects-full.json");
+  console.log("      - Add AI-generated tags to each project");
+  console.log("      - Save op-atlas-projects-full-tagged.json");
+  console.log("      - Generate op-atlas-projects-simplified-tagged.json");
   console.log("=".repeat(60));
 
   return {
