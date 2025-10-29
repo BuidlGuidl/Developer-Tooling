@@ -115,7 +115,10 @@ Rules:
 - Be specific but concise
 - Include 3-7 tags
 - No explanations, only the JSON object
-- Common tags: typescript, javascript, solidity, rust, python, web3, defi, nft, dapp, smart-contracts, cli, web-interface, mobile, api, library, protocol, bridge, wallet, ethereum, base, optimism, layer2`;
+- Use standard Web3 abbreviations: "defi" not "decentralized finance", "dapp" not "decentralized application"
+- Avoid redundant or overly verbose tags
+
+- Common tags: typescript, javascript, solidity, rust, python, web3, defi, nft, dapp, smart-contracts, cli, web-interface, mobile, api, library, protocol, bridge, wallet, ethereum, base, optimism, layer2, nextjs, utility`;
 
   try {
     const response = await fetch(GROQ_API_URL, {

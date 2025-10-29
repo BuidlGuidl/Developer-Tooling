@@ -107,7 +107,11 @@ Rules:
 - Use lowercase for all tags
 - Be specific but concise
 - Include 3-7 tags
-- No explanations, only the JSON object`;
+- No explanations, only the JSON object
+- Use standard Web3 abbreviations: "defi" not "decentralized finance", "dapp" not "decentralized application"
+- Avoid redundant or overly verbose tags
+
+- Common tags: typescript, javascript, solidity, rust, python, web3, defi, nft, dapp, smart-contracts, cli, web-interface, mobile, api, library, protocol, bridge, wallet, ethereum, base, optimism, layer2, nextjs, utility`;
 
   try {
     const response = await fetch(OLLAMA_API_URL, {
