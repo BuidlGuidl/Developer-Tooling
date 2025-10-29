@@ -84,7 +84,7 @@ async function generateTagsWithOllama(
   project: Project,
   retryCount = 0
 ): Promise<TaggingResult> {
-  const prompt = `You are a categorization expert. Analyze this blockchain/crypto project and generate 3-7 relevant tags.
+  const prompt = `You are a categorization expert. Analyze this blockchain/crypto project and generate 3-10 relevant tags.
 
 Project Name: ${project.name}
 Category: ${project.category || "Unknown"}
@@ -106,7 +106,7 @@ Return ONLY a JSON object with this exact format:
 Rules:
 - Use lowercase for all tags
 - Be specific but concise
-- Include 3-7 tags
+- Include 3-10 tags
 - No explanations, only the JSON object
 - Use standard Web3 abbreviations: "defi" not "decentralized finance", "dapp" not "decentralized application"
 - Avoid redundant or overly verbose tags
@@ -170,7 +170,7 @@ Rules:
     result.tags = result.tags
       .map((tag) => tag.toLowerCase().trim())
       .filter((tag) => tag.length > 0 && tag.length < 30)
-      .slice(0, 7);
+      .slice(0, 10);
 
     if (result.tags.length === 0) {
       result.tags = ["general"];
