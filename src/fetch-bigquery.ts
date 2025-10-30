@@ -3,6 +3,7 @@ import { config } from "dotenv";
 import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import * as readline from "readline";
 
 config();
 
@@ -11,6 +12,12 @@ const __dirname = dirname(__filename);
 
 const PROJECT_ID = "sylvan-mode-443511-h0";
 const DATASET = "op_atlas";
+
+interface RoundProject {
+  op_atlas_id: string;
+  display_name: string;
+  [key: string]: any;
+}
 
 interface OpAtlasProject {
   id: string;
@@ -34,13 +41,79 @@ interface CombinedProject {
   repos: string[];
 }
 
-async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
-  console.log("Initializing BigQuery client...");
+function promptUser(question: string): Promise<string> {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  return new Promise((resolve) => {
+    rl.question(question, (answer) => {
+      rl.close();
+      resolve(answer.trim());
+    });
+  });
+}
+
+async function fetchRoundData(month: string): Promise<RoundProject[]> {
+  const url = `https://raw.githubusercontent.com/ethereum-optimism/Retro-Funding/refs/heads/main/results/S7/${month}/outputs/devtooling__results.json`;
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(
+        `Failed to fetch ${month}: ${response.status} ${response.statusText}`
+      );
+    }
+    const data: RoundProject[] = await response.json();
+    console.log(`✓ Fetched ${month}: ${data.length} projects`);
+    return data;
+  } catch (error) {
+    console.error(`✗ Error fetching ${month}:`, error);
+    return [];
+  }
+}
+
+async function fetchOpAtlasIdsFromGitHub(
+  lastMonth: number
+): Promise<Set<string>> {
+  console.log("\n--- Fetching OP Atlas IDs from GitHub Rounds ---");
+  console.log(`Fetching rounds M1 to M${lastMonth}...`);
+
+  const opAtlasIds = new Set<string>();
+  const months = [];
+
+  for (let i = 1; i <= lastMonth; i++) {
+    months.push(`M${i}`);
+  }
+
+  for (const month of months) {
+    const projects = await fetchRoundData(month);
+    for (const project of projects) {
+      if (project.op_atlas_id && project.op_atlas_id.length > 0) {
+        opAtlasIds.add(project.op_atlas_id);
+      }
+    }
+  }
+
+  console.log(`\n✓ Found ${opAtlasIds.size} unique OP Atlas IDs across ${months.length} rounds`);
+  console.log(`  Rounds processed: ${months.join(", ")}`);
+
+  return opAtlasIds;
+}
+
+async function fetchOpAtlasProjects(
+  opAtlasIds: Set<string>
+): Promise<OpAtlasProject[]> {
+  console.log("\n--- Fetching Projects from BigQuery ---");
+  console.log(`Querying BigQuery for ${opAtlasIds.size} specific project IDs...`);
 
   const bigquery = new BigQuery({
     projectId: PROJECT_ID,
   });
 
+  const idsArray = Array.from(opAtlasIds);
+  
   const query = `
     SELECT
       p.id,
@@ -54,12 +127,13 @@ async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
     FROM \`${PROJECT_ID}.${DATASET}.project\` AS p
     LEFT JOIN \`${PROJECT_ID}.${DATASET}.project_repository\` AS r
       ON p.id = r.project_id
+    WHERE p.id IN UNNEST(@projectIds)
     ORDER BY p.name
   `;
 
   console.log("\n--- Running BigQuery Query ---");
   console.log("Query:");
-  console.log(query);
+  console.log(query.replace("@projectIds", `[${idsArray.slice(0, 3).map(id => `"${id}"`).join(", ")}...]`));
   console.log();
 
   try {
@@ -68,13 +142,14 @@ async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
       query,
       location: "US",
       dryRun: true,
+      params: { projectIds: idsArray },
     });
 
     const bytesProcessed = parseInt(
       dryRunJob.metadata.statistics.totalBytesProcessed
     );
     const gbProcessed = bytesProcessed / 1024 ** 3;
-    const estimatedCost = (gbProcessed / 1024) * 5; 
+    const estimatedCost = (gbProcessed / 1024) * 5;
 
     console.log(
       `Estimated bytes to process: ${bytesProcessed.toLocaleString()}`
@@ -83,10 +158,11 @@ async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
     console.log(`Estimated cost: $${estimatedCost.toFixed(6)}`);
     console.log();
 
-    console.log("Executing query (fetching ALL data)...");
+    console.log("Executing query...");
     const [rows] = await bigquery.query({
       query,
       location: "US",
+      params: { projectIds: idsArray },
       maxResults: 100000,
     });
 
@@ -94,7 +170,6 @@ async function fetchOpAtlasProjects(): Promise<OpAtlasProject[]> {
 
     if (rows.length >= 100000) {
       console.warn("⚠️  Warning: Result set may be truncated at 100,000 rows.");
-      console.warn("   Consider using pagination if you need more data.");
     }
 
     return rows as OpAtlasProject[];
@@ -165,13 +240,39 @@ function combineProjectRepos(
 
 async function main() {
   console.log("=".repeat(60));
-  console.log("OP Atlas BigQuery Fetcher");
+  console.log("OP Atlas BigQuery Fetcher (Filtered by GitHub Rounds)");
   console.log(`Project: ${PROJECT_ID}`);
   console.log(`Dataset: ${DATASET}`);
   console.log("=".repeat(60));
   console.log();
 
-  const rawData = await fetchOpAtlasProjects();
+  let lastMonth: number;
+  
+  const args = process.argv.slice(2);
+  if (args.length > 0) {
+    lastMonth = parseInt(args[0]);
+  } else {
+    const answer = await promptUser(
+      "Enter the last month to include (1-6) [default: 6]: "
+    );
+    lastMonth = answer ? parseInt(answer) : 6;
+  }
+
+  if (isNaN(lastMonth) || lastMonth < 1 || lastMonth > 6) {
+    console.error("❌ Invalid month. Must be between 1 and 6.");
+    process.exit(1);
+  }
+
+  console.log(`\n📅 Processing rounds M1 through M${lastMonth}`);
+
+  const opAtlasIds = await fetchOpAtlasIdsFromGitHub(lastMonth);
+
+  if (opAtlasIds.size === 0) {
+    console.error("❌ No OP Atlas IDs found in GitHub rounds!");
+    process.exit(1);
+  }
+
+  const rawData = await fetchOpAtlasProjects(opAtlasIds);
 
   const projectsMap = combineProjectRepos(rawData);
   const projectsArray = Array.from(projectsMap.values());
@@ -247,6 +348,7 @@ async function main() {
 
   const categoriesData = {
     total_projects: projectsArray.length,
+    rounds_included: `M1-M${lastMonth}`,
     categories: Object.fromEntries(sortedCategories),
   };
   const categoriesPath = join(outputDir, "op-atlas-categories.json");
@@ -271,6 +373,8 @@ async function main() {
     projects: projectsArray,
     stats: {
       total: projectsArray.length,
+      roundsIncluded: `M1-M${lastMonth}`,
+      opAtlasIdsFromGitHub: opAtlasIds.size,
       withDescriptions: projectsWithDescriptions,
       withCategory: projectsWithCategory,
       withTwitter: projectsWithTwitter,

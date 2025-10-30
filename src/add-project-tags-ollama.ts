@@ -91,7 +91,7 @@ Category: ${project.category || "Unknown"}
 Description: ${project.description || "No description available"}
 Repository Count: ${project.repos.length}
 
-Generate tags that describe:
+Based on the description, name and category above generate tags that describe:
 1. Programming languages (if identifiable from description)
 2. Technology stack (blockchain, smart contracts, web3, etc.)
 3. Project type (dApp, tool, library, protocol, NFT platform, DeFi, bridge, wallet, etc.)
