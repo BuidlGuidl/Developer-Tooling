@@ -1,0 +1,3511 @@
+{
+  "mcpdotdirect/evm-mcp-server": {
+    "fetchedAt": "2025-11-05T20:26:41.260Z",
+    "languages": {
+      "TypeScript": 114772,
+      "JavaScript": 1417
+    }
+  },
+  "mhw0/libethc": {
+    "fetchedAt": "2025-11-05T20:26:45.102Z",
+    "languages": {
+      "C": 175041,
+      "C++": 11213,
+      "CMake": 5295
+    }
+  },
+  "polareth/evmstate": {
+    "fetchedAt": "2025-11-05T20:26:47.829Z",
+    "languages": {
+      "TypeScript": 222900,
+      "Solidity": 27809
+    }
+  },
+  "ngmisl/etherml": {
+    "fetchedAt": "2025-11-05T20:26:51.508Z",
+    "languages": {
+      "Go": 104905
+    }
+  },
+  "evmts/tevm-monorepo": {
+    "fetchedAt": "2025-11-05T20:26:54.899Z",
+    "languages": {
+      "TypeScript": 4039210,
+      "JavaScript": 1541159,
+      "Rust": 130127,
+      "Solidity": 27060,
+      "Dockerfile": 4170,
+      "Shell": 2205,
+      "Nix": 1339
+    }
+  },
+  "KENILSHAHH/superSDK": {
+    "fetchedAt": "2025-11-05T20:26:58.113Z",
+    "languages": {
+      "TypeScript": 28512
+    }
+  },
+  "open-rpc/server-js": {
+    "fetchedAt": "2025-11-05T20:27:01.178Z",
+    "languages": {
+      "TypeScript": 58829,
+      "JavaScript": 420
+    }
+  },
+  "open-rpc/spec": {
+    "fetchedAt": "2025-11-05T20:27:01.346Z",
+    "languages": {
+      "JavaScript": 3803
+    }
+  },
+  "open-rpc/schema-utils-js": {
+    "fetchedAt": "2025-11-05T20:27:01.510Z",
+    "languages": {
+      "TypeScript": 96422,
+      "JavaScript": 902
+    }
+  },
+  "open-rpc/client-js": {
+    "fetchedAt": "2025-11-05T20:27:01.649Z",
+    "languages": {
+      "TypeScript": 73829,
+      "JavaScript": 3351,
+      "HTML": 733
+    }
+  },
+  "open-rpc/tools": {
+    "fetchedAt": "2025-11-05T20:27:01.813Z",
+    "languages": {
+      "TypeScript": 368568,
+      "JavaScript": 29315,
+      "CSS": 5156,
+      "HTML": 3842
+    }
+  },
+  "open-rpc/meta-schema": {
+    "fetchedAt": "2025-11-05T20:27:01.957Z",
+    "languages": {
+      "Go": 41759,
+      "Rust": 15786,
+      "Python": 14690,
+      "JavaScript": 1117,
+      "TypeScript": 887
+    }
+  },
+  "open-rpc/generator": {
+    "fetchedAt": "2025-11-05T20:27:02.083Z",
+    "languages": {
+      "TypeScript": 57970,
+      "JavaScript": 27429,
+      "CSS": 1796,
+      "Rust": 1719,
+      "Dockerfile": 161,
+      "Shell": 30,
+      "MDX": 9
+    }
+  },
+  "LZeroAnalytics/layerzero-package": {
+    "fetchedAt": "2025-11-05T20:27:05.310Z",
+    "languages": {
+      "Solidity": 18102442,
+      "JavaScript": 7322842,
+      "Move": 4880718,
+      "Python": 947331,
+      "Ruby": 804912,
+      "Rust": 715598,
+      "TypeScript": 456578,
+      "Shell": 55220,
+      "Starlark": 21948,
+      "Makefile": 10838,
+      "Roff": 7188,
+      "Dockerfile": 5170,
+      "Nix": 170
+    }
+  },
+  "LZeroAnalytics/chainlink-node-package": {
+    "fetchedAt": "2025-11-05T20:27:05.594Z",
+    "languages": {
+      "Starlark": 38260,
+      "Go": 12937
+    }
+  },
+  "LZeroAnalytics/lzero-reth": {
+    "fetchedAt": "2025-11-05T20:27:06.004Z",
+    "languages": {
+      "Rust": 10506373,
+      "Makefile": 17657,
+      "Mermaid": 5973,
+      "Dockerfile": 1396,
+      "Shell": 797,
+      "JavaScript": 746,
+      "Handlebars": 468
+    }
+  },
+  "LZeroAnalytics/ethereum-package": {
+    "fetchedAt": "2025-11-05T20:27:06.298Z",
+    "languages": {
+      "Starlark": 566923,
+      "Python": 2538,
+      "Shell": 2261,
+      "HTML": 1361
+    }
+  },
+  "alloy-rs/alloy": {
+    "fetchedAt": "2025-11-05T20:27:09.383Z",
+    "languages": {
+      "Rust": 3938867,
+      "Shell": 1053
+    }
+  },
+  "alloy-rs/op-alloy": {
+    "fetchedAt": "2025-11-05T20:27:09.487Z",
+    "languages": {
+      "Rust": 327464,
+      "Handlebars": 15806,
+      "CSS": 2871,
+      "Just": 1761,
+      "Shell": 717,
+      "JavaScript": 58
+    }
+  },
+  "runtimeverification/ercx-tests": {
+    "fetchedAt": "2025-11-05T20:27:12.990Z",
+    "languages": {
+      "Solidity": 1285181,
+      "Shell": 1394
+    }
+  },
+  "EnsoBuild/sdk-ts": {
+    "fetchedAt": "2025-11-05T20:27:16.309Z",
+    "languages": {
+      "TypeScript": 158052,
+      "JavaScript": 411
+    }
+  },
+  "EnsoBuild/shortcuts-widget": {
+    "fetchedAt": "2025-11-05T20:27:16.435Z",
+    "languages": {
+      "TypeScript": 150198,
+      "JavaScript": 734,
+      "CSS": 512,
+      "HTML": 370
+    }
+  },
+  "EnsoBuild/shortcuts-client-contracts": {
+    "fetchedAt": "2025-11-05T20:27:16.561Z",
+    "languages": {
+      "Solidity": 335200,
+      "JavaScript": 27933,
+      "Shell": 2176
+    }
+  },
+  "EnsoBuild/Uniswap-migrator": {
+    "fetchedAt": "2025-11-05T20:27:16.700Z",
+    "languages": {
+      "TypeScript": 198945,
+      "CSS": 857,
+      "HTML": 368
+    }
+  },
+  "peterferguson/react-native-passkeys": {
+    "fetchedAt": "2025-11-05T20:27:19.669Z",
+    "languages": {
+      "Swift": 55653,
+      "TypeScript": 35634,
+      "Kotlin": 18759,
+      "Ruby": 3262,
+      "JavaScript": 1947,
+      "C": 102
+    }
+  },
+  "RevokeCash/revoke.cash": {
+    "fetchedAt": "2025-11-05T20:27:22.517Z",
+    "languages": {
+      "TypeScript": 1021955,
+      "JavaScript": 6663,
+      "CSS": 2117,
+      "Shell": 106
+    }
+  },
+  "RevokeCash/browser-extension": {
+    "fetchedAt": "2025-11-05T20:27:22.633Z",
+    "languages": {
+      "TypeScript": 197461,
+      "JavaScript": 4007,
+      "CSS": 638,
+      "HTML": 486
+    }
+  },
+  "ethernautdao/ethernaut-cli": {
+    "fetchedAt": "2025-11-05T20:27:25.456Z",
+    "languages": {
+      "JavaScript": 479994,
+      "Solidity": 124340,
+      "Shell": 718
+    }
+  },
+  "eth-brownie/brownie": {
+    "fetchedAt": "2025-11-05T20:27:28.567Z",
+    "languages": {
+      "C": 10611267,
+      "Python": 1058644,
+      "Solidity": 23197,
+      "Vyper": 1064,
+      "Dockerfile": 404
+    }
+  },
+  "daimo-eth/pay": {
+    "fetchedAt": "2025-11-05T20:27:31.539Z",
+    "languages": {
+      "TypeScript": 1190620,
+      "Solidity": 464047,
+      "JavaScript": 2294,
+      "Shell": 2207,
+      "Makefile": 344
+    }
+  },
+  "nftscan-official/nftscan-api-js-sdk": {
+    "fetchedAt": "2025-11-05T20:27:34.450Z",
+    "languages": {
+      "TypeScript": 132776,
+      "JavaScript": 6307,
+      "HTML": 464,
+      "Shell": 149
+    }
+  },
+  "runtimeverification/evm-semantics": {
+    "fetchedAt": "2025-11-05T20:27:38.018Z",
+    "languages": {
+      "Python": 218805,
+      "Solidity": 42540,
+      "Shell": 16122,
+      "Nix": 12828,
+      "Makefile": 8953,
+      "HTML": 4007,
+      "JavaScript": 1225
+    }
+  },
+  "foundry-rs/foundry": {
+    "fetchedAt": "2025-11-05T20:27:41.106Z",
+    "languages": {
+      "Rust": 7290981,
+      "Shell": 34037,
+      "TypeScript": 26369,
+      "JavaScript": 18239,
+      "Solidity": 5896,
+      "Makefile": 5083,
+      "Dockerfile": 1986,
+      "Nix": 1410,
+      "Python": 1211,
+      "Vyper": 172
+    }
+  },
+  "kurtosis-tech/kurtosis": {
+    "fetchedAt": "2025-11-05T20:27:44.038Z",
+    "languages": {
+      "Go": 4955051,
+      "TypeScript": 835798,
+      "JavaScript": 828823,
+      "Rust": 187453,
+      "Shell": 122850,
+      "Nix": 47254,
+      "Starlark": 10446,
+      "HTML": 2835,
+      "Dockerfile": 2485,
+      "CSS": 2379,
+      "PHP": 42
+    }
+  },
+  "etherspot/skandha": {
+    "fetchedAt": "2025-11-05T20:27:46.958Z",
+    "languages": {
+      "TypeScript": 3553990,
+      "JavaScript": 16197,
+      "Dockerfile": 931,
+      "Shell": 172
+    }
+  },
+  "erpc/erpc": {
+    "fetchedAt": "2025-11-05T20:27:49.836Z",
+    "languages": {
+      "Go": 3234282,
+      "TypeScript": 48282,
+      "JavaScript": 32473,
+      "Dockerfile": 4233,
+      "Makefile": 3230,
+      "Shell": 682
+    }
+  },
+  "miguelmota/go-ethereum-hdwallet": {
+    "fetchedAt": "2025-11-05T20:27:52.911Z",
+    "languages": {
+      "Go": 42651,
+      "Makefile": 1030
+    }
+  },
+  "PraneshASP/foundry-mcp-server": {
+    "fetchedAt": "2025-11-05T20:27:55.681Z",
+    "languages": {
+      "TypeScript": 47359,
+      "JavaScript": 3026
+    }
+  },
+  "builders-garden/miniapp-next-template": {
+    "fetchedAt": "2025-11-05T20:27:58.821Z",
+    "languages": {
+      "TypeScript": 36638,
+      "CSS": 606,
+      "JavaScript": 464
+    }
+  },
+  "builders-garden/frames-v2-starter": {
+    "fetchedAt": "2025-11-05T20:27:58.960Z",
+    "languages": {
+      "TypeScript": 37121,
+      "JavaScript": 528,
+      "CSS": 345
+    }
+  },
+  "builders-garden/base-minikit-starter": {
+    "fetchedAt": "2025-11-05T20:27:59.081Z",
+    "languages": {
+      "TypeScript": 32813,
+      "CSS": 606,
+      "JavaScript": 579
+    }
+  },
+  "builders-garden/farcaster-miniapp-starter": {
+    "fetchedAt": "2025-11-05T20:27:59.208Z",
+    "languages": {
+      "TypeScript": 35851,
+      "CSS": 606,
+      "JavaScript": 579
+    }
+  },
+  "prettier-solidity/prettier-plugin-solidity": {
+    "fetchedAt": "2025-11-05T20:28:02.105Z",
+    "languages": {
+      "TypeScript": 335353,
+      "Solidity": 234834,
+      "JavaScript": 132358
+    }
+  },
+  "crytic/properties": {
+    "fetchedAt": "2025-11-05T20:28:04.980Z",
+    "languages": {
+      "Solidity": 210706,
+      "JavaScript": 962
+    }
+  },
+  "crytic/solc-select": {
+    "fetchedAt": "2025-11-05T20:28:08.241Z",
+    "languages": {
+      "Python": 43456,
+      "Solidity": 2448,
+      "Makefile": 84
+    }
+  },
+  "crytic/medusa": {
+    "fetchedAt": "2025-11-05T20:28:11.045Z",
+    "languages": {
+      "Go": 942272,
+      "Python": 3712,
+      "Dockerfile": 1704,
+      "Nix": 1674,
+      "Shell": 70
+    }
+  },
+  "crytic/slither": {
+    "fetchedAt": "2025-11-05T20:28:13.972Z",
+    "languages": {
+      "Python": 2816541,
+      "Solidity": 783564,
+      "Shell": 16701,
+      "Vyper": 6908,
+      "Makefile": 2111,
+      "Dockerfile": 1592
+    }
+  },
+  "ethdebug/format": {
+    "fetchedAt": "2025-11-05T20:28:17.032Z",
+    "languages": {
+      "TypeScript": 217697,
+      "MDX": 183991,
+      "CSS": 3638,
+      "JavaScript": 1698,
+      "Shell": 495
+    }
+  },
+  "wakeuplabs-io/op-ruaas": {
+    "fetchedAt": "2025-11-05T20:28:20.082Z",
+    "languages": {
+      "TypeScript": 500495,
+      "Rust": 250576,
+      "Solidity": 21748,
+      "Dockerfile": 8322,
+      "HCL": 7417,
+      "CSS": 5433,
+      "JavaScript": 2684,
+      "Just": 2179,
+      "Shell": 866,
+      "HTML": 774
+    }
+  },
+  "stereum-dev/ethereum-node": {
+    "fetchedAt": "2025-11-05T20:28:23.204Z",
+    "languages": {
+      "Vue": 1651701,
+      "JavaScript": 1363399,
+      "CSS": 126279,
+      "Jinja": 14812,
+      "Python": 4237,
+      "HTML": 635,
+      "Shell": 529,
+      "Dockerfile": 267
+    }
+  },
+  "Rubilmax/viem-tracer": {
+    "fetchedAt": "2025-11-05T20:28:26.305Z",
+    "languages": {
+      "TypeScript": 52675
+    }
+  },
+  "Rubilmax/executooor": {
+    "fetchedAt": "2025-11-05T20:28:29.168Z",
+    "languages": {
+      "TypeScript": 133689,
+      "Solidity": 5937,
+      "CSS": 495,
+      "Shell": 224,
+      "JavaScript": 212
+    }
+  },
+  "zhiqiangxu/opup": {
+    "fetchedAt": "2025-11-05T20:28:31.971Z",
+    "languages": {
+      "Shell": 46825,
+      "Just": 372
+    }
+  },
+  "Dhruv-2003/pipegate": {
+    "fetchedAt": "2025-11-05T20:28:34.838Z",
+    "languages": {
+      "Rust": 170572,
+      "TypeScript": 79749,
+      "JavaScript": 55121,
+      "Solidity": 38083,
+      "Shell": 2879
+    }
+  },
+  "memester-xyz/surl": {
+    "fetchedAt": "2025-11-05T20:28:38.085Z",
+    "languages": {
+      "Solidity": 9757
+    }
+  },
+  "joshstevens19/evmc": {
+    "fetchedAt": "2025-11-05T20:28:40.966Z",
+    "languages": {
+      "TypeScript": 23423,
+      "JavaScript": 442
+    }
+  },
+  "joshstevens19/ethereum-abi-types-generator": {
+    "fetchedAt": "2025-11-05T20:28:43.837Z",
+    "languages": {
+      "TypeScript": 218154,
+      "JavaScript": 1346
+    }
+  },
+  "joshstevens19/simple-uniswap-sdk": {
+    "fetchedAt": "2025-11-05T20:28:46.951Z",
+    "languages": {
+      "TypeScript": 343506,
+      "JavaScript": 406
+    }
+  },
+  "3loop/loop-decoder": {
+    "fetchedAt": "2025-11-05T20:28:50.256Z",
+    "languages": {
+      "TypeScript": 420844,
+      "MDX": 57030,
+      "JavaScript": 8413,
+      "Astro": 3824,
+      "CSS": 2865,
+      "HTML": 356
+    }
+  },
+  "dl-solarity/hardhat-zkit": {
+    "fetchedAt": "2025-11-05T20:28:53.156Z",
+    "languages": {
+      "TypeScript": 322908,
+      "Circom": 6937,
+      "JavaScript": 2416,
+      "Shell": 1002,
+      "Dockerfile": 306
+    }
+  },
+  "dl-solarity/solidity-lib": {
+    "fetchedAt": "2025-11-05T20:28:53.296Z",
+    "languages": {
+      "Solidity": 732955,
+      "TypeScript": 527025,
+      "JavaScript": 7390,
+      "Shell": 1022
+    }
+  },
+  "Rubilmax/foundry-gas-diff": {
+    "fetchedAt": "2025-11-05T20:28:56.324Z",
+    "languages": {
+      "TypeScript": 25915
+    }
+  },
+  "Rubilmax/foundry-storage-check": {
+    "fetchedAt": "2025-11-05T20:28:59.892Z",
+    "languages": {
+      "TypeScript": 34751,
+      "Solidity": 8143
+    }
+  },
+  "Rubilmax/ethers-multicall-provider": {
+    "fetchedAt": "2025-11-05T20:29:02.795Z",
+    "languages": {
+      "TypeScript": 74536,
+      "Shell": 328
+    }
+  },
+  "keccak256js/keccak256": {
+    "fetchedAt": "2025-11-05T20:29:05.963Z",
+    "languages": {
+      "JavaScript": 299432,
+      "TypeScript": 2240,
+      "Makefile": 296
+    }
+  },
+  "PraneshASP/vscode-solidity-inspector": {
+    "fetchedAt": "2025-11-05T20:29:08.734Z",
+    "languages": {
+      "JavaScript": 84418
+    }
+  },
+  "SaraxCG/Test": {
+    "fetchedAt": "2025-11-05T20:29:11.877Z",
+    "languages": {}
+  },
+  "derivexyz/cockpit": {
+    "fetchedAt": "2025-11-05T20:29:15.161Z",
+    "languages": {
+      "Rust": 2469555,
+      "Dockerfile": 1448
+    }
+  },
+  "derivexyz/op-geth": {
+    "fetchedAt": "2025-11-05T20:29:18.350Z",
+    "languages": {
+      "Go": 11339168,
+      "C": 673770,
+      "JavaScript": 444954,
+      "Assembly": 63663,
+      "Shell": 32573,
+      "Java": 30290,
+      "Sage": 30191,
+      "M4": 25931,
+      "NSIS": 23197,
+      "Smarty": 22897,
+      "Python": 11233,
+      "Solidity": 9568,
+      "Makefile": 8923,
+      "Rust": 7975,
+      "HTML": 1121,
+      "Dockerfile": 898
+    }
+  },
+  "tokenguardio/dapp-marvels": {
+    "fetchedAt": "2025-11-05T20:29:21.428Z",
+    "languages": {
+      "Shell": 481
+    }
+  },
+  "Brahma-fi/console-kit": {
+    "fetchedAt": "2025-11-05T20:29:24.935Z",
+    "languages": {
+      "TypeScript": 126863,
+      "JavaScript": 951
+    }
+  },
+  "Cyfrin/Updraft": {
+    "fetchedAt": "2025-11-05T20:29:27.869Z",
+    "languages": {
+      "Python": 2845,
+      "Shell": 616
+    }
+  },
+  "paulmillr/noble-ciphers": {
+    "fetchedAt": "2025-11-05T20:29:31.084Z",
+    "languages": {
+      "TypeScript": 239869,
+      "JavaScript": 427
+    }
+  },
+  "paulmillr/noble-curves": {
+    "fetchedAt": "2025-11-05T20:29:31.218Z",
+    "languages": {
+      "TypeScript": 798439,
+      "JavaScript": 72620,
+      "Go": 501
+    }
+  },
+  "paulmillr/noble-hashes": {
+    "fetchedAt": "2025-11-05T20:29:31.323Z",
+    "languages": {
+      "TypeScript": 421995,
+      "JavaScript": 16921,
+      "Python": 1555
+    }
+  },
+  "meldsun0/utp": {
+    "fetchedAt": "2025-11-05T20:29:34.299Z",
+    "languages": {
+      "Java": 183778
+    }
+  },
+  "openfort-xyz/mobile-wallet-protocol-unity-client": {
+    "fetchedAt": "2025-11-05T20:29:37.245Z",
+    "languages": {
+      "C#": 106755,
+      "JavaScript": 12325,
+      "Java": 11081,
+      "Objective-C++": 7503,
+      "Shell": 326
+    }
+  },
+  "alchemyplatform/modular-account": {
+    "fetchedAt": "2025-11-05T20:29:40.914Z",
+    "languages": {
+      "Solidity": 1041798
+    }
+  },
+  "alchemyplatform/aa-benchmarks": {
+    "fetchedAt": "2025-11-05T20:29:41.056Z",
+    "languages": {
+      "TypeScript": 1618336
+    }
+  },
+  "alchemyplatform/multisig-plugin": {
+    "fetchedAt": "2025-11-05T20:29:41.199Z",
+    "languages": {
+      "Solidity": 90256
+    }
+  },
+  "alchemyplatform/light-account": {
+    "fetchedAt": "2025-11-05T20:29:44.580Z",
+    "languages": {
+      "Solidity": 133576,
+      "Shell": 2024
+    }
+  },
+  "RathFinance/tachyon-forwarder": {
+    "fetchedAt": "2025-11-05T20:29:47.432Z",
+    "languages": {
+      "Solidity": 22587
+    }
+  },
+  "RathFinance/tachyon-account": {
+    "fetchedAt": "2025-11-05T20:29:47.620Z",
+    "languages": {
+      "Solidity": 9206
+    }
+  },
+  "openlabelsinitiative/oli": {
+    "fetchedAt": "2025-11-05T20:29:50.533Z",
+    "languages": {
+      "Jupyter Notebook": 89092,
+      "Solidity": 68495,
+      "TypeScript": 7514
+    }
+  },
+  "openlabelsinitiative/oli-frontend": {
+    "fetchedAt": "2025-11-05T20:29:50.656Z",
+    "languages": {
+      "TypeScript": 997989,
+      "CSS": 4269,
+      "JavaScript": 662
+    }
+  },
+  "metacraft-labs/codetracer": {
+    "fetchedAt": "2025-11-05T20:29:53.796Z",
+    "languages": {
+      "Nim": 1255631,
+      "Rust": 717815,
+      "Stylus": 202171,
+      "Python": 61216,
+      "C#": 59810,
+      "Shell": 56853,
+      "Nix": 48212,
+      "TypeScript": 40691,
+      "JavaScript": 39304,
+      "Noir": 14425,
+      "C": 11758,
+      "Ruby": 11293,
+      "Just": 11014,
+      "C++": 5819,
+      "Go": 4818,
+      "HTML": 3838,
+      "CSS": 3610,
+      "EJS": 3247,
+      "Emacs Lisp": 1320,
+      "Makefile": 160
+    }
+  },
+  "apoorvlathey/evm-rpcs-list": {
+    "fetchedAt": "2025-11-05T20:29:56.840Z",
+    "languages": {
+      "TypeScript": 2347,
+      "JavaScript": 1209
+    }
+  },
+  "EIPTools/eip-tools": {
+    "fetchedAt": "2025-11-05T20:29:59.810Z",
+    "languages": {
+      "TypeScript": 184374,
+      "CSS": 290,
+      "JavaScript": 142
+    }
+  },
+  "swiss-knife-xyz/forge-stack-tracer": {
+    "fetchedAt": "2025-11-05T20:30:03.121Z",
+    "languages": {
+      "TypeScript": 10057,
+      "JavaScript": 3368,
+      "CSS": 3069,
+      "HTML": 363
+    }
+  },
+  "swiss-knife-xyz/swiss-knife": {
+    "fetchedAt": "2025-11-05T20:30:06.153Z",
+    "languages": {
+      "TypeScript": 2241815,
+      "JavaScript": 3712,
+      "CSS": 481
+    }
+  },
+  "impersonator-eth/impersonator": {
+    "fetchedAt": "2025-11-05T20:30:09.315Z",
+    "languages": {
+      "TypeScript": 101586,
+      "CSS": 481,
+      "JavaScript": 350
+    }
+  },
+  "impersonator-eth/impersonator-extension": {
+    "fetchedAt": "2025-11-05T20:30:09.451Z",
+    "languages": {
+      "TypeScript": 38037,
+      "JavaScript": 561,
+      "HTML": 352,
+      "CSS": 63
+    }
+  },
+  "Diffuse-fi/datafeed-cli": {
+    "fetchedAt": "2025-11-05T20:30:12.394Z",
+    "languages": {
+      "Python": 29247,
+      "Solidity": 26182
+    }
+  },
+  "BuidlGuidl/abi.ninja": {
+    "fetchedAt": "2025-11-05T20:30:15.433Z",
+    "languages": {
+      "TypeScript": 278119,
+      "JavaScript": 3708,
+      "CSS": 550,
+      "Shell": 68
+    }
+  },
+  "probe-lab/website": {
+    "fetchedAt": "2025-11-05T20:30:18.404Z",
+    "languages": {
+      "HTML": 25186,
+      "SCSS": 15632,
+      "JavaScript": 4944,
+      "Go": 1346,
+      "Makefile": 345
+    }
+  },
+  "dennis-tra/nebula": {
+    "fetchedAt": "2025-11-05T20:30:18.541Z",
+    "languages": {
+      "Go": 477377,
+      "PLpgSQL": 68780,
+      "Just": 8009,
+      "Dockerfile": 1072
+    }
+  },
+  "ipfs/kubo": {
+    "fetchedAt": "2025-11-05T20:30:21.861Z",
+    "languages": {
+      "Go": 2473988,
+      "Shell": 543666,
+      "Makefile": 19636,
+      "Dockerfile": 4589,
+      "Python": 770,
+      "PureBasic": 29
+    }
+  },
+  "ipfs/helia": {
+    "fetchedAt": "2025-11-05T20:30:21.993Z",
+    "languages": {
+      "TypeScript": 908681,
+      "JavaScript": 8029
+    }
+  },
+  "ipfs/boxo": {
+    "fetchedAt": "2025-11-05T20:30:22.140Z",
+    "languages": {
+      "Go": 2915195,
+      "HTML": 14385,
+      "CSS": 4443,
+      "Makefile": 336
+    }
+  },
+  "ipfs/js-kubo-rpc-client": {
+    "fetchedAt": "2025-11-05T20:30:22.269Z",
+    "languages": {
+      "TypeScript": 749872,
+      "JavaScript": 2678
+    }
+  },
+  "ipfs/protons": {
+    "fetchedAt": "2025-11-05T20:30:22.394Z",
+    "languages": {
+      "TypeScript": 183469,
+      "JavaScript": 132494
+    }
+  },
+  "ipfs/service-worker-gateway": {
+    "fetchedAt": "2025-11-05T20:30:22.511Z",
+    "languages": {
+      "TypeScript": 284503,
+      "JavaScript": 21991,
+      "HTML": 4636,
+      "Go": 2631,
+      "CSS": 1849
+    }
+  },
+  "ipfs/js-ipns": {
+    "fetchedAt": "2025-11-05T20:30:22.650Z",
+    "languages": {
+      "TypeScript": 70024,
+      "JavaScript": 107
+    }
+  },
+  "ipfs/helia-delegated-routing-v1-http-api": {
+    "fetchedAt": "2025-11-05T20:30:22.800Z",
+    "languages": {
+      "TypeScript": 89610,
+      "JavaScript": 7581
+    }
+  },
+  "ipfs/js-stores": {
+    "fetchedAt": "2025-11-05T20:30:22.932Z",
+    "languages": {
+      "TypeScript": 248743,
+      "JavaScript": 3186
+    }
+  },
+  "gelatodigital/relay-sdk": {
+    "fetchedAt": "2025-11-05T20:30:25.967Z",
+    "languages": {
+      "TypeScript": 79220,
+      "Shell": 70
+    }
+  },
+  "gelatodigital/automate-sdk": {
+    "fetchedAt": "2025-11-05T20:30:29.056Z",
+    "languages": {
+      "TypeScript": 195285
+    }
+  },
+  "NomicFoundation/edr": {
+    "fetchedAt": "2025-11-05T20:30:32.010Z",
+    "languages": {
+      "TypeScript": 23460362,
+      "Rust": 4707696,
+      "Jupyter Notebook": 849192,
+      "Solidity": 347946,
+      "JavaScript": 25739,
+      "Shell": 2441
+    }
+  },
+  "nomicfoundation/hardhat": {
+    "fetchedAt": "2025-11-05T20:30:32.150Z",
+    "languages": {
+      "TypeScript": 6711001,
+      "Solidity": 151467,
+      "JavaScript": 119248,
+      "HTML": 21083,
+      "Shell": 14922,
+      "Vyper": 1407,
+      "CSS": 1373
+    }
+  },
+  "vaariance/variance-dart": {
+    "fetchedAt": "2025-11-05T20:30:35.146Z",
+    "languages": {
+      "Dart": 269612,
+      "C": 99412,
+      "C++": 98388,
+      "CMake": 49941,
+      "Ruby": 1389,
+      "Swift": 676,
+      "Kotlin": 145,
+      "Objective-C": 38
+    }
+  },
+  "merkletreejs/merkletreejs": {
+    "fetchedAt": "2025-11-05T20:30:38.328Z",
+    "languages": {
+      "TypeScript": 128872,
+      "JavaScript": 114135,
+      "HTML": 5264
+    }
+  },
+  "OpenZeppelin/ethernaut": {
+    "fetchedAt": "2025-11-05T20:30:41.346Z",
+    "languages": {
+      "Solidity": 271440,
+      "JavaScript": 203208,
+      "CSS": 26164,
+      "Python": 8185,
+      "HTML": 2588
+    }
+  },
+  "DexKit/open-nft-marketplace": {
+    "fetchedAt": "2025-11-05T20:30:44.536Z",
+    "languages": {
+      "TypeScript": 525130,
+      "JavaScript": 330
+    }
+  },
+  "DexKit/dexkit-monorepo": {
+    "fetchedAt": "2025-11-05T20:30:44.657Z",
+    "languages": {
+      "TypeScript": 10870640,
+      "HTML": 980739,
+      "JavaScript": 77640,
+      "MDX": 5442,
+      "PowerShell": 4227,
+      "CSS": 3976,
+      "Shell": 2188
+    }
+  },
+  "Cyfrin/foundry-devops": {
+    "fetchedAt": "2025-11-05T20:30:47.582Z",
+    "languages": {
+      "Solidity": 20353,
+      "Makefile": 905,
+      "Shell": 245
+    }
+  },
+  "PaulRBerg/prb-math": {
+    "fetchedAt": "2025-11-05T20:30:50.617Z",
+    "languages": {
+      "Solidity": 378302
+    }
+  },
+  "tryethernal/ethernal-cli": {
+    "fetchedAt": "2025-11-05T20:30:53.683Z",
+    "languages": {
+      "JavaScript": 42156
+    }
+  },
+  "tryethernal/ethernal": {
+    "fetchedAt": "2025-11-05T20:30:53.826Z",
+    "languages": {
+      "JavaScript": 2503126,
+      "Vue": 962764,
+      "Shell": 15502,
+      "HTML": 5634,
+      "Makefile": 4873,
+      "SCSS": 3467,
+      "CSS": 333
+    }
+  },
+  "tryethernal/hardhat-ethernal": {
+    "fetchedAt": "2025-11-05T20:30:53.974Z",
+    "languages": {
+      "TypeScript": 25817
+    }
+  },
+  "Nerd3Lab/superUI": {
+    "fetchedAt": "2025-11-05T20:30:57.382Z",
+    "languages": {
+      "TypeScript": 272848,
+      "CSS": 6926,
+      "JavaScript": 6631,
+      "EJS": 261
+    }
+  },
+  "solodit/solodit_content": {
+    "fetchedAt": "2025-11-05T20:31:00.651Z",
+    "languages": {}
+  },
+  "verifereum/verifereum": {
+    "fetchedAt": "2025-11-05T20:31:04.116Z",
+    "languages": {
+      "Standard ML": 2447454,
+      "HTML": 20221,
+      "CSS": 7859,
+      "JavaScript": 1081,
+      "Makefile": 308
+    }
+  },
+  "psychemist/deo-ai": {
+    "fetchedAt": "2025-11-05T20:31:07.216Z",
+    "languages": {
+      "MDX": 972295,
+      "TypeScript": 14890,
+      "CSS": 1857,
+      "JavaScript": 528
+    }
+  },
+  "meldsun0/samba": {
+    "fetchedAt": "2025-11-05T20:31:10.230Z",
+    "languages": {
+      "Java": 1437295,
+      "Shell": 11249,
+      "Dockerfile": 3455,
+      "Groovy": 1583
+    }
+  },
+  "TitanLayer/contracts": {
+    "fetchedAt": "2025-11-05T20:31:13.684Z",
+    "languages": {
+      "TypeScript": 2765002,
+      "Rust": 2697861,
+      "Solidity": 854540,
+      "HCL": 26181,
+      "JavaScript": 18340,
+      "Smarty": 14333,
+      "Shell": 11791,
+      "Dockerfile": 3313,
+      "CSS": 329,
+      "HTML": 45
+    }
+  },
+  "scaffold-eth/create-eth": {
+    "fetchedAt": "2025-11-05T20:31:16.827Z",
+    "languages": {
+      "TypeScript": 206642,
+      "JavaScript": 89231,
+      "Solidity": 14141
+    }
+  },
+  "BuidlGuidl/SpeedRunEthereum-v2": {
+    "fetchedAt": "2025-11-05T20:31:16.951Z",
+    "languages": {
+      "TypeScript": 807306,
+      "JavaScript": 3247,
+      "Solidity": 2972,
+      "CSS": 2207
+    }
+  },
+  "scaffold-eth/scaffoldeth.io": {
+    "fetchedAt": "2025-11-05T20:31:17.106Z",
+    "languages": {
+      "TypeScript": 174965,
+      "JavaScript": 3058,
+      "CSS": 451,
+      "Shell": 68
+    }
+  },
+  "scaffold-eth/se-2-docs": {
+    "fetchedAt": "2025-11-05T20:31:17.225Z",
+    "languages": {
+      "JavaScript": 6085,
+      "CSS": 795
+    }
+  },
+  "BuidlGuidl/SpeedRunEthereum": {
+    "fetchedAt": "2025-11-05T20:31:17.338Z",
+    "languages": {
+      "JavaScript": 293419,
+      "Shell": 8901,
+      "Dockerfile": 2329,
+      "HTML": 2145,
+      "Less": 876,
+      "Solidity": 627,
+      "CSS": 146
+    }
+  },
+  "scaffold-eth/create-eth-extensions": {
+    "fetchedAt": "2025-11-05T20:31:17.475Z",
+    "languages": {}
+  },
+  "scaffold-eth/scaffold-eth-2": {
+    "fetchedAt": "2025-11-05T20:31:17.625Z",
+    "languages": {
+      "TypeScript": 170976,
+      "Solidity": 2972,
+      "JavaScript": 2934,
+      "CSS": 2379
+    }
+  },
+  "scaffold-eth/se-2-challenges": {
+    "fetchedAt": "2025-11-05T20:31:17.759Z",
+    "languages": {}
+  },
+  "scaffold-eth/burner-connector": {
+    "fetchedAt": "2025-11-05T20:31:17.884Z",
+    "languages": {
+      "TypeScript": 39894,
+      "JavaScript": 1725,
+      "CSS": 606
+    }
+  },
+  "zwergdev/rainbowkit-theme-generator": {
+    "fetchedAt": "2025-11-05T20:31:21.217Z",
+    "languages": {
+      "TypeScript": 112376,
+      "JavaScript": 4039,
+      "CSS": 2172
+    }
+  },
+  "wevm/wagmi": {
+    "fetchedAt": "2025-11-05T20:31:23.985Z",
+    "languages": {
+      "TypeScript": 2083092,
+      "Vue": 18058,
+      "JavaScript": 10404,
+      "CSS": 8425,
+      "HTML": 1841,
+      "Solidity": 819
+    }
+  },
+  "protofire/solhint": {
+    "fetchedAt": "2025-11-05T20:31:26.965Z",
+    "languages": {
+      "JavaScript": 606192,
+      "Solidity": 45681,
+      "Shell": 916,
+      "Dockerfile": 120
+    }
+  },
+  "vyperlang/titanoboa": {
+    "fetchedAt": "2025-11-05T20:31:29.965Z",
+    "languages": {
+      "Python": 433827,
+      "Vyper": 28905,
+      "JavaScript": 4702,
+      "HTML": 2436,
+      "Makefile": 472,
+      "Shell": 217
+    }
+  },
+  "otterscan/otterscan": {
+    "fetchedAt": "2025-11-05T20:31:33.049Z",
+    "languages": {
+      "TypeScript": 793148,
+      "Solidity": 5845,
+      "Dockerfile": 4419,
+      "CSS": 3235,
+      "Shell": 1378,
+      "HTML": 979
+    }
+  },
+  "Cyfrin/moccasin": {
+    "fetchedAt": "2025-11-05T20:31:35.998Z",
+    "languages": {
+      "Python": 703553,
+      "JavaScript": 43371,
+      "HTML": 7335,
+      "Dockerfile": 1873,
+      "Just": 1779,
+      "Vyper": 76
+    }
+  },
+  "pcaversaccio/create2deployer": {
+    "fetchedAt": "2025-11-05T20:31:39.076Z",
+    "languages": {
+      "TypeScript": 94472,
+      "Solidity": 54042,
+      "JavaScript": 1114
+    }
+  },
+  "pcaversaccio/xdeployer": {
+    "fetchedAt": "2025-11-05T20:31:41.985Z",
+    "languages": {
+      "Solidity": 215277,
+      "TypeScript": 65091,
+      "JavaScript": 986
+    }
+  },
+  "rotki/rotki": {
+    "fetchedAt": "2025-11-05T20:31:45.098Z",
+    "languages": {
+      "Python": 14529346,
+      "TypeScript": 2571446,
+      "Vue": 2208540,
+      "Rust": 101432,
+      "JavaScript": 21985,
+      "HTML": 10575,
+      "PowerShell": 8907,
+      "Shell": 5259,
+      "Dockerfile": 2764,
+      "SCSS": 1963,
+      "Makefile": 1224,
+      "Perl": 988
+    }
+  },
+  "hyperledger-web3j/web3j-cli": {
+    "fetchedAt": "2025-11-05T20:31:48.885Z",
+    "languages": {
+      "Java": 336044,
+      "Kotlin": 44600,
+      "Shell": 12522,
+      "Solidity": 8264
+    }
+  },
+  "hyperledger-web3j/web3j-installer": {
+    "fetchedAt": "2025-11-05T20:31:49.151Z",
+    "languages": {
+      "PowerShell": 365
+    }
+  },
+  "hyperledger-web3j/web3j-docs": {
+    "fetchedAt": "2025-11-05T20:31:49.493Z",
+    "languages": {}
+  },
+  "hyperledger-web3j/web3j-maven-plugin": {
+    "fetchedAt": "2025-11-05T20:31:49.801Z",
+    "languages": {
+      "Java": 65206,
+      "Solidity": 5205
+    }
+  },
+  "hyperledger-web3j/web3j-unit": {
+    "fetchedAt": "2025-11-05T20:31:50.140Z",
+    "languages": {
+      "Kotlin": 31490,
+      "Java": 9477,
+      "Shell": 4222,
+      "Solidity": 989
+    }
+  },
+  "hyperledger-web3j/web3j-solidity-gradle-plugin": {
+    "fetchedAt": "2025-11-05T20:31:50.462Z",
+    "languages": {
+      "Solidity": 53395,
+      "Groovy": 51195
+    }
+  },
+  "hyperledger-web3j/web3j-openapi": {
+    "fetchedAt": "2025-11-05T20:31:50.714Z",
+    "languages": {
+      "Solidity": 185435,
+      "Kotlin": 176972,
+      "Mustache": 12562,
+      "Shell": 2974
+    }
+  },
+  "hyperledger-web3j/web3j-openapi-gradle-plugin": {
+    "fetchedAt": "2025-11-05T20:31:51.056Z",
+    "languages": {
+      "Kotlin": 21450,
+      "Solidity": 4743
+    }
+  },
+  "hyperledger-web3j/web3j-gradle-plugin": {
+    "fetchedAt": "2025-11-05T20:31:51.368Z",
+    "languages": {
+      "Java": 29419,
+      "Solidity": 4743,
+      "Shell": 2638
+    }
+  },
+  "hyperledger-web3j/web3j-sokt": {
+    "fetchedAt": "2025-11-05T20:31:51.648Z",
+    "languages": {
+      "Kotlin": 22423,
+      "Solidity": 4253,
+      "Shell": 2640
+    }
+  },
+  "hyperledger-web3j/web3j": {
+    "fetchedAt": "2025-11-05T20:31:51.934Z",
+    "languages": {
+      "Java": 3700854,
+      "Solidity": 32623,
+      "Shell": 8415,
+      "Dockerfile": 1001,
+      "JavaScript": 356
+    }
+  },
+  "juanfranblanco/vscode-solidity": {
+    "fetchedAt": "2025-11-05T20:31:55.223Z",
+    "languages": {
+      "TypeScript": 420019,
+      "JavaScript": 4001,
+      "Shell": 71
+    }
+  },
+  "ethers-io/ethers.js": {
+    "fetchedAt": "2025-11-05T20:31:58.091Z",
+    "languages": {
+      "TypeScript": 1418341,
+      "JavaScript": 691183,
+      "HTML": 1084,
+      "CSS": 80
+    }
+  },
+  "sc-forks/solidity-coverage": {
+    "fetchedAt": "2025-11-05T20:32:00.996Z",
+    "languages": {
+      "JavaScript": 259571,
+      "Solidity": 110443,
+      "Shell": 4342,
+      "Vyper": 2773
+    }
+  },
+  "adraffy/blocksmith.js": {
+    "fetchedAt": "2025-11-05T20:32:04.147Z",
+    "languages": {
+      "JavaScript": 90056,
+      "Solidity": 4950
+    }
+  },
+  "OpenZeppelin/openzeppelin-contracts": {
+    "fetchedAt": "2025-11-05T20:32:07.851Z",
+    "languages": {
+      "Solidity": 1964708,
+      "JavaScript": 1538329,
+      "Python": 9912,
+      "Shell": 9227,
+      "JSON5": 4119,
+      "Makefile": 1714,
+      "Ruby": 211
+    }
+  },
+  "OpenZeppelin/contracts-wizard": {
+    "fetchedAt": "2025-11-05T20:32:08.089Z",
+    "languages": {
+      "TypeScript": 1024812,
+      "Svelte": 255663,
+      "HTML": 27719,
+      "JavaScript": 15862,
+      "CSS": 11674,
+      "Solidity": 490,
+      "Shell": 213
+    }
+  },
+  "OpenZeppelin/openzeppelin-contracts-upgradeable": {
+    "fetchedAt": "2025-11-05T20:32:08.246Z",
+    "languages": {
+      "JavaScript": 1537443,
+      "Solidity": 1313830,
+      "Python": 9912,
+      "Shell": 9227,
+      "JSON5": 4119,
+      "Makefile": 1714,
+      "Ruby": 211
+    }
+  },
+  "OpenZeppelin/openzeppelin-upgrades": {
+    "fetchedAt": "2025-11-05T20:32:08.393Z",
+    "languages": {
+      "TypeScript": 676721,
+      "JavaScript": 272988,
+      "Solidity": 152443,
+      "Shell": 2346
+    }
+  },
+  "OpenZeppelin/openzeppelin-foundry-upgrades": {
+    "fetchedAt": "2025-11-05T20:32:08.568Z",
+    "languages": {
+      "Solidity": 192367,
+      "JavaScript": 4746,
+      "Shell": 650
+    }
+  },
+  "openzeppelin/openzeppelin-community-contracts": {
+    "fetchedAt": "2025-11-05T20:32:08.719Z",
+    "languages": {
+      "Solidity": 332211,
+      "JavaScript": 312682,
+      "Shell": 1234
+    }
+  },
+  "OpenZeppelin/merkle-tree": {
+    "fetchedAt": "2025-11-05T20:32:08.860Z",
+    "languages": {
+      "TypeScript": 35732,
+      "JavaScript": 910
+    }
+  },
+  "OpenZeppelin/openzeppelin-subgraphs": {
+    "fetchedAt": "2025-11-05T20:32:09.040Z",
+    "languages": {
+      "TypeScript": 44854,
+      "Shell": 2627,
+      "JavaScript": 1377
+    }
+  },
+  "blockscout/blockscout": {
+    "fetchedAt": "2025-11-05T20:32:12.250Z",
+    "languages": {
+      "Elixir": 11731965,
+      "HTML": 546585,
+      "Solidity": 384329,
+      "SCSS": 316162,
+      "JavaScript": 307529,
+      "Shell": 17738,
+      "Dockerfile": 9482,
+      "Makefile": 6596,
+      "Vyper": 2629
+    }
+  },
+  "Recon-Fuzz/chimera": {
+    "fetchedAt": "2025-11-05T20:32:15.407Z",
+    "languages": {
+      "Solidity": 9113
+    }
+  },
+  "Recon-Fuzz/recon-extension": {
+    "fetchedAt": "2025-11-05T20:32:15.558Z",
+    "languages": {
+      "TypeScript": 426557,
+      "JavaScript": 746
+    }
+  },
+  "Recon-Fuzz/setup-helpers": {
+    "fetchedAt": "2025-11-05T20:32:15.732Z",
+    "languages": {
+      "Solidity": 40675
+    }
+  },
+  "Recon-Fuzz/log-parser": {
+    "fetchedAt": "2025-11-05T20:32:15.860Z",
+    "languages": {
+      "TypeScript": 121125,
+      "JavaScript": 24477
+    }
+  },
+  "Recon-Fuzz/create-chimera-app": {
+    "fetchedAt": "2025-11-05T20:32:16.004Z",
+    "languages": {
+      "Solidity": 9631
+    }
+  },
+  "Synthetixio/synpress": {
+    "fetchedAt": "2025-11-05T20:32:19.557Z",
+    "languages": {
+      "TypeScript": 366067,
+      "JavaScript": 3206,
+      "Shell": 69
+    }
+  },
+  "synpress-io/docs": {
+    "fetchedAt": "2025-11-05T20:32:19.690Z",
+    "languages": {
+      "MDX": 68873
+    }
+  },
+  "shazow/callthis": {
+    "fetchedAt": "2025-11-05T20:32:22.801Z",
+    "languages": {
+      "Svelte": 48392,
+      "SCSS": 7717,
+      "TypeScript": 3413,
+      "JavaScript": 1562,
+      "Nix": 500,
+      "HTML": 478,
+      "Makefile": 119
+    }
+  },
+  "candidelabs/candide-contracts": {
+    "fetchedAt": "2025-11-05T20:32:26.045Z",
+    "languages": {
+      "Solidity": 118975,
+      "TypeScript": 63866,
+      "Ruby": 31813,
+      "Python": 24504,
+      "JavaScript": 1239
+    }
+  },
+  "candidelabs/abstractionkit": {
+    "fetchedAt": "2025-11-05T20:32:29.224Z",
+    "languages": {
+      "TypeScript": 305141,
+      "JavaScript": 43920
+    }
+  },
+  "usecannon/cannon": {
+    "fetchedAt": "2025-11-05T20:32:32.765Z",
+    "languages": {
+      "JavaScript": 14567708,
+      "TypeScript": 2262367,
+      "MDX": 86954,
+      "HTML": 56130,
+      "Solidity": 52419,
+      "Shell": 42657,
+      "Gherkin": 19962,
+      "Dockerfile": 7687,
+      "CSS": 4532
+    }
+  },
+  "Ratimon/superfuse-forge": {
+    "fetchedAt": "2025-11-05T20:32:35.964Z",
+    "languages": {
+      "Solidity": 82917
+    }
+  },
+  "Ratimon/superfuse-wizard": {
+    "fetchedAt": "2025-11-05T20:32:36.131Z",
+    "languages": {
+      "TypeScript": 179832,
+      "Svelte": 136201,
+      "CSS": 6283,
+      "JavaScript": 2228,
+      "HTML": 353
+    }
+  },
+  "Ratimon/solid-grinder": {
+    "fetchedAt": "2025-11-05T20:32:39.996Z",
+    "languages": {
+      "Solidity": 82076,
+      "Handlebars": 23120,
+      "Rust": 17208,
+      "JavaScript": 9814
+    }
+  },
+  "joshstevens19/ethereum-multicall": {
+    "fetchedAt": "2025-11-05T20:32:42.967Z",
+    "languages": {
+      "TypeScript": 28385
+    }
+  },
+  "joshstevens19/ethereum-bloom-filters": {
+    "fetchedAt": "2025-11-05T20:32:46.334Z",
+    "languages": {
+      "TypeScript": 20079,
+      "JavaScript": 1474
+    }
+  },
+  "joshstevens19/rindexer": {
+    "fetchedAt": "2025-11-05T20:32:49.811Z",
+    "languages": {
+      "Rust": 1075048,
+      "Makefile": 5911,
+      "JavaScript": 4058,
+      "Dockerfile": 1284,
+      "Smarty": 1008
+    }
+  },
+  "candidelabs/voltaire": {
+    "fetchedAt": "2025-11-05T20:32:52.950Z",
+    "languages": {
+      "Rust": 719725,
+      "Python": 446728,
+      "Solidity": 154738,
+      "JavaScript": 10371,
+      "Dockerfile": 1047
+    }
+  },
+  "Elefria-Labs/evm-tools": {
+    "fetchedAt": "2025-11-05T20:32:56.440Z",
+    "languages": {
+      "TypeScript": 721108,
+      "MDX": 67531,
+      "HTML": 6983,
+      "JavaScript": 4914,
+      "CSS": 2513,
+      "Shell": 144
+    }
+  },
+  "Elefria-Labs/zk-block": {
+    "fetchedAt": "2025-11-05T20:32:56.540Z",
+    "languages": {
+      "TypeScript": 184628,
+      "Solidity": 52327,
+      "JavaScript": 17147,
+      "HTML": 6404,
+      "Circom": 3816,
+      "CSS": 182,
+      "Shell": 144
+    }
+  },
+  "ethereum/remix-project": {
+    "fetchedAt": "2025-11-05T20:33:00.647Z",
+    "languages": {
+      "TypeScript": 7010101,
+      "JavaScript": 1999617,
+      "CSS": 679600,
+      "Solidity": 105570,
+      "EJS": 99216,
+      "Shell": 32629,
+      "SCSS": 22226,
+      "HTML": 10416,
+      "Circom": 7909,
+      "Handlebars": 1602,
+      "Noir": 944,
+      "Dockerfile": 182
+    }
+  },
+  "remix-project-org/remix-reward": {
+    "fetchedAt": "2025-11-05T20:33:00.772Z",
+    "languages": {
+      "TypeScript": 22966,
+      "Solidity": 16115,
+      "JavaScript": 681
+    }
+  },
+  "remix-project-org/remix-rewards-ui": {
+    "fetchedAt": "2025-11-05T20:33:00.921Z",
+    "languages": {
+      "TypeScript": 95249,
+      "JavaScript": 32282,
+      "Shell": 9576,
+      "HTML": 2418,
+      "Dockerfile": 2329,
+      "Less": 875,
+      "Solidity": 753,
+      "CSS": 231
+    }
+  },
+  "remix-project-org/remix-challenges": {
+    "fetchedAt": "2025-11-05T20:33:01.044Z",
+    "languages": {
+      "Solidity": 15044,
+      "TypeScript": 9166,
+      "EJS": 6166,
+      "Circom": 1457
+    }
+  },
+  "collinsadi/diamonds": {
+    "fetchedAt": "2025-11-05T20:33:04.498Z",
+    "languages": {
+      "Solidity": 358316,
+      "JavaScript": 51290,
+      "TypeScript": 41938
+    }
+  },
+  "runtimeverification/simbolik-examples": {
+    "fetchedAt": "2025-11-05T20:33:07.569Z",
+    "languages": {
+      "Solidity": 16064,
+      "Dockerfile": 339
+    }
+  },
+  "runtimeverification/simbolik-vscode": {
+    "fetchedAt": "2025-11-05T20:33:07.711Z",
+    "languages": {
+      "TypeScript": 45377,
+      "JavaScript": 58
+    }
+  },
+  "shazow/whatsabi": {
+    "fetchedAt": "2025-11-05T20:33:10.900Z",
+    "languages": {
+      "TypeScript": 215732,
+      "Makefile": 890,
+      "Nix": 713,
+      "JavaScript": 192
+    }
+  },
+  "alchemyplatform/rundler": {
+    "fetchedAt": "2025-11-05T20:33:14.004Z",
+    "languages": {
+      "Rust": 2067542,
+      "Solidity": 47346,
+      "TypeScript": 37400,
+      "Shell": 8399,
+      "Makefile": 3072,
+      "Dockerfile": 2181
+    }
+  },
+  "alexfertel/bulloak": {
+    "fetchedAt": "2025-11-05T20:33:17.480Z",
+    "languages": {
+      "Rust": 326227,
+      "Solidity": 35252
+    }
+  },
+  "Raiden1411/zabi": {
+    "fetchedAt": "2025-11-05T20:33:20.503Z",
+    "languages": {
+      "Zig": 2512645,
+      "C": 27926
+    }
+  },
+  "CollinsMunene/abiexplorer": {
+    "fetchedAt": "2025-11-05T20:33:23.391Z",
+    "languages": {}
+  },
+  "web3privacy/privacy-builder-pack": {
+    "fetchedAt": "2025-11-05T20:33:26.490Z",
+    "languages": {
+      "TypeScript": 76692,
+      "CSS": 764,
+      "JavaScript": 474
+    }
+  },
+  "web3privacy/jobs-app": {
+    "fetchedAt": "2025-11-05T20:33:29.451Z",
+    "languages": {
+      "TypeScript": 43932,
+      "JavaScript": 657
+    }
+  },
+  "web3privacy/cypherpunkacademy": {
+    "fetchedAt": "2025-11-05T20:33:32.420Z",
+    "languages": {}
+  },
+  "web3privacy/explorer-app": {
+    "fetchedAt": "2025-11-05T20:33:35.720Z",
+    "languages": {
+      "Vue": 206289,
+      "TypeScript": 87921,
+      "JavaScript": 247
+    }
+  },
+  "web3privacy/explorer-data": {
+    "fetchedAt": "2025-11-05T20:33:35.851Z",
+    "languages": {
+      "JavaScript": 8715,
+      "Makefile": 692
+    }
+  },
+  "qingfengzxr/gdscript-web3": {
+    "fetchedAt": "2025-11-05T20:33:38.970Z",
+    "languages": {
+      "C": 3369569,
+      "C++": 247698,
+      "GDScript": 67194,
+      "Assembly": 28453,
+      "Solidity": 2042,
+      "Python": 89
+    }
+  },
+  "Nethereum/Nethereum": {
+    "fetchedAt": "2025-11-05T20:33:41.987Z",
+    "languages": {
+      "C#": 11289184,
+      "JavaScript": 3050932,
+      "HTML": 785166,
+      "CSS": 106967,
+      "Solidity": 75778,
+      "Batchfile": 40283,
+      "TypeScript": 27113,
+      "Shell": 2765
+    }
+  },
+  "ponder-sh/ponder": {
+    "fetchedAt": "2025-11-05T20:33:45.156Z",
+    "languages": {
+      "TypeScript": 2637118,
+      "JavaScript": 23654,
+      "Solidity": 4967
+    }
+  },
+  "saurabhburade/substream-eth-blobs": {
+    "fetchedAt": "2025-11-05T20:33:48.739Z",
+    "languages": {
+      "Rust": 377291,
+      "TypeScript": 216477
+    }
+  },
+  "zsystm/solizard": {
+    "fetchedAt": "2025-11-05T20:33:52.039Z",
+    "languages": {
+      "Go": 34046,
+      "Makefile": 912
+    }
+  },
+  "markeljan/web3gpt": {
+    "fetchedAt": "2025-11-05T20:33:55.511Z",
+    "languages": {
+      "TypeScript": 299572,
+      "CSS": 1461,
+      "JavaScript": 1427
+    }
+  },
+  "gobitfly/eth2-beaconchain-explorer": {
+    "fetchedAt": "2025-11-05T20:33:58.654Z",
+    "languages": {
+      "Go": 2889115,
+      "HTML": 1661701,
+      "JavaScript": 376934,
+      "CSS": 64957,
+      "Shell": 10791,
+      "Makefile": 3697,
+      "Starlark": 3387,
+      "Dockerfile": 1359
+    }
+  },
+  "ethereum/eth-utils": {
+    "fetchedAt": "2025-11-05T20:34:00.780Z",
+    "languages": {
+      "Python": 214137,
+      "Makefile": 3531,
+      "Shell": 599
+    }
+  },
+  "ethereum/web3.py": {
+    "fetchedAt": "2025-11-05T20:34:00.920Z",
+    "languages": {
+      "Python": 2745495,
+      "Solidity": 31521,
+      "Makefile": 3638,
+      "Shell": 1212,
+      "Dockerfile": 276
+    }
+  },
+  "ethereum/eth-account": {
+    "fetchedAt": "2025-11-05T20:34:01.042Z",
+    "languages": {
+      "Python": 371762,
+      "Shell": 4467,
+      "Makefile": 3568,
+      "JavaScript": 2445
+    }
+  },
+  "ethereum/py-evm": {
+    "fetchedAt": "2025-11-05T20:34:01.165Z",
+    "languages": {
+      "Python": 1641606,
+      "Solidity": 8640,
+      "Makefile": 3618,
+      "Shell": 599
+    }
+  },
+  "ethereum/eth-abi": {
+    "fetchedAt": "2025-11-05T20:34:01.298Z",
+    "languages": {
+      "Python": 220303,
+      "Makefile": 3556,
+      "Shell": 599
+    }
+  },
+  "jiffy-labs/jiffyscan-frontend": {
+    "fetchedAt": "2025-11-05T20:34:04.482Z",
+    "languages": {
+      "TypeScript": 975576,
+      "JavaScript": 9365,
+      "Sass": 2738,
+      "CSS": 615
+    }
+  },
+  "Farcaster-Attestation/farcaster-resolver": {
+    "fetchedAt": "2025-11-05T20:34:06.626Z",
+    "languages": {
+      "TypeScript": 158818,
+      "Solidity": 128678,
+      "Shell": 638
+    }
+  },
+  "Farcaster-Attestation/farcaster-solidity": {
+    "fetchedAt": "2025-11-05T20:34:06.744Z",
+    "languages": {
+      "Solidity": 248699,
+      "TypeScript": 156933
+    }
+  },
+  "Farcaster-Attestation/op-attest": {
+    "fetchedAt": "2025-11-05T20:34:06.841Z",
+    "languages": {
+      "TypeScript": 152757,
+      "Dockerfile": 548,
+      "JavaScript": 284
+    }
+  },
+  "growthepie/gtp-frontend": {
+    "fetchedAt": "2025-11-05T20:34:09.980Z",
+    "languages": {
+      "TypeScript": 8796565,
+      "JavaScript": 40542,
+      "CSS": 26915,
+      "SCSS": 438
+    }
+  },
+  "growthepie/gtp-dna": {
+    "fetchedAt": "2025-11-05T20:34:10.134Z",
+    "languages": {
+      "Python": 3710
+    }
+  },
+  "growthepie/gtp": {
+    "fetchedAt": "2025-11-05T20:34:10.469Z",
+    "languages": {
+      "Python": 2293286,
+      "Jinja": 76374,
+      "Dockerfile": 1200
+    }
+  },
+  "zink-lang/zink": {
+    "fetchedAt": "2025-11-05T20:34:13.894Z",
+    "languages": {
+      "Rust": 414116,
+      "WebAssembly": 9438,
+      "Solidity": 257
+    }
+  },
+  "sifaw23/distributler": {
+    "fetchedAt": "2025-11-05T20:34:17.208Z",
+    "languages": {
+      "JavaScript": 232983,
+      "CSS": 2069
+    }
+  },
+  "GNSPS/solidity-bytes-utils": {
+    "fetchedAt": "2025-11-05T20:34:20.351Z",
+    "languages": {
+      "Solidity": 95515
+    }
+  },
+  "thirdweb-dev/insight": {
+    "fetchedAt": "2025-11-05T20:34:23.331Z",
+    "languages": {
+      "Go": 165362,
+      "Dockerfile": 314
+    }
+  },
+  "thirdweb-dev/contracts": {
+    "fetchedAt": "2025-11-05T20:34:23.487Z",
+    "languages": {
+      "Solidity": 4485975,
+      "TypeScript": 35422,
+      "Shell": 1161
+    }
+  },
+  "thirdweb-dev/js": {
+    "fetchedAt": "2025-11-05T20:34:23.636Z",
+    "languages": {
+      "TypeScript": 14168839,
+      "MDX": 1914796,
+      "JavaScript": 114482,
+      "CSS": 61498,
+      "HTML": 874
+    }
+  },
+  "Ackee-Blockchain/solidity-for-vscode": {
+    "fetchedAt": "2025-11-05T20:34:26.896Z",
+    "languages": {
+      "TypeScript": 446005,
+      "Svelte": 126637,
+      "JavaScript": 12504,
+      "HTML": 7048,
+      "CSS": 5393
+    }
+  },
+  "andrei0x309/clear-wallet": {
+    "fetchedAt": "2025-11-05T20:34:29.718Z",
+    "languages": {
+      "Vue": 239800,
+      "TypeScript": 160800,
+      "CSS": 11718,
+      "JavaScript": 3703,
+      "HTML": 3031
+    }
+  },
+  "snapshot-labs/sx-evm": {
+    "fetchedAt": "2025-11-05T20:34:33.259Z",
+    "languages": {
+      "Solidity": 436790,
+      "Shell": 69
+    }
+  },
+  "snapshot-labs/snapshot": {
+    "fetchedAt": "2025-11-05T20:34:33.559Z",
+    "languages": {
+      "Vue": 981245,
+      "TypeScript": 457070,
+      "JavaScript": 11244,
+      "SCSS": 11165,
+      "CSS": 3967,
+      "HTML": 479,
+      "Dockerfile": 278,
+      "Shell": 238
+    }
+  },
+  "snapshot-labs/sx-monorepo": {
+    "fetchedAt": "2025-11-05T20:34:33.679Z",
+    "languages": {
+      "TypeScript": 1498888,
+      "Vue": 800014,
+      "SCSS": 12004,
+      "JavaScript": 2347,
+      "MDX": 2216,
+      "Shell": 1626,
+      "HTML": 488,
+      "CSS": 156
+    }
+  },
+  "ethereum/fe": {
+    "fetchedAt": "2025-11-05T20:34:37.004Z",
+    "languages": {
+      "Rust": 1645313,
+      "HTML": 32417,
+      "Makefile": 4077,
+      "Python": 1377
+    }
+  },
+  "wakeuplabs/rfg1-optimism": {
+    "fetchedAt": "2025-11-05T20:34:40.168Z",
+    "languages": {
+      "TypeScript": 50718,
+      "PLpgSQL": 620
+    }
+  },
+  "ethereum/sourcify": {
+    "fetchedAt": "2025-11-05T20:34:43.744Z",
+    "languages": {
+      "TypeScript": 1538144,
+      "Solidity": 1288775,
+      "JavaScript": 115780,
+      "PLpgSQL": 60753,
+      "Shell": 33387,
+      "Vyper": 5615,
+      "Dockerfile": 3719
+    }
+  },
+  "upnodedev/signer-proxy": {
+    "fetchedAt": "2025-11-05T20:34:46.652Z",
+    "languages": {
+      "Rust": 21281,
+      "JavaScript": 3725
+    }
+  },
+  "ApeWorX/ape-optimism": {
+    "fetchedAt": "2025-11-05T20:34:49.801Z",
+    "languages": {
+      "Python": 12018
+    }
+  },
+  "ApeWorX/ape": {
+    "fetchedAt": "2025-11-05T20:34:49.976Z",
+    "languages": {
+      "Python": 2532067,
+      "Solidity": 49441,
+      "Vyper": 10164,
+      "Slim": 1591,
+      "Dockerfile": 714
+    }
+  },
+  "ApeWorX/silverback": {
+    "fetchedAt": "2025-11-05T20:34:50.124Z",
+    "languages": {
+      "Python": 239449,
+      "Dockerfile": 971
+    }
+  },
+  "ApeWorX/ape-base": {
+    "fetchedAt": "2025-11-05T20:34:50.269Z",
+    "languages": {
+      "Python": 15805
+    }
+  },
+  "upnodedev/evm-faucet": {
+    "fetchedAt": "2025-11-05T20:34:53.195Z",
+    "languages": {
+      "Go": 23810,
+      "Svelte": 6112,
+      "Dockerfile": 555,
+      "JavaScript": 527,
+      "HTML": 367
+    }
+  },
+  "upnodedev/opstack-bridge-indexer": {
+    "fetchedAt": "2025-11-05T20:34:53.314Z",
+    "languages": {
+      "TypeScript": 73388,
+      "Dockerfile": 591
+    }
+  },
+  "upnodedev/opstack-bridge-indexer-v2": {
+    "fetchedAt": "2025-11-05T20:34:53.403Z",
+    "languages": {
+      "TypeScript": 72405,
+      "Shell": 5415,
+      "PLpgSQL": 2109,
+      "Dockerfile": 332
+    }
+  },
+  "upnodedev/opstack-bridge-ui": {
+    "fetchedAt": "2025-11-05T20:34:53.505Z",
+    "languages": {
+      "TypeScript": 876649,
+      "HTML": 11527,
+      "CSS": 1912,
+      "JavaScript": 1283,
+      "Dockerfile": 407
+    }
+  },
+  "upnodedev/opstack-bridge-ui-v2": {
+    "fetchedAt": "2025-11-05T20:34:53.632Z",
+    "languages": {
+      "TypeScript": 669322,
+      "JavaScript": 4402,
+      "CSS": 1309,
+      "HTML": 342
+    }
+  },
+  "upnodedev/opstack-compose": {
+    "fetchedAt": "2025-11-05T20:34:53.779Z",
+    "languages": {
+      "Shell": 36357,
+      "Dockerfile": 2550,
+      "JavaScript": 954
+    }
+  },
+  "upnodedev/upnode-deploy-ui": {
+    "fetchedAt": "2025-11-05T20:34:53.890Z",
+    "languages": {
+      "TypeScript": 102231,
+      "CSS": 263,
+      "JavaScript": 227
+    }
+  },
+  "upnodedev/opstack-cli": {
+    "fetchedAt": "2025-11-05T20:34:54.152Z",
+    "languages": {
+      "TypeScript": 56703,
+      "JavaScript": 1759
+    }
+  },
+  "probe-lab/hermes": {
+    "fetchedAt": "2025-11-05T20:34:57.403Z",
+    "languages": {
+      "Go": 620762,
+      "Just": 878,
+      "Dockerfile": 756,
+      "Python": 276
+    }
+  },
+  "curvegrid/multibaas-sample-app": {
+    "fetchedAt": "2025-11-05T20:35:00.631Z",
+    "languages": {
+      "TypeScript": 19608,
+      "JavaScript": 17773,
+      "Solidity": 1669,
+      "CSS": 1090
+    }
+  },
+  "curvegrid/hardhat-multibaas-plugin": {
+    "fetchedAt": "2025-11-05T20:35:00.759Z",
+    "languages": {
+      "TypeScript": 29750,
+      "JavaScript": 1041
+    }
+  },
+  "curvegrid/multibaas-sdk-typescript": {
+    "fetchedAt": "2025-11-05T20:35:00.918Z",
+    "languages": {
+      "TypeScript": 488164,
+      "Shell": 1221
+    }
+  },
+  "curvegrid/multibaas-for-google-sheets": {
+    "fetchedAt": "2025-11-05T20:35:01.101Z",
+    "languages": {
+      "JavaScript": 152959
+    }
+  },
+  "curvegrid/multibaas-sdk-go": {
+    "fetchedAt": "2025-11-05T20:35:01.337Z",
+    "languages": {
+      "Go": 3550,
+      "Shell": 726
+    }
+  },
+  "Ratimon/redprint-forge": {
+    "fetchedAt": "2025-11-05T20:35:04.509Z",
+    "languages": {
+      "Solidity": 920004,
+      "Shell": 6507
+    }
+  },
+  "Ratimon/redprint-wizard": {
+    "fetchedAt": "2025-11-05T20:35:04.632Z",
+    "languages": {
+      "TypeScript": 845499,
+      "Svelte": 471706,
+      "CSS": 6282,
+      "JavaScript": 4632,
+      "Solidity": 1008,
+      "HTML": 354
+    }
+  },
+  "Nodeguardians/optimism": {
+    "fetchedAt": "2025-11-05T20:35:07.879Z",
+    "languages": {
+      "JavaScript": 16984,
+      "Solidity": 11554
+    }
+  },
+  "ethereum/solc-js": {
+    "fetchedAt": "2025-11-05T20:35:11.481Z",
+    "languages": {
+      "TypeScript": 108876,
+      "JavaScript": 12915,
+      "Solidity": 1407
+    }
+  },
+  "ethereum/solidity": {
+    "fetchedAt": "2025-11-05T20:35:11.767Z",
+    "languages": {
+      "C++": 7373574,
+      "Solidity": 4310782,
+      "Yul": 1237047,
+      "Python": 334951,
+      "Shell": 296493,
+      "CMake": 80111,
+      "C": 74643,
+      "Dockerfile": 22939,
+      "JavaScript": 17276,
+      "Assembly": 13573,
+      "PowerShell": 2465
+    }
+  },
+  "darrylyeo/blockhead": {
+    "fetchedAt": "2025-11-05T20:35:14.904Z",
+    "languages": {
+      "TypeScript": 3155048,
+      "Svelte": 1129598,
+      "CSS": 35227,
+      "JavaScript": 1764,
+      "HTML": 714
+    }
+  },
+  "libp2p/rust-libp2p": {
+    "fetchedAt": "2025-11-05T20:35:18.091Z",
+    "languages": {
+      "Rust": 4207195,
+      "Shell": 7202,
+      "Go": 2500,
+      "Dockerfile": 2322,
+      "Python": 1795
+    }
+  },
+  "Blobscan/blobscan": {
+    "fetchedAt": "2025-11-05T20:35:20.989Z",
+    "languages": {
+      "TypeScript": 1157097,
+      "JavaScript": 96330,
+      "Shell": 8556,
+      "Dockerfile": 3326,
+      "CSS": 1174,
+      "PLpgSQL": 552
+    }
+  },
+  "Blobscan/blobscan-infra": {
+    "fetchedAt": "2025-11-05T20:35:21.126Z",
+    "languages": {
+      "Shell": 342
+    }
+  },
+  "Blobscan/blobscan-indexer.rs": {
+    "fetchedAt": "2025-11-05T20:35:21.273Z",
+    "languages": {
+      "Rust": 111392,
+      "Dockerfile": 514
+    }
+  },
+  "Blobscan/blobscan-helm-charts": {
+    "fetchedAt": "2025-11-05T20:35:21.412Z",
+    "languages": {
+      "Smarty": 8037,
+      "Mustache": 6551,
+      "Makefile": 458
+    }
+  },
+  "opstack-kit/opstack-kit": {
+    "fetchedAt": "2025-11-05T20:35:24.502Z",
+    "languages": {
+      "TypeScript": 633779,
+      "JavaScript": 18609
+    }
+  },
+  "libp2p/js-libp2p": {
+    "fetchedAt": "2025-11-05T20:35:27.817Z",
+    "languages": {
+      "TypeScript": 4168321,
+      "JavaScript": 47372,
+      "Go": 2621,
+      "Makefile": 1206,
+      "Dockerfile": 403
+    }
+  },
+  "libp2p/go-libp2p": {
+    "fetchedAt": "2025-11-05T20:35:31.294Z",
+    "languages": {
+      "Go": 2985750,
+      "Shell": 13300,
+      "Standard ML": 70
+    }
+  },
+  "Cyfrin/aderyn": {
+    "fetchedAt": "2025-11-05T20:35:34.914Z",
+    "languages": {
+      "Rust": 1158063,
+      "HTML": 277320,
+      "Solidity": 207453,
+      "JavaScript": 5547,
+      "Shell": 2909,
+      "Makefile": 2385,
+      "Yul": 25
+    }
+  },
+  "runtimeverification/yearn-v3-term-vault": {
+    "fetchedAt": "2025-11-05T20:35:38.591Z",
+    "languages": {
+      "Solidity": 349601,
+      "Makefile": 1578
+    }
+  },
+  "runtimeverification/Depeg-swap": {
+    "fetchedAt": "2025-11-05T20:35:38.723Z",
+    "languages": {
+      "Solidity": 326032,
+      "TypeScript": 142629,
+      "JavaScript": 1823
+    }
+  },
+  "runtimeverification/_audits_lidofinance_dual-governance_fork": {
+    "fetchedAt": "2025-11-05T20:35:38.897Z",
+    "languages": {
+      "Solidity": 941306,
+      "Shell": 11166
+    }
+  },
+  "runtimeverification/_audits_Ethereum-optimism_pausability": {
+    "fetchedAt": "2025-11-05T20:35:39.030Z",
+    "languages": {
+      "Go": 11338946,
+      "Solidity": 4038786,
+      "Shell": 82720,
+      "Just": 37922,
+      "Makefile": 32481,
+      "C": 17184,
+      "Dockerfile": 14462,
+      "Python": 8250,
+      "HCL": 7634,
+      "JavaScript": 3696,
+      "CSS": 3410,
+      "TypeScript": 2810,
+      "Starlark": 2100
+    }
+  },
+  "runtimeverification/optimism-ci": {
+    "fetchedAt": "2025-11-05T20:35:39.163Z",
+    "languages": {}
+  },
+  "runtimeverification/kontrol": {
+    "fetchedAt": "2025-11-05T20:35:39.856Z",
+    "languages": {
+      "Python": 489646,
+      "Solidity": 165154,
+      "Nix": 10804,
+      "Shell": 2364,
+      "Makefile": 2097,
+      "Dockerfile": 1272
+    }
+  },
+  "Charged-Particles/ionx-ccip": {
+    "fetchedAt": "2025-11-05T20:35:42.937Z",
+    "languages": {
+      "Solidity": 53072,
+      "TypeScript": 29851
+    }
+  },
+  "Charged-Particles/web3-packs-v2": {
+    "fetchedAt": "2025-11-05T20:35:43.062Z",
+    "languages": {
+      "Solidity": 366069,
+      "JavaScript": 91405,
+      "TypeScript": 40714
+    }
+  },
+  "Charged-Particles/Web3Packs-MODE": {
+    "fetchedAt": "2025-11-05T20:35:43.207Z",
+    "languages": {
+      "Solidity": 164199,
+      "JavaScript": 136287,
+      "TypeScript": 88213
+    }
+  },
+  "dappnode/DAppNodeSDK": {
+    "fetchedAt": "2025-11-05T20:35:46.159Z",
+    "languages": {
+      "TypeScript": 293287,
+      "JavaScript": 2601
+    }
+  },
+  "dappnode/DAppNode": {
+    "fetchedAt": "2025-11-05T20:35:46.362Z",
+    "languages": {
+      "Shell": 54784,
+      "Dockerfile": 237
+    }
+  },
+  "Pfed-prog/EVMExplorer-Blockscout": {
+    "fetchedAt": "2025-11-05T20:35:49.652Z",
+    "languages": {
+      "TypeScript": 30854
+    }
+  },
+  "Pfed-prog/EVMExplorer-Uniswap": {
+    "fetchedAt": "2025-11-05T20:35:49.757Z",
+    "languages": {
+      "TypeScript": 13145
+    }
+  },
+  "Pfed-prog/EVMExplorer-Utility": {
+    "fetchedAt": "2025-11-05T20:35:49.854Z",
+    "languages": {
+      "TypeScript": 9423
+    }
+  },
+  "Pfed-prog/NextJsExplorer": {
+    "fetchedAt": "2025-11-05T20:35:49.991Z",
+    "languages": {
+      "TypeScript": 287197,
+      "JavaScript": 2982,
+      "CSS": 2336
+    }
+  },
+  "PinSaveDAO/PinSave": {
+    "fetchedAt": "2025-11-05T20:35:53.487Z",
+    "languages": {
+      "TypeScript": 157303,
+      "JavaScript": 3105,
+      "CSS": 299
+    }
+  },
+  "PinSaveDAO/PinSave-EVM": {
+    "fetchedAt": "2025-11-05T20:35:53.606Z",
+    "languages": {
+      "TypeScript": 44679,
+      "JavaScript": 7717,
+      "Solidity": 3302,
+      "CSS": 299
+    }
+  },
+  "Pfed-prog/Dspyt-NFTs-EVM": {
+    "fetchedAt": "2025-11-05T20:35:53.709Z",
+    "languages": {
+      "TypeScript": 157303,
+      "JavaScript": 3105,
+      "CSS": 299
+    }
+  },
+  "PinSaveDAO/PinSave-Optimism": {
+    "fetchedAt": "2025-11-05T20:35:53.849Z",
+    "languages": {
+      "TypeScript": 44696,
+      "JavaScript": 7722,
+      "Solidity": 3302,
+      "CSS": 299
+    }
+  },
+  "ethereum/hevm": {
+    "fetchedAt": "2025-11-05T20:35:57.700Z",
+    "languages": {
+      "Haskell": 1103456,
+      "Solidity": 102590,
+      "C": 10360,
+      "Nix": 8647,
+      "C++": 6620,
+      "Python": 3020,
+      "Shell": 249
+    }
+  },
+  "unruggable-labs/unruggable-gateways": {
+    "fetchedAt": "2025-11-05T20:36:00.897Z",
+    "languages": {
+      "TypeScript": 533148,
+      "Solidity": 343343,
+      "JavaScript": 1422
+    }
+  },
+  "unruggable-labs/unruggable-gateways-examples": {
+    "fetchedAt": "2025-11-05T20:36:01.001Z",
+    "languages": {
+      "TypeScript": 2077,
+      "Shell": 383
+    }
+  },
+  "ethereum/act": {
+    "fetchedAt": "2025-11-05T20:36:04.157Z",
+    "languages": {
+      "Haskell": 378534,
+      "Rocq Prover": 27731,
+      "Solidity": 16082,
+      "Yacc": 13774,
+      "Nix": 8631,
+      "Makefile": 8134,
+      "RPC": 6696,
+      "Vyper": 3883,
+      "Python": 2341,
+      "SMT": 620,
+      "Shell": 203
+    }
+  },
+  "Aymen-Tirchi/op-stack-deployer": {
+    "fetchedAt": "2025-11-05T20:36:06.981Z",
+    "languages": {
+      "Go": 29539,
+      "Shell": 990
+    }
+  },
+  "bluealloy/revm": {
+    "fetchedAt": "2025-11-05T20:36:10.065Z",
+    "languages": {
+      "Rust": 1772228,
+      "Shell": 7518,
+      "RenderScript": 1
+    }
+  },
+  "wevm/viem": {
+    "fetchedAt": "2025-11-05T20:36:14.665Z",
+    "languages": {
+      "TypeScript": 7376728,
+      "MDX": 191086,
+      "Solidity": 26364,
+      "JavaScript": 1079,
+      "CSS": 459,
+      "HTML": 356
+    }
+  },
+  "smartcontracts/simple-optimism-node": {
+    "fetchedAt": "2025-11-05T20:36:17.841Z",
+    "languages": {
+      "Shell": 10020
+    }
+  },
+  "Vectorized/solady": {
+    "fetchedAt": "2025-11-05T20:36:21.024Z",
+    "languages": {
+      "Solidity": 4159002,
+      "Python": 90100,
+      "JavaScript": 44406
+    }
+  },
+  "turtleshell-xyz/circuitbreaker": {
+    "fetchedAt": "2025-11-05T20:36:24.079Z",
+    "languages": {
+      "Solidity": 99256
+    }
+  },
+  "turtleshell-xyz/frontend-boilerplates": {
+    "fetchedAt": "2025-11-05T20:36:24.244Z",
+    "languages": {
+      "TypeScript": 20354,
+      "JavaScript": 2488,
+      "CSS": 672,
+      "HTML": 366
+    }
+  },
+  "turtleshell-xyz/nomad-bridge-poc": {
+    "fetchedAt": "2025-11-05T20:36:24.371Z",
+    "languages": {
+      "Solidity": 2306667,
+      "JavaScript": 964468,
+      "Ruby": 216477,
+      "Shell": 7689,
+      "Makefile": 2249,
+      "Python": 1483,
+      "Nix": 170
+    }
+  },
+  "cgewecke/hardhat-gas-reporter": {
+    "fetchedAt": "2025-11-05T20:36:27.383Z",
+    "languages": {
+      "TypeScript": 327535,
+      "Solidity": 23222,
+      "JavaScript": 5168,
+      "Shell": 966
+    }
+  },
+  "vyperlang/vyper": {
+    "fetchedAt": "2025-11-05T20:36:30.453Z",
+    "languages": {
+      "Python": 3110434,
+      "Makefile": 2222,
+      "Batchfile": 1614,
+      "Dockerfile": 1145,
+      "Shell": 793,
+      "Vyper": 403
+    }
+  },
+  "The-Old-Castle-Defense/FGE": {
+    "fetchedAt": "2025-11-05T20:36:33.520Z",
+    "languages": {
+      "Python": 63095,
+      "HTML": 2556
+    }
+  },
+  "The-Old-Castle-Defense/burnfomo": {
+    "fetchedAt": "2025-11-05T20:36:33.645Z",
+    "languages": {
+      "JavaScript": 211204,
+      "Vue": 100799,
+      "Python": 17078,
+      "CSS": 15167,
+      "SCSS": 11964
+    }
+  },
+  "The-Old-Castle-Defense/DRS": {
+    "fetchedAt": "2025-11-05T20:36:33.784Z",
+    "languages": {
+      "Solidity": 6558
+    }
+  },
+  "The-Old-Castle-Defense/docs": {
+    "fetchedAt": "2025-11-05T20:36:33.986Z",
+    "languages": {}
+  },
+  "pcaversaccio/createx": {
+    "fetchedAt": "2025-11-05T20:36:37.139Z",
+    "languages": {
+      "Solidity": 511119,
+      "TypeScript": 152033,
+      "CSS": 5900,
+      "JavaScript": 3493
+    }
+  },
+  "pcaversaccio/snekmate": {
+    "fetchedAt": "2025-11-05T20:36:40.512Z",
+    "languages": {
+      "Solidity": 778472,
+      "Vyper": 409244,
+      "JavaScript": 6896,
+      "Shell": 3097,
+      "Python": 942
+    }
+  },
+  "blockflowlabs/cli-examples": {
+    "fetchedAt": "2025-11-05T20:36:43.320Z",
+    "languages": {
+      "TypeScript": 962055,
+      "JavaScript": 1545
+    }
+  },
+  "w3hc/pattini": {
+    "fetchedAt": "2025-11-05T20:36:46.576Z",
+    "languages": {
+      "TypeScript": 4870,
+      "Shell": 1390
+    }
+  },
+  "w3hc/gov": {
+    "fetchedAt": "2025-11-05T20:36:46.692Z",
+    "languages": {
+      "TypeScript": 183869,
+      "Solidity": 34639,
+      "Shell": 2246
+    }
+  },
+  "w3hc/w3hc-hardhat-template": {
+    "fetchedAt": "2025-11-05T20:36:46.812Z",
+    "languages": {
+      "TypeScript": 14985,
+      "Solidity": 357
+    }
+  },
+  "w3hc/web3dd": {
+    "fetchedAt": "2025-11-05T20:36:46.947Z",
+    "languages": {
+      "JavaScript": 103758,
+      "Solidity": 18604,
+      "CSS": 8429,
+      "HTML": 676
+    }
+  },
+  "bonadocs/protocol-registry": {
+    "fetchedAt": "2025-11-05T20:36:50.081Z",
+    "languages": {}
+  },
+  "bonadocs/protocol-registry-web": {
+    "fetchedAt": "2025-11-05T20:36:50.264Z",
+    "languages": {
+      "TypeScript": 30186,
+      "SCSS": 11225,
+      "JavaScript": 740,
+      "CSS": 60
+    }
+  },
+  "bonadocs/docgen": {
+    "fetchedAt": "2025-11-05T20:36:50.377Z",
+    "languages": {
+      "TypeScript": 25757,
+      "Handlebars": 717
+    }
+  },
+  "bonadocs/docs": {
+    "fetchedAt": "2025-11-05T20:36:50.487Z",
+    "languages": {
+      "HTML": 302095,
+      "JavaScript": 14620,
+      "CSS": 1448,
+      "Shell": 448
+    }
+  },
+  "bonadocs/cli": {
+    "fetchedAt": "2025-11-05T20:36:50.619Z",
+    "languages": {
+      "TypeScript": 98921
+    }
+  },
+  "stargate-protocol/stargate": {
+    "fetchedAt": "2025-11-05T20:36:53.819Z",
+    "languages": {
+      "JavaScript": 276354,
+      "Solidity": 110989,
+      "Shell": 3639
+    }
+  },
+  "Steemhunt/mint.club-v2-contract": {
+    "fetchedAt": "2025-11-05T20:37:00.726Z",
+    "languages": {
+      "JavaScript": 501770,
+      "Solidity": 297989
+    }
+  },
+  "Steemhunt/mint.club-v2-sdk": {
+    "fetchedAt": "2025-11-05T20:37:00.866Z",
+    "languages": {
+      "MDX": 413236,
+      "TypeScript": 409779,
+      "JavaScript": 3213,
+      "CSS": 526
+    }
+  },
+  "llamasubs/contracts": {
+    "fetchedAt": "2025-11-05T20:37:04.202Z",
+    "languages": {
+      "TypeScript": 38727,
+      "Solidity": 24679
+    }
+  },
+  "LlamaPay/llamapay": {
+    "fetchedAt": "2025-11-05T20:37:04.323Z",
+    "languages": {
+      "Solidity": 29999,
+      "TypeScript": 16034,
+      "JavaScript": 444
+    }
+  },
+  "zkemail/email-recovery": {
+    "fetchedAt": "2025-11-05T20:37:07.364Z",
+    "languages": {
+      "Solidity": 694334,
+      "Shell": 679
+    }
+  },
+  "zkemail/zk-email-verify": {
+    "fetchedAt": "2025-11-05T20:37:07.462Z",
+    "languages": {
+      "TypeScript": 188736,
+      "Solidity": 128003,
+      "Circom": 80680,
+      "Rust": 15935,
+      "JavaScript": 1864
+    }
+  },
+  "zkemail/zk-email-sdk-js": {
+    "fetchedAt": "2025-11-05T20:37:07.584Z",
+    "languages": {
+      "TypeScript": 761658,
+      "JavaScript": 13667,
+      "Shell": 5822,
+      "HTML": 4330,
+      "CSS": 1530
+    }
+  },
+  "zkemail/zkemail.nr": {
+    "fetchedAt": "2025-11-05T20:37:07.716Z",
+    "languages": {
+      "Noir": 83276,
+      "TypeScript": 34521,
+      "Shell": 3629
+    }
+  },
+  "decentxyz/launch-nfts": {
+    "fetchedAt": "2025-11-05T20:37:10.834Z",
+    "languages": {
+      "TypeScript": 89296,
+      "CSS": 4015,
+      "JavaScript": 2046
+    }
+  },
+  "decentxyz/decent-contracts-v3": {
+    "fetchedAt": "2025-11-05T20:37:10.961Z",
+    "languages": {
+      "Solidity": 396692,
+      "TypeScript": 99028,
+      "JavaScript": 190
+    }
+  },
+  "decentxyz/decentV2-contracts": {
+    "fetchedAt": "2025-11-05T20:37:11.093Z",
+    "languages": {
+      "Solidity": 298421
+    }
+  },
+  "DefiLlama/defillama-app": {
+    "fetchedAt": "2025-11-05T20:37:14.109Z",
+    "languages": {
+      "TypeScript": 4330328,
+      "JavaScript": 138145,
+      "CSS": 21281,
+      "Shell": 2749
+    }
+  },
+  "DefiLlama/DefiLlama-Adapters": {
+    "fetchedAt": "2025-11-05T20:37:14.245Z",
+    "languages": {
+      "JavaScript": 9827661,
+      "TypeScript": 86481,
+      "Solidity": 4934,
+      "Shell": 47
+    }
+  },
+  "0xngmi/llamazip": {
+    "fetchedAt": "2025-11-05T20:37:14.336Z",
+    "languages": {
+      "Solidity": 25737,
+      "JavaScript": 10644
+    }
+  },
+  "gitcoinco/id-staking-v2-app": {
+    "fetchedAt": "2025-11-05T20:37:17.642Z",
+    "languages": {
+      "TypeScript": 275431,
+      "CSS": 768,
+      "JavaScript": 258
+    }
+  },
+  "gitcoinco/passport-scorer": {
+    "fetchedAt": "2025-11-05T20:37:17.904Z",
+    "languages": {
+      "Jupyter Notebook": 1928363,
+      "Python": 1674427,
+      "TypeScript": 358797,
+      "Rust": 298317,
+      "JavaScript": 59025,
+      "R": 40244,
+      "Shell": 34841,
+      "Gherkin": 7780,
+      "HTML": 5899,
+      "Dockerfile": 5094,
+      "Solidity": 4791,
+      "CSS": 2658,
+      "Makefile": 405
+    }
+  },
+  "gitcoinco/eas-proxy": {
+    "fetchedAt": "2025-11-05T20:37:18.209Z",
+    "languages": {
+      "TypeScript": 250160,
+      "Solidity": 107515
+    }
+  },
+  "gitcoinco/id-staking-v2": {
+    "fetchedAt": "2025-11-05T20:37:18.489Z",
+    "languages": {
+      "TypeScript": 60832,
+      "Solidity": 52032
+    }
+  },
+  "gitcoinco/passport": {
+    "fetchedAt": "2025-11-05T20:37:18.782Z",
+    "languages": {
+      "TypeScript": 1965845,
+      "HTML": 54959,
+      "JavaScript": 38144,
+      "CSS": 7428,
+      "Shell": 5459,
+      "Dockerfile": 1425
+    }
+  },
+  "passportxyz/passport": {
+    "fetchedAt": "2025-11-05T20:37:18.932Z",
+    "languages": {
+      "TypeScript": 1965845,
+      "HTML": 54959,
+      "JavaScript": 38144,
+      "CSS": 7428,
+      "Shell": 5459,
+      "Dockerfile": 1425
+    }
+  },
+  "passportxyz/passport-scorer": {
+    "fetchedAt": "2025-11-05T20:37:19.059Z",
+    "languages": {
+      "Jupyter Notebook": 1928363,
+      "Python": 1674427,
+      "TypeScript": 358797,
+      "Rust": 298317,
+      "JavaScript": 59025,
+      "R": 40244,
+      "Shell": 34841,
+      "Gherkin": 7780,
+      "HTML": 5899,
+      "Dockerfile": 5094,
+      "Solidity": 4791,
+      "CSS": 2658,
+      "Makefile": 405
+    }
+  },
+  "seamless-protocol/governance": {
+    "fetchedAt": "2025-11-05T20:37:22.206Z",
+    "languages": {
+      "Solidity": 452744,
+      "Makefile": 7193,
+      "TypeScript": 5698
+    }
+  },
+  "L2PASS/contracts": {
+    "fetchedAt": "2025-11-05T20:37:25.904Z",
+    "languages": {
+      "Solidity": 25410
+    }
+  },
+  "ethereum-attestation-service/eas-contracts": {
+    "fetchedAt": "2025-11-05T20:37:29.468Z",
+    "languages": {
+      "TypeScript": 4485882,
+      "Solidity": 111529,
+      "JavaScript": 1346
+    }
+  },
+  "ethereum-attestation-service/eas-sdk": {
+    "fetchedAt": "2025-11-05T20:37:29.641Z",
+    "languages": {
+      "TypeScript": 318984,
+      "JavaScript": 4025,
+      "Solidity": 1652
+    }
+  },
+  "Hats-Protocol/multi-claims-hatter": {
+    "fetchedAt": "2025-11-05T20:37:32.747Z",
+    "languages": {
+      "Solidity": 61767
+    }
+  },
+  "hats-protocol/hats-module": {
+    "fetchedAt": "2025-11-05T20:37:32.934Z",
+    "languages": {
+      "Solidity": 35524
+    }
+  },
+  "Hats-Protocol/allowlist-eligibility": {
+    "fetchedAt": "2025-11-05T20:37:33.074Z",
+    "languages": {
+      "Solidity": 35842
+    }
+  },
+  "Hats-Protocol/hats-elections-eligibility": {
+    "fetchedAt": "2025-11-05T20:37:33.199Z",
+    "languages": {
+      "Solidity": 31484
+    }
+  },
+  "Hats-Protocol/jokerace-eligibility": {
+    "fetchedAt": "2025-11-05T20:37:33.365Z",
+    "languages": {
+      "Solidity": 46248
+    }
+  },
+  "Hats-Protocol/agreement-eligibility": {
+    "fetchedAt": "2025-11-05T20:37:33.503Z",
+    "languages": {
+      "Solidity": 41561
+    }
+  },
+  "Hats-Protocol/hats-governor-votes": {
+    "fetchedAt": "2025-11-05T20:37:33.633Z",
+    "languages": {
+      "Solidity": 14467
+    }
+  },
+  "Hats-Protocol/chain-modules": {
+    "fetchedAt": "2025-11-05T20:37:33.789Z",
+    "languages": {
+      "Solidity": 71216
+    }
+  },
+  "Hats-Protocol/hats-account-sdk": {
+    "fetchedAt": "2025-11-05T20:37:33.912Z",
+    "languages": {
+      "TypeScript": 29079,
+      "JavaScript": 451
+    }
+  },
+  "Hats-Protocol/subgraph-ancillary": {
+    "fetchedAt": "2025-11-05T20:37:34.065Z",
+    "languages": {
+      "TypeScript": 384690
+    }
+  },
+  "Hats-Protocol/farcaster-delegator": {
+    "fetchedAt": "2025-11-05T20:37:34.182Z",
+    "languages": {
+      "Solidity": 69297
+    }
+  },
+  "Hats-Protocol/hat-wearing-eligibility": {
+    "fetchedAt": "2025-11-05T20:37:34.349Z",
+    "languages": {
+      "Solidity": 11782
+    }
+  },
+  "Hats-Protocol/passthrough-modules": {
+    "fetchedAt": "2025-11-05T20:37:34.472Z",
+    "languages": {
+      "Solidity": 31221
+    }
+  },
+  "hats-protocol/hats-protocol": {
+    "fetchedAt": "2025-11-05T20:37:34.616Z",
+    "languages": {
+      "Solidity": 226453
+    }
+  },
+  "Hats-Protocol/subgraph": {
+    "fetchedAt": "2025-11-05T20:37:34.746Z",
+    "languages": {
+      "TypeScript": 97648
+    }
+  },
+  "Hats-Protocol/sdk-v1-core": {
+    "fetchedAt": "2025-11-05T20:37:34.859Z",
+    "languages": {
+      "TypeScript": 377608,
+      "JavaScript": 124
+    }
+  },
+  "Hats-Protocol/colinks-eligibility": {
+    "fetchedAt": "2025-11-05T20:37:34.955Z",
+    "languages": {
+      "Solidity": 12642
+    }
+  },
+  "Hats-Protocol/hats-auth": {
+    "fetchedAt": "2025-11-05T20:37:35.093Z",
+    "languages": {
+      "Solidity": 28142
+    }
+  },
+  "Hats-Protocol/modules-sdk": {
+    "fetchedAt": "2025-11-05T20:37:35.429Z",
+    "languages": {
+      "TypeScript": 194057,
+      "JavaScript": 1406
+    }
+  },
+  "Hats-Protocol/hsg-sdk": {
+    "fetchedAt": "2025-11-05T20:37:35.558Z",
+    "languages": {
+      "TypeScript": 172735,
+      "JavaScript": 451
+    }
+  },
+  "Hats-Protocol/hats-account": {
+    "fetchedAt": "2025-11-05T20:37:35.690Z",
+    "languages": {
+      "Solidity": 142297
+    }
+  },
+  "Hats-Protocol/create-hats-app": {
+    "fetchedAt": "2025-11-05T20:37:35.828Z",
+    "languages": {
+      "TypeScript": 301799,
+      "JavaScript": 7198,
+      "CSS": 4748,
+      "HTML": 377
+    }
+  },
+  "Hats-Protocol/hats-zodiac": {
+    "fetchedAt": "2025-11-05T20:37:35.962Z",
+    "languages": {
+      "Solidity": 360775
+    }
+  },
+  "Hats-Protocol/hats-module-template": {
+    "fetchedAt": "2025-11-05T20:37:36.092Z",
+    "languages": {
+      "Solidity": 10073
+    }
+  },
+  "Hats-Protocol/season-toggle": {
+    "fetchedAt": "2025-11-05T20:37:36.209Z",
+    "languages": {
+      "Solidity": 29252
+    }
+  },
+  "Hats-Protocol/staking-eligibility": {
+    "fetchedAt": "2025-11-05T20:37:36.376Z",
+    "languages": {
+      "Solidity": 93733
+    }
+  },
+  "openocean-finance/OpenOceanExchangeV2": {
+    "fetchedAt": "2025-11-05T20:37:39.894Z",
+    "languages": {
+      "Solidity": 49232,
+      "JavaScript": 1823,
+      "TypeScript": 839
+    }
+  },
+  "lifinance/sdk": {
+    "fetchedAt": "2025-11-05T20:37:43.037Z",
+    "languages": {
+      "TypeScript": 371271,
+      "JavaScript": 2813
+    }
+  },
+  "lifinance/widget": {
+    "fetchedAt": "2025-11-05T20:37:43.176Z",
+    "languages": {
+      "TypeScript": 1169314,
+      "CSS": 5650,
+      "JavaScript": 4387,
+      "HTML": 3374
+    }
+  },
+  "lifinance/contracts": {
+    "fetchedAt": "2025-11-05T20:37:43.330Z",
+    "languages": {
+      "Solidity": 2901547,
+      "TypeScript": 919958,
+      "Shell": 472276,
+      "JavaScript": 29514,
+      "Handlebars": 22106,
+      "Nix": 2604
+    }
+  },
+  "router-protocol/router-contracts": {
+    "fetchedAt": "2025-11-05T20:37:46.833Z",
+    "languages": {
+      "Solidity": 312020,
+      "TypeScript": 139791,
+      "Shell": 8757,
+      "JavaScript": 6742,
+      "Makefile": 759
+    }
+  },
+  "PartyDAO/party-protocol": {
+    "fetchedAt": "2025-11-05T20:37:49.766Z",
+    "languages": {
+      "Solidity": 1681819,
+      "TypeScript": 36230
+    }
+  },
+  "velodrome-finance/superchain-contracts": {
+    "fetchedAt": "2025-11-05T20:37:52.942Z",
+    "languages": {
+      "Solidity": 1682150,
+      "Shell": 42883,
+      "JavaScript": 135
+    }
+  },
+  "velodrome-finance/sugar": {
+    "fetchedAt": "2025-11-05T20:37:53.083Z",
+    "languages": {
+      "Python": 106428,
+      "Dockerfile": 227
+    }
+  },
+  "velodrome-finance/universal-router": {
+    "fetchedAt": "2025-11-05T20:37:53.226Z",
+    "languages": {
+      "Solidity": 754956,
+      "TypeScript": 229696,
+      "Shell": 7009
+    }
+  },
+  "velodrome-finance/slipstream": {
+    "fetchedAt": "2025-11-05T20:37:53.360Z",
+    "languages": {
+      "Solidity": 1118014,
+      "TypeScript": 519145
+    }
+  },
+  "velodrome-finance/relay": {
+    "fetchedAt": "2025-11-05T20:37:53.513Z",
+    "languages": {
+      "Solidity": 174943,
+      "TypeScript": 10714
+    }
+  },
+  "velodrome-finance/oracle": {
+    "fetchedAt": "2025-11-05T20:37:53.659Z",
+    "languages": {
+      "Solidity": 24498,
+      "Python": 3754
+    }
+  },
+  "velodrome-finance/contracts": {
+    "fetchedAt": "2025-11-05T20:37:53.797Z",
+    "languages": {
+      "Solidity": 1556453,
+      "JavaScript": 45
+    }
+  },
+  "velodrome-finance/sugar-sdk": {
+    "fetchedAt": "2025-11-05T20:37:53.928Z",
+    "languages": {
+      "Jupyter Notebook": 13648196,
+      "Python": 213457,
+      "CSS": 600
+    }
+  },
+  "velodrome-finance/superchain-slipstream": {
+    "fetchedAt": "2025-11-05T20:37:54.082Z",
+    "languages": {
+      "Solidity": 1369217,
+      "TypeScript": 521042,
+      "Shell": 12918
+    }
+  },
+  "0xSplits/splits-oracle": {
+    "fetchedAt": "2025-11-05T20:37:57.339Z",
+    "languages": {
+      "Solidity": 423568
+    }
+  },
+  "0xSplits/splits-diversifier": {
+    "fetchedAt": "2025-11-05T20:37:57.516Z",
+    "languages": {
+      "Solidity": 28430
+    }
+  },
+  "0xSplits/splits-contracts": {
+    "fetchedAt": "2025-11-05T20:37:57.659Z",
+    "languages": {
+      "TypeScript": 72260,
+      "Solidity": 53313,
+      "JavaScript": 111
+    }
+  },
+  "0xSplits/splits-swapper": {
+    "fetchedAt": "2025-11-05T20:37:57.815Z",
+    "languages": {
+      "Solidity": 89476
+    }
+  },
+  "0xSplits/splits-sdk": {
+    "fetchedAt": "2025-11-05T20:37:57.970Z",
+    "languages": {
+      "TypeScript": 1093001,
+      "CSS": 964,
+      "HTML": 87
+    }
+  },
+  "0xSplits/splits-contracts-monorepo": {
+    "fetchedAt": "2025-11-05T20:37:58.109Z",
+    "languages": {
+      "Solidity": 424097,
+      "Shell": 6347,
+      "JavaScript": 264
+    }
+  },
+  "0xSplits/splits-waterfall": {
+    "fetchedAt": "2025-11-05T20:37:58.255Z",
+    "languages": {
+      "Solidity": 92615
+    }
+  },
+  "0xSplits/splits-vesting": {
+    "fetchedAt": "2025-11-05T20:37:58.419Z",
+    "languages": {
+      "Solidity": 51201,
+      "Makefile": 595
+    }
+  },
+  "0xSplits/splits-liquid": {
+    "fetchedAt": "2025-11-05T20:37:58.539Z",
+    "languages": {
+      "Solidity": 50775
+    }
+  },
+  "0xSplits/splits-utils": {
+    "fetchedAt": "2025-11-05T20:37:58.678Z",
+    "languages": {
+      "Solidity": 78716
+    }
+  },
+  "Vectorized/multicaller": {
+    "fetchedAt": "2025-11-05T20:38:02.036Z",
+    "languages": {
+      "Solidity": 248486,
+      "Shell": 6488
+    }
+  },
+  "debridge-finance/dln-taker": {
+    "fetchedAt": "2025-11-05T20:38:08.447Z",
+    "languages": {
+      "TypeScript": 277219,
+      "JavaScript": 3984,
+      "Dockerfile": 759,
+      "Shell": 147
+    }
+  },
+  "debridge-finance/hardhat-debridge": {
+    "fetchedAt": "2025-11-05T20:38:08.651Z",
+    "languages": {
+      "TypeScript": 5865217,
+      "Solidity": 9116,
+      "JavaScript": 354
+    }
+  },
+  "debridge-finance/dln-contracts": {
+    "fetchedAt": "2025-11-05T20:38:08.804Z",
+    "languages": {
+      "TypeScript": 236958,
+      "Solidity": 209727,
+      "JavaScript": 30779
+    }
+  },
+  "debridge-finance/debridge-contracts-v1": {
+    "fetchedAt": "2025-11-05T20:38:08.955Z",
+    "languages": {
+      "JavaScript": 311014,
+      "Solidity": 181340,
+      "TypeScript": 31120,
+      "Handlebars": 3050,
+      "Shell": 199
+    }
+  },
+  "debridge-finance/debridge-node": {
+    "fetchedAt": "2025-11-05T20:38:09.112Z",
+    "languages": {
+      "TypeScript": 189084,
+      "JavaScript": 1531,
+      "Go": 1222,
+      "Dockerfile": 891,
+      "Shell": 212
+    }
+  },
+  "Opti-domains/dispute-game-lookup": {
+    "fetchedAt": "2025-11-05T20:38:12.311Z",
+    "languages": {
+      "Solidity": 42929,
+      "Shell": 1170
+    }
+  },
+  "Opti-domains/optidomains-ens-contracts": {
+    "fetchedAt": "2025-11-05T20:38:12.453Z",
+    "languages": {
+      "JavaScript": 518291,
+      "Solidity": 375395,
+      "TypeScript": 82930,
+      "Shell": 2630
+    }
+  },
+  "Opti-domains/modular-ens-contracts": {
+    "fetchedAt": "2025-11-05T20:38:12.599Z",
+    "languages": {
+      "Solidity": 172179
+    }
+  },
+  "Opti-domains/evmgateway": {
+    "fetchedAt": "2025-11-05T20:38:12.778Z",
+    "languages": {
+      "TypeScript": 184152,
+      "Solidity": 94998,
+      "JavaScript": 1562
+    }
+  },
+  "Opti-domains/ens-diamond-resolver-v1": {
+    "fetchedAt": "2025-11-05T20:38:12.923Z",
+    "languages": {
+      "Solidity": 269134,
+      "JavaScript": 203946,
+      "TypeScript": 23477
+    }
+  },
+  "openfort-xyz/openfort-js": {
+    "fetchedAt": "2025-11-05T20:38:16.166Z",
+    "languages": {
+      "TypeScript": 1494585,
+      "HTML": 284798,
+      "JavaScript": 5012,
+      "Shell": 3228,
+      "CSS": 1523,
+      "Makefile": 817
+    }
+  },
+  "openfort-xyz/openfort-chain-abstraction": {
+    "fetchedAt": "2025-11-05T20:38:16.319Z",
+    "languages": {
+      "Solidity": 161131,
+      "Shell": 1943
+    }
+  },
+  "openfort-xyz/openfort-contracts": {
+    "fetchedAt": "2025-11-05T20:38:16.450Z",
+    "languages": {
+      "Solidity": 554794,
+      "Shell": 65740,
+      "TypeScript": 886,
+      "Dockerfile": 296,
+      "JavaScript": 185,
+      "Makefile": 43
+    }
+  },
+  "aragon/osx": {
+    "fetchedAt": "2025-11-05T20:38:21.970Z",
+    "languages": {
+      "TypeScript": 478173,
+      "Solidity": 174264,
+      "Shell": 10503,
+      "JavaScript": 2514
+    }
+  },
+  "aragon/app": {
+    "fetchedAt": "2025-11-05T20:38:22.123Z",
+    "languages": {
+      "TypeScript": 2612377,
+      "JavaScript": 12664,
+      "CSS": 470,
+      "Shell": 425
+    }
+  },
+  "etherspot/etherspot-modular-sdk": {
+    "fetchedAt": "2025-11-05T20:38:25.323Z",
+    "languages": {
+      "TypeScript": 309507,
+      "CSS": 71478,
+      "Handlebars": 29647,
+      "Shell": 762,
+      "JavaScript": 667
+    }
+  },
+  "etherspot/etherspot-prime-contracts": {
+    "fetchedAt": "2025-11-05T20:38:25.455Z",
+    "languages": {
+      "TypeScript": 749193,
+      "Solidity": 53036
+    }
+  },
+  "framesjs/frames.js": {
+    "fetchedAt": "2025-11-05T20:38:28.571Z",
+    "languages": {
+      "TypeScript": 1489349,
+      "JavaScript": 31137,
+      "CSS": 15589,
+      "HTML": 760
+    }
+  },
+  "AaveChan/aave-proposals-v3": {
+    "fetchedAt": "2025-11-05T20:38:31.810Z",
+    "languages": {
+      "Solidity": 657445,
+      "TypeScript": 156502,
+      "Makefile": 1487,
+      "Shell": 80
+    }
+  }
+}

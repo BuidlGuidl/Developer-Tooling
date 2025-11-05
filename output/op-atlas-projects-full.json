@@ -12,11 +12,8 @@
       "https://github.com/scaffold-eth/burner-connector",
       "https://github.com/scaffold-eth/se-2-docs",
       "https://github.com/scaffold-eth/create-eth",
-      "https://github.com/BuidlGuidl/SpeedRunEthereum-v2",
       "https://github.com/scaffold-eth/scaffoldeth.io",
-      "https://github.com/BuidlGuidl/SpeedRunEthereum",
-      "https://github.com/scaffold-eth/scaffold-eth-2",
-      "https://github.com/scaffold-eth/se-2-challenges"
+      "https://github.com/scaffold-eth/scaffold-eth-2"
     ]
   },
   {
@@ -31,30 +28,6 @@
       "https://pypi.org/project/snekmate",
       "https://www.npmjs.com/package/snekmate",
       "https://github.com/pcaversaccio/snekmate"
-    ]
-  },
-  {
-    "id": "0x55bff36906b3e55bff995b4a7d73fd6651eeba4274ad49e269b29157bbf2fee2",
-    "name": "8 Bit Cats☑️",
-    "description": "8-bit cats are NFTs produced with artificial intelligence. It is a successful nft collection that has reached 420 network interactions on the base network with its unique designs.",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/a6bd06ef-a0bd-4aa1-be8e-00a211a6015b.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/436760bb-94e6-4220-9102-b65ff5005758.png",
-    "twitter": "https://twitter.com/CiyiltepeE32442",
-    "repos": [
-      "https://github.com/zeus199803/8-Bit-Cats--"
-    ]
-  },
-  {
-    "id": "0x3061b642db56c507e265f03029735b0413a613bda43456a31e78128baeb18754",
-    "name": "Aave",
-    "description": "Aave is DeFi's largest lending protocol and one the most used protocols on Optimism.",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/dcd0600f-d9bf-439e-9915-5922ea8e9655.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/031491b9-252c-4b9d-b450-16f3443184d9.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/AaveChan/aave-proposals-v3"
     ]
   },
   {
@@ -114,8 +87,7 @@
     "banner_url": "https://cdn.charmverse.io/user-content/2d6a8f50-45c2-4658-a66a-74eca1149aa3/f1984493-d1a1-424e-afc1-36e1fc33f573/Ackee-Blockchain-Twitter-Banner.jpeg",
     "twitter": "ackeeblockchain",
     "repos": [
-      "https://github.com/Ackee-Blockchain/solidity-for-vscode",
-      "https://github.com/Ackee-Blockchain"
+      "https://github.com/Ackee-Blockchain/solidity-for-vscode"
     ]
   },
   {
@@ -140,30 +112,6 @@
     "twitter": "https://x.com/CyfrinAudits",
     "repos": [
       "https://github.com/Cyfrin/aderyn"
-    ]
-  },
-  {
-    "id": "0xf9ebb0464e7162627ab3de5fe03a21c879e932233e1453f2139c2126eb93f72e",
-    "name": "Air3",
-    "description": "Air3: Empowering onchain builders on Superchain.\n\nAir3 is the go to multi-chain minting platform for onchain builders. \n\nOur team is dedicated to providing a powerful, user-friendly platform that caters to the needs of builders, creators, artists, and brands at scale.\n\nWe've just launched v2 on Superchain, and while NFT drops aren't available yet, get ready for v3. \nThis complete redesign will revolutionize how you build and share your ideas with the Superchain NFT community.\n\nThe future of on-chain is Superchain, and Air3 is your gateway to success. #superchain ",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8018aeba-0198-4fd4-815a-12d712d8ac95.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/fa04accf-9a21-409d-9adb-d0cf74e42266.png",
-    "twitter": "https://x.com/air3app",
-    "repos": [
-      "https://github.com/air3app/buildair3"
-    ]
-  },
-  {
-    "id": "0x96c5627853d61ad931f8942bfdcc8b3f2507e830bad346b0d31b87c60637474e",
-    "name": "All Weather Protocol",
-    "description": "# We're the S&P 500 of Web3 - A Web3 Index Platform\n\n## For retail investors unsure what to invest in, we offer a simple, few-click solution to access the entire Web3 market with S&P 500-like stability and higher returns.\n\nAll Weather Protocol (AWP) is a Web3 index platform that simplifies portfolio management, allowing you to diversify your crypto assets and earn steady returns with just a few clicks. Leveraging Ethereum's latest Account Abstraction Wallet (AA Wallet) technology, AWP can:\n   * Automatically diversify your portfolio across multiple Web3 assets and yield strategies on different chains, reducing the risk of over-reliance on any single asset while achieving historically stable returns of 20~25% APY.\n   * Unlike traditional index platforms that custody your assets in their own contracts, AWP completes the entire index construction process and yield collection directly within your own AA wallet, allowing you to maintain full ownership without unnecessary third-party custody risks.\nDiversify your crypto portfolio today! Don't let the complexities of Web3 investing stand in the way of your financial freedom. Your Web3 S&P500!\n",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8a6b93dc-3e20-4c36-bb99-5f497e86f4b9.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/f2a2ae3c-ab2b-4780-a3dc-c7048482d1c4.png",
-    "twitter": "https://x.com/all_weather_p",
-    "repos": [
-      "https://github.com/all-weather-protocol/all-weather-frontend"
     ]
   },
   {
@@ -218,30 +166,6 @@
     "twitter": null,
     "repos": [
       "https://github.com/upnodedev/signer-proxy"
-    ]
-  },
-  {
-    "id": "0x076a2b1418a515ff8c5bb11beed5630cc6fe7f65fd8d42d4403c4364514f2a30",
-    "name": "BAG Guild Dapp",
-    "description": "BAG Guild DApp is the official decentralized application of Based Arabian Guild (BAG), designed as the central hub connecting all the guild’s activities, events, rewards, and community systems. It empowers Arabic Web3 gamers and enthusiasts to interact seamlessly with the blockchain gaming world, NFTs, tokens, and governance systems in a transparent, secure, and user-friendly environment.",
-    "category": "Social",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/5cd9da8a-ccce-418e-91c4-bed337d74065.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a914469f-6fdf-4523-90bd-e18d32395ecb.png",
-    "twitter": "https://x.com/BagGuild",
-    "repos": [
-      "https://github.com/BAGGuild/contracts"
-    ]
-  },
-  {
-    "id": "0xcb0434aaf86a5dca68f96edefc22bf04a16bbfaa48b0a4a40c844f1afb8d7b1e",
-    "name": "BASE BTC EARTH 🌍",
-    "description": "Hello, I am a designer. I am an artificial intelligence designer. I am 25 years old. I'm from Turkey. I need some support. I want to do more for Optimisim. I don't know much about Github. But everything I did here is as you want. I increased the on-chain activity and interacted with 420 wallets. https://element.market/collections/base-btc-earth",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/f7b97236-dce1-4e44-873c-74bb5f31b49c.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/963d18b8-32a1-4d7c-a09a-640cd20e4f22.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/mali030303/BASE-BTC-EARTH--"
     ]
   },
   {
@@ -564,18 +488,6 @@
     ]
   },
   {
-    "id": "0x817133c5038efbbbba5fb2165466c4ec430691eff8e6bd04b6e19cef71a23f30",
-    "name": "Crypto Stock Exchange",
-    "description": "A Decentralized Stock Exchange \n\nPlease see our presentation that accompanies this proposal: https://drive.google.com/file/d/1nyk1nORTpfhZbgY-WsTDVokwTWXdKpyY/view?usp=sharing\n\n\nWe will help people who have money on the blockchain and want to invest in stocks without having to convert it to fiat money or for those who live in countries where it is difficult to invest in stocks but is easier to buy crypto and those who like to use stock options.",
-    "category": "DeFi",
-    "thumbnail_url": null,
-    "banner_url": null,
-    "twitter": null,
-    "repos": [
-      "https://github.com/Crypto-Stock-Exchange/Demo"
-    ]
-  },
-  {
     "id": "0xa790f0641e8d72abc88efd13ca215e2dc7e736a4a59ca5a9e0020af29d6297f2",
     "name": "Crytic-Properties",
     "description": "Crytic-Properties is a suite of re-usable security tests for some of the most widely used token standards such as ERC20, ERC721, ERC4626, and more.\n",
@@ -744,18 +656,6 @@
     ]
   },
   {
-    "id": "0x85f58c1ce6ef97a8b2f4fd2b0cf4099798a598a02da7a0d2fc53ef75b5fb7fcb",
-    "name": "discord-deepseek-r1-bot",
-    "description": "First-ever Discord Bot with Deepseek R1 (Runs locally or with API)",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/ba3874e4-9cac-4688-990e-cff3d3de2153.png",
-    "banner_url": null,
-    "twitter": null,
-    "repos": [
-      "https://github.com/fzn0x/discord-deepseek-r1-bot"
-    ]
-  },
-  {
     "id": "0x46d784ec075b98efe6a23e515cad06f1b7081f082cb0c7502c68a7a76c38c9e2",
     "name": "DistriButler: Multi Token Sender for Optimism, Base & Arbitrum",
     "description": "DistriButler is a powerful multi-token sender Dapp built to streamline airdrops, rewards, and bulk transfers across Optimism, Base, and Arbitrum networks. With a focus on simplicity, security, and efficiency, it allows users to effortlessly send multiple tokens to numerous addresses in a single transaction. DistriButler reduces the complexity of managing large distributions while saving on gas fees, making it an ideal tool for Web3 projects needing efficient token transfers.",
@@ -781,47 +681,6 @@
     ]
   },
   {
-    "id": "0x6ee546715053790bda72f913925b782461830ccdcc14ad12a2f288641510f448",
-    "name": "Dragons On Op Stack 🔴",
-    "description": "Hello, I am a designer. I am an artificial intelligence designer. I am 25 years old. I'm from Turkey. I need some support. I want to do more for Optimisim. I don't know much about Github. But everything I did here is as you want. I increased the on-chain activity and interacted with 420 wallets.",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/7d8db529-7225-43f2-bc2c-ade2f7aaf7af.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/af6a4fb6-52e3-4570-840a-e6c949ff905e.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/mali030303/Dragons-On-Op-Stack--"
-    ]
-  },
-  {
-    "id": "0x1a26744683129e6e36c790c4d9ed2aba3fa08b02a1a127c5805241b9a442de3a",
-    "name": "Dspyt",
-    "description": "",
-    "category": "Governance",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/9c114ea1-adb5-4858-b4f2-40050fa74370/6bf744ca-9862-45b4-b4cb-30b14909e0ae/DSPYT.png",
-    "banner_url": "",
-    "twitter": "dspytdao",
-    "repos": [
-      "https://github.com/dspytdao/Telegram-Bot",
-      "dspytdao",
-      "https://github.com/Pfed-prog/Mantine-Web3-Template",
-      "https://github.com/BadmWe/dspyt-webpage",
-      "https://github.com/dspytdao/Telegram_bot_py_heroku",
-      "https://github.com/dspytdao/dspyt-homepage"
-    ]
-  },
-  {
-    "id": "0x10da43868e7439419af2859f2539ed8b355a0f330bd05a6d028ddff8fd4a03d8",
-    "name": "dwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadwdwawdadw",
-    "description": "wadadwdwaade",
-    "category": "CeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8330a83b-cfd2-4c07-8fd0-91f7199a31bc.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/65c7ae48-0b1d-42d2-ba02-4e62645db578.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/JSeiferth/interest-and-credit-notebooks"
-    ]
-  },
-  {
     "id": "0xf00e745fe6d96359adc3dc45d6d811bf1140549ad830d927cda5ca0b694a3063",
     "name": "EIP.Tools",
     "description": "Explore all EIPs, ERCs, RIPs and CAIPs at one place! Even indexes the EIPs in WIP status that have PRs open.\n\n- Search Functionality against all Improvement Proposals by No. or Title\n- EIP_GPT to summarize & get a gist of each Proposal\n- 3D Graph to visualize the interconnected nature of all the EIPs/ERCs\n- See Trending EIPs on the homepage\n- Bookmark and share your list of Improvement Proposals with others\n- EIP of the Day: learn about a random EIP/ERC each day",
@@ -831,18 +690,6 @@
     "twitter": "https://x.com/EIPTools",
     "repos": [
       "https://github.com/EIPTools/eip-tools"
-    ]
-  },
-  {
-    "id": "0x2ec2ba35b39cfc086d3699918596470864e1ee1631d886215d0477f3f2e09326",
-    "name": "Engagement.Vision",
-    "description": "View user engagement within different communities.",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/4c730e51-0f56-4790-99d8-485845c7f345.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/d1923218-8166-4bbb-b2c3-626b453f4b15.png",
-    "twitter": "https://x.com/jacobhomanics",
-    "repos": [
-      "https://github.com/jacobhomanicsorganization/engagement.vision"
     ]
   },
   {
@@ -1225,52 +1072,6 @@
     ]
   },
   {
-    "id": "0x808b31862cec6dccf3894bb0e76ce4ca298e4c2820e2ccbf4816da740463b220",
-    "name": "Fractal Visions",
-    "description": "Fractal Visions is an OP centric creator platform for retroactive and quadratic funding on Optimism or Base.\n\nPublic goods initiatives from across the planet need more visibility for the intention behind their cause for impact. Audio, Visual, A.i., ReFi, and DeSci projects often have a hard time finding their path in the blockchain space which is why we are here. With the help of Gitcoin grants & the rewards we have received from Retro PGF round 2 and round 3, our core engineer team has contributed to the ecosystem by building the MVP.\n\nThe implementation of our own marketplace also intertwines the open source software technology of Allo protocol. Fractal Visions hybrid grants platform for both Retroactive & Quadratic Funding established an independent grants program for Superchain contributors.\nFractal Visions impact initiative platform is utilizing the public goods ethos of Optimism with a retroactive rewards mechanism generated by the marketplace fee from sales to attract authentic creators or developers who are making a significant change with meaningful impact in the real world.",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/cea5a468-43b7-4e56-8d1f-05f03ef1be0e.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/d59aeedc-8d10-40e0-980b-a2b3e29feea4.png",
-    "twitter": "https://twitter.com/Fractal_Visions",
-    "repos": [
-      "https://github.com/Fractal-Visions/dynamic-contracts",
-      "https://github.com/Fractal-Visions/marketplace-v3-OP",
-      "https://github.com/FractalVisionsNFT/soneium-satoshi-mint",
-      "https://github.com/FractalVisionsNFT/FractalVisionsV2",
-      "https://github.com/FractalVisionsNFT/FractalVisionsV3",
-      "https://github.com/FractalVisionsNFT/Database-Summary",
-      "https://github.com/Fractal-Visions/brand-kit",
-      "https://github.com/FractalVisionsNFT/erc721-superchain-bridge",
-      "https://github.com/FractalVisionsNFT/soneium-creative-chaos",
-      "https://github.com/FractalVisionsNFT/nft-minting-template",
-      "https://github.com/FractalVisionz/superchain"
-    ]
-  },
-  {
-    "id": "0xf173b116c6383d6d7557d633de525a4535543265d800af3d8b15bc224dbab982",
-    "name": "FrameMaker",
-    "description": "FrameMaker - Tilda in the frames world of Warpcast. Our goal is to make it easy to create frames for users who don't know coding.\n\nFrameMaker allows you to create frames to delegate votes in the Optimism chain, making it easy to attract delegates, participate in governance, and significantly increase audience engagement in the ecosystem.\n\nOur project was created by active top 100 delegates (https://vote.optimism.io/delegates/0x03dde7b6c372bc6c748ae1af65497b74a70492fa) and Optimism ecosystem ambassadors. \n\n*More than 600 people have already created over 1,500 frames.",
-    "category": "Social",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/d1381b96-cab8-47fd-8604-9db0532a067e.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/d21682b6-7ab7-47ae-90a4-3ee7a7938dec.png",
-    "twitter": "https://x.com/devs_degens",
-    "repos": [
-      "https://github.com/holova/Framemaker"
-    ]
-  },
-  {
-    "id": "0x9d93ec97ef2d3bd4c2b8d95abac9ce0cf43e4f3eb1f05709f8282da8200e69ee",
-    "name": "Frames.js",
-    "description": "frames.js is the leading open source javascript library and debugging environment to help developers make Frames for Farcaster, XMTP and Lens faster & easier. \n\nWe also have been building and maintaining a library for apps to adopt frames in their apps that has been integrated by the Base team in their Base names product.",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/230e8ac2-cea9-4cab-8b4f-8fd58ec6553e.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a2dce749-56d7-44d7-a9cc-ffc08255e0f2.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/framesjs/frames.js"
-    ]
-  },
-  {
     "id": "0xbcfa7063514406f498f2792ae6435bf488709709391cebfa260a552703b4a8f9",
     "name": "GDWeb3",
     "description": "GDWeb3 is a GDScript library for interacting with blockchain networks(The first support is Optimism). It will provide Web3 game developers with a powerful game development engine. For game developers in the Godot ecosystem, it will offer an SDK for developing blockchain games.",
@@ -1437,18 +1238,6 @@
     ]
   },
   {
-    "id": "0xab28184ffcd1429ce9bbcffdba320787e9d2ab1e2f365352af3b5a9ef64f4600",
-    "name": "Hydrex",
-    "description": "Hydrex is an Omni-Liquidity ve(3,3) protocol built on Base for Base, designed to bring new users onchain.",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/5681dfed-6756-4f13-a5db-1c9e6d0a1b51.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/529c4bcc-291b-4700-a728-70deb4a1b438.png",
-    "twitter": "https://x.com/hydrexfi",
-    "repos": [
-      "https://github.com/hydrexfi/hydrex-lists"
-    ]
-  },
-  {
     "id": "0x07222a857f4522026d91faec337e3cb8cf6ec5f7afb823e0742e1a6c398b81ff",
     "name": "Impersonator.xyz",
     "description": "Log-in to dapps as any address via WalletConnect, iFrame or Browser Extension\n\nImpersonator has benefitted the following Optimism users:\n- Traders: With impersonator they can log-in to dapps as whale wallets and study how they have setup their positions in detail.\n\n- Dapp users: They can access dapps on-the-go in view-only mode! They no longer have to keep their Metamask or Hardware wallet nearby just to visit the dapp dashboard. Impersonator works without private-keys.\n\n- Developers:\n- They can test how their dapp would respond for users with various token balances\n- Grab the transaction calldata being generated by dapps and simulate it via tenderly",
@@ -1503,18 +1292,6 @@
     "twitter": "https://x.com/web3privacy",
     "repos": [
       "https://github.com/web3privacy/jobs-app"
-    ]
-  },
-  {
-    "id": "0xd6622026215d1489594ab9bb76b1e652eae1fd42d1804f870ec30721bc03f292",
-    "name": "Jolt Finance",
-    "description": "An aave fork launching on Optimism Mainnet",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/b7d86111-4076-4c8a-9b9e-31109023f35a.png",
-    "banner_url": null,
-    "twitter": "https://x.com/jolt_finance",
-    "repos": [
-      "https://github.com/joltfi/smart-contracts"
     ]
   },
   {
@@ -1592,19 +1369,6 @@
     "twitter": "https://x.com/L2_Pass",
     "repos": [
       "https://github.com/L2PASS/contracts"
-    ]
-  },
-  {
-    "id": "0xb8cc15b51b7ae9acd5b771bb7872a9d54a9f19562e5a37df3a7d9b31044099df",
-    "name": "Ladders.Vision",
-    "description": "View any NFT on the Superchain in the most decentralized way.",
-    "category": "NFT",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/a99551c8-c8e7-45a0-8dde-2325783d743b/cf08dec5-02d3-42a1-99fe-b524d7f05738/ladders.webp",
-    "banner_url": "",
-    "twitter": "jacobhomanics",
-    "repos": [
-      "https://github.com/jacobhomanics/scaffold-nft",
-      "hotmanics/scaffold-nft"
     ]
   },
   {
@@ -1709,18 +1473,6 @@
     ]
   },
   {
-    "id": "0xf82e835f4ba5ce558d9c15ed5d9703eac1db3132dae06ab91e19528c8b153474",
-    "name": "Metal Forge",
-    "description": "# Metal Forge - Project Description for Optimism Collective\n\n## Project Overview\n\n**Metal Forge** is the world's first comprehensive blockchain-powered platform dedicated to the extreme metal music ecosystem. Built natively on Optimism Network, we're revolutionizing how underground metal artists monetize their music and connect with their global fanbase through Web3 technology.\n\n## What We Do\n\n### Core Platform Features\n\n**🎵 Demo Vault & Crypto Streaming**\n- Artists upload underground demos and earn instant ETH micropayments for each stream\n- Fans directly support musicians through seamless crypto transactions\n- 80% revenue share goes directly to artists, powered by Optimism's low-cost transactions\n\n**🤘 Legion Database**\n- The largest decentralized database of extreme metal bands worldwide\n- Complete band archives with lineups, discographies, and histories\n- Community-driven content with verification systems\n\n**🎨 NFT Forge**\n- Mint unique metal collectibles including band logos, album art, and exclusive memorabilia\n- Native Optimism smart contracts for gas-efficient minting and trading\n- Rare collectibles marketplace for physical and digital metal artifacts\n\n**👥 Underground Community**\n- Global network of metalheads with achievement badges and reputation systems\n- Social features connecting fans across geographical boundaries\n- Reward mechanisms for community participation and content creation\n\n## Technical Innovation\n\n### Blockchain Integration\n- **Native Optimism deployment** for fast, affordable transactions\n- **Web3 wallet integration** using Reown AppKit for seamless user experience\n- **Smart contract architecture** for automated royalty distribution\n- **IPFS storage** for decentralized music and metadata hosting\n\n### Technology Stack\n- **Next.js 15** with App Router for optimal performance\n- **TypeScript** for type-safe development\n- **Tailwind CSS** for responsive design\n- **Ethers.js** for blockchain interactions\n\n## Market Opportunity\n\nThe extreme metal music industry has been underserved by traditional streaming platforms that don't understand the underground culture. Metal Forge addresses this gap by:\n\n- **Direct artist monetization** without intermediaries\n- **Authentic community building** around extreme music genres\n- **Preservation of underground culture** through decentralized technology\n- **Global accessibility** for artists in regions with limited music industry infrastructure\n\n## Why Optimism\n\nWe chose Optimism Network because:\n\n- **Low transaction costs** enable micropayments for music streaming\n- **Fast confirmation times** provide smooth user experience\n- **Ethereum compatibility** allows integration with existing Web3 infrastructure\n- **Strong developer ecosystem** supports our technical requirements\n- **Commitment to public goods** aligns with our mission to support underground artists\n\n## Current Status\n\n**Development Phase**: Frontend architecture complete with 20+ pages and components\n**Features Implemented**: \n- Wallet connection and user authentication\n- Multi-step artist onboarding\n- Badge and achievement system\n- Responsive UI/UX design\n- Web3Modal integration\n\n**Next Milestones**:\n- Smart contract deployment on Optimism\n- Backend API development\n- IPFS integration for music storage\n- Beta testing with select metal artists\n\n## Impact Goals\n\n- **Empower 10,000+ underground metal artists** with direct monetization tools\n- **Create sustainable income streams** for extreme music creators\n- **Preserve and promote** underground metal culture globally\n- **Demonstrate Web3 utility** in creative industries beyond mainstream adoption\n\nMetal Forge represents the convergence of authentic underground culture with cutting-edge blockchain technology, creating unprecedented opportunities for extreme metal artists to thrive in the digital economy while maintaining their artistic integrity.",
-    "category": "Social",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1bd4580f-1a37-41f9-9b95-2eef713b9a7a.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/9cf20526-303d-4e14-bc4f-3d6dcbfa297a.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/CratosPL/metalfogreapp2025"
-    ]
-  },
-  {
     "id": "0xcd032b75396f45f1ef82c8a38142352afa6071fbcd840480408e10e2aab9006d",
     "name": "miniapp starters",
     "description": "miniapp starters is a set of open-source starter templates designed to make it easier to build Farcaster miniapps, with support for Worldcoin integrations as well.\n\nMiniapp Starters came out of our own journey building miniapps. Along the way, we found ourselves creating common patterns and components repeatedly, so we decided to turn that work into a set of reusable, community-friendly templates. Now, anyone can kickstart their own miniapp projects without reinventing the wheel.",
@@ -1788,18 +1540,6 @@
     ]
   },
   {
-    "id": "0x1480383a90f1ab95cfedee6ea130dca700e5236eceb7dcf3f08a0e96b43c90aa",
-    "name": "MonstersOnBase",
-    "description": "Hello, I am a designer. I am an artificial intelligence designer. I am 25 years old. I'm from Turkey. I need some support. I want to do more for Optimisim. I don't know much about Github. But everything I did here is as you want. I increased the on-chain activity and interacted with 420 wallets.",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/ef7bc6d3-c915-4390-9d7f-f781d6f7fea3.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/6cf81b2e-43b7-4645-ab66-39f71cb1132b.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/mali030303/MonstersOnBasee"
-    ]
-  },
-  {
     "id": "0xfc54b4a9c537be25238cba3f05100b733aeee83a3eb3fdae60d651b3b913390c",
     "name": "Multicaller",
     "description": "Multicaller is a suite of hyper-optimized contracts that allows for batched calls, while allowing \"forwarding\" the `msg.sender`.",
@@ -1813,18 +1553,6 @@
     ]
   },
   {
-    "id": "0xeb6d215732b1ed881e718faa8bf8b4b88a94edf021efa9a3cf3e2cc3c22b0961",
-    "name": "Multichaintools",
-    "description": "Hi. I´m Ben and just interested in tech.... \nI was tired of all these gm chain sites that are charging money for a simple contract call, so I deployed my own contracts on multiple chains and are giving it out for free.\nBuild now also a Hyperlane msg with custom fees possible and lets see.... daily working on it.",
-    "category": "Utility",
-    "thumbnail_url": null,
-    "banner_url": "https://storage.googleapis.com/op-atlas/a3d0e8cd-bedd-4425-a20f-c4d6e237cf0d.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/lalaland83/multichaintools"
-    ]
-  },
-  {
     "id": "0x4a5e771af86cf1938056b43cddbf0018dca1376d578f631f7449fe10ac4958ed",
     "name": "Nethereum",
     "description": "",
@@ -1834,30 +1562,6 @@
     "twitter": null,
     "repos": [
       "https://github.com/Nethereum/Nethereum"
-    ]
-  },
-  {
-    "id": "0x60565a1ff56360c729ec5e33b27040acd6d495e35e328fec7ec5a493b9c533e2",
-    "name": "New Project",
-    "description": "This is my project",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1262ec72-6d09-48f1-b14a-d40779721d6c.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/4fbc9045-512f-427f-8f47-c4fe9440057a.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/JSeiferth/RFsignup"
-    ]
-  },
-  {
-    "id": "0x2df0b4b72977134030cd30fadc6ec5239f9f107205c0638e29c15a02ca7c87d5",
-    "name": "Newsletter",
-    "description": "Weekly newsletter with round-up of the most important news happening around privacy in Web3.",
-    "category": "Social",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/6a557511-c087-44e7-82a3-5ac71e2a2252.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/072a45fa-121d-42b7-8214-da0657576356.png",
-    "twitter": "https://x.com/web3privacy",
-    "repos": [
-      "https://github.com/web3privacy/news"
     ]
   },
   {
@@ -1899,30 +1603,6 @@
     ]
   },
   {
-    "id": "0xd7a8e115b2b3772d7d5656d7798e349dcdedf2463302c78528c9e9686ab4efe3",
-    "name": "OmniHub",
-    "description": "OmniHub NFT launchpad invites you to explore the boundless realms of creativity. Create your own collection in just a few clicks. This is where the future of art is born.\n\nOmniHub is a universal platform that empowers creators, artists, and entrepreneurs to launch and manage their NFT collections. With user-friendly tools and multi-network support, OmniHub simplifies the process of exploring, developing, and showcasing unique digital assets in the evolving NFT space.",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/98782a35-819f-4d02-a2dd-9e0156308b63.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/197fe561-4691-45ed-806f-60ca9851859f.png",
-    "twitter": "https://x.com/omni_hub",
-    "repos": [
-      "https://github.com/omnihub-xyz/blockchain"
-    ]
-  },
-  {
-    "id": "0xa1f96576ad998e804140caccd478bae81b8b1059a107166df87b59fbf42c9e4a",
-    "name": "OnChainGM",
-    "description": "OnChainGM is a multi-chain Web3 social experience that allows users to send daily GM transactions on-chain and deploy their own smart contracts across 30+ networks, including Optimism. Our mission is to make on-chain interactions a daily ritual while simplifying contract deployment for everyone in the ecosystem.",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/c2701411-4e5c-4dcc-a5ba-f95566645206.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/b13042b0-c51a-4154-966c-30b1fc5a31fa.png",
-    "twitter": "https://x.com/OnChainGm",
-    "repos": [
-      "https://github.com/OnChainGM/OnChainGM"
-    ]
-  },
-  {
     "id": "0x66cce776ce6eaa99192120fc25b91ecc7b98e03210a08f0d3bfda82f542d3e1a",
     "name": "OP ENS Gateway by Opti.Domains",
     "description": "Opti.Domains has developed an ENS Gateway implementation for OP Stack chains that supports various proofs, including those from L2OutputOracle, Dispute Game, and Anchor State. The appropriate proof is automatically selected based on the configuration of the OP Stack chain.\n\nThe Opti.Domains ENS Gateway automatically upgrades in response to the OP Stack's transition from L2OutputOracle to Dispute Game, requiring no manual intervention or updates to the verifier contract or gateway server.\n\nThe ENS Gateway, specifically the EVMGateway, enables trustless cross-chain data retrieval for ENS names deployed on Layer 2 networks like Optimism with a CCIP Gateway. When an ENS name lookup occurs, the resolver reverts with OffchainLookup containing the gateway URL. The client then contacts the gateway, which returns the requested data. This data is passed to a callback function on the resolver for verification before being returned to the client as the final result of the name lookup.\n\nOur ENS Gateway has a mechanism to ensure liveliness even in the event that the respected dispute game type has suddenly changed, as seen in the recent proposal, 'Upgrade Proposal #10: Granite Network Upgrade,' by storing a backup dispute game type and only trusting its anchor state.\n\nOpti.Domains has also developed social verification and attestation to EAS in collaboration with Bored Town. We are on our way to scaling ENS to OP. We have contributed to the ENS OP Gateway development, which is currently under review by ENS core developers.\n\nThe Namespace team has expressed interest and reached out to us with questions about using our OP ENS Gateway. Additionally, several teams have participated in discussions regarding the development of our OP ENS Gateway.",
@@ -1952,26 +1632,6 @@
     "twitter": "",
     "repos": [
       "https://github.com/Aymen-Tirchi/op-stack-deployer"
-    ]
-  },
-  {
-    "id": "0x5cfdb8c453a7eede1946071e9d7417d01cc2116f57563b87dc0094a6bdb9a081",
-    "name": "OP Toolkit",
-    "description": "👋 Hey Optimism Collective!\n I’m a PLDG Developer (https://github.com/seetadev/pldg-dashboard), an initiative by Protocol Labs, Digital Public Goods Builder on Optimism and Filecoin, and Py-libp2p maintainer (https://pypi.org/project/libp2p/ ). My work focuses on protocol design, EVM compatibility, and decentralized infrastructure for Filecoin, libp2p, and IPFS. Through Py-libp2p, I’m committed to Ethereum and Filecoin scaling, decentralized storage, and on-chain compute, creating public goods that empower the Ethereum ecosystem.\n\n🚀 Scaling Optimism and Filecoin with Py-libp2p\n\n1️⃣ Token-Gated Access for Public Goods\nWe’re developing Py-libp2p-powered ERC-20 utility tokens on Optimism and Filecoin Mainnet, enabling decentralized access control for healthcare and mobility use cases. This ensures:\n ✅ Fair, trustless access to decentralized services\n ✅ Efficient and transparent resource allocation\n ✅ Cross-chain compatibility between Optimism, Ethereum, and Filecoin.\n\n2️⃣ Enhancing Developer Tooling with Py-libp2p\nWe’re optimizing Py-libp2p for seamless integration with Filecoin and Optimism’s OP Stack, enabling Ethereum developers to leverage libp2p’s trustless, scalable networking. Key improvements include:\n ✅ QUIC transport for high-speed, low-latency communication.\n ✅ TCP & WebRTC-based connections for decentralized apps.\n ✅ Optimized modularity to support Optimism and Filecoin’s developer ecosystem.\n\n3️⃣ EtherCalc Integration for Data Management & Visualization\nWe’re integrating EtherCalc, a decentralized spreadsheet, for tabulation, computation, organization, and visualization of data across OP Stack and Filecoin. This supports:\n ✅ On-chain and off-chain data organization for Optimism projects.\n ✅ Collaborative, real-time data visualization.\n ✅ Decentralized governance and analytics.\n\n4️⃣Performance Optimization: Gossipsub Metrics with Shadow Simulator\nTo ensure scalability and reliability for Optimism and Filecoin’s modular stack, we are using Shadow, a high-fidelity network simulator, to evaluate and optimize Gossipsub performance in Py-libp2p. This enables:\n ✅ Scalability benchmarking of Gossipsub under real-world traffic loads.\n ✅ Latency and message propagation analysis to optimize libp2p pubsub.\n ✅ Network resilience testing under adversarial conditions.\n\nAdditionally, we are Dockerizing the Shadow simulation output to provide real-time visualizations with EtherCalc.\nBy integrating these performance metrics, Optimism builders gain a more scalable, fault-tolerant, and efficient networking layer for rollups and decentralized applications.\n\n🔗 Why This Matters for Optimism\n1️⃣ Decentralized Networking for Modular Ethereum\n Py-libp2p strengthens Optimism’s modular rollup architecture, providing decentralized networking and storage solutions.\n2️⃣ Interoperability for Public Goods\n Connecting Filecoin and Optimism unlocks scalable storage and compute for Ethereum builders.\n3️⃣ Optimized Performance with Gossipsub\n Shadow simulator benchmarks will improve libp2p's pubsub efficiency, reducing latency and increasing throughput.\n4️⃣ Open-Source Developer Tooling\n All Py-libp2p advancements remain open-source, benefiting Optimism and the broader Ethereum ecosystem.\n\nPy-libp2p is not just a tool—it’s the backbone for scalable, decentralized, and high-performance networking for P2P builders in Optimism and Filecoin eco-system. Let’s build it together!🚀 \n\n\n",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/66fdc742-e2e0-4a45-b77a-4e97a01a1845.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/c0982922-284b-4688-ab6a-a7205d589bd5.png",
-    "twitter": "https://x.com/OP_medicine_DAO",
-    "repos": [
-      "https://github.com/aspiringsecurity/EMTTR",
-      "https://github.com/seetadev/py-libp2p",
-      "https://github.com/libp2p/py-libp2p",
-      "https://github.com/seetadev/op-conceirge-suite",
-      "https://github.com/seetadev/pldg-dashboard",
-      "https://github.com/seetadev/ZKMedical-Billing",
-      "https://github.com/seetadev/py-libp2p-yamux",
-      "https://github.com/seetadev/das-simulator-nim",
-      "https://github.com/AspiringDevelopers/dst-gossipsub-test-node"
     ]
   },
   {
@@ -2039,19 +1699,6 @@
     ]
   },
   {
-    "id": "0x1335476de5a24573f3fa1297827fbeb02921948d678b399c7367fb956d08a6cc",
-    "name": "Opstack For Cats Dream ☑️",
-    "description": "I am a builder who deals with the production of nft in all L2s. I create my NFTs with artificial intelligence. I think my imaginary collection of cats is worthy of receiving an award on optimism.",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/aaff6a85-cd3e-4066-8f03-f09359b3a900.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/318a51e5-edfa-4564-8937-8508d3041a72.png",
-    "twitter": "https://twitter.com/CiyiltepeE32442",
-    "repos": [
-      "https://github.com/users/zeus199803/projects/1",
-      "https://github.com/zeus199803/Opstack-For-Cats-Dream-"
-    ]
-  },
-  {
     "id": "0xd9d413772483111ca8ecfe5054737c6c80a65f03c0d289c632b05e3ec21d5680",
     "name": "Opstack Kit",
     "description": "Bridging hooks for OP Stack Chains\nnpm i opstack-kit | is a toolkit for all upgrades. To easily connect and interact with the OP-Stack (Superchain)\n\n📝 - Focus on Your Dapp\nEffortlessly create awesome OP-Stack (Superchain) sites with just npm i opstack-kit.\n\n🧑‍💻 - Enjoy the \"opstack-kit\"\nInstant server start, lightning fast hot updates, and leverage OP-Stack (Superchain) ecosystem.\n\n⚙️ - Customize with OP-Stack\nUse syntax and components directly in \"opstack-kit\", or build custom themes.\n\n🚀 - Ship Fast Sites\nStart creating quickly \"opstack-kit\" after that deploy it to your network.\n\nFeatures\n- Simplifies cross L1 & L2 interactions\n- Supports \"CustomGasToken\" deposit & withdrawal functions\n- Supports multi-functionality & new fault-proof feature\n- CLI command development tools (prove, finalize)",
@@ -2074,18 +1721,6 @@
     "twitter": "https://x.com/EthStorage",
     "repos": [
       "https://github.com/zhiqiangxu/opup"
-    ]
-  },
-  {
-    "id": "0x578d022acd70130def85327e2926a2ed4545e08617ced951ef54a872f5a2a5f5",
-    "name": "Orki Finance",
-    "description": "Permissionless credit and stablecoin protocol.\n\nBorrow against staked assets on your own terms.",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/371ef456-5f22-4a53-bc25-34415207fb8f.png",
-    "banner_url": null,
-    "twitter": "https://x.com/OrkiFi",
-    "repos": [
-      "https://github.com/Orki-Finance/contracts"
     ]
   },
   {
@@ -2219,18 +1854,6 @@
     ]
   },
   {
-    "id": "0x18539618cdbab1c37092e7e0bd8e03c7c4037a55b8a356215bc15c8d6a8c68dd",
-    "name": "Purrmissionless Proofs",
-    "description": "Purrmissionless Proofsallows developers to test, simulate, and fine-tune their blockchain networks in a sandbox environment. Featuring purr-fectly tailored tools like \"Meow Metrics\" for performance monitoring and \"Scratch Testers\" for stress testing, it ensures your blockchain is as agile and reliable as a cat landing on its feet!",
-    "category": "Social",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/9255df42-16c0-4d86-9264-1d814ea2abf1.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/955c3ee0-0ddd-444c-ad7f-6ea242d19d38.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/shaunop/shaun_1"
-    ]
-  },
-  {
     "id": "0x63f8e1e35986862f0bb24a619b72d12459497d2b6b94d93a9f2c232d376c54dc",
     "name": "RainbowKit Theme Generator",
     "description": "Easily create custom RainbowKit theme from a single color that you can copy and paste into your web3 apps.",
@@ -2317,77 +1940,6 @@
     "twitter": null,
     "repos": [
       "https://github.com/joshstevens19/rindexer"
-    ]
-  },
-  {
-    "id": "0x9b639cc6061e41a1d12adb39619a2fddb7005074cf965a3a6f4eabc6eea31112",
-    "name": "Ronan Sandford",
-    "description": "I am a game dev that fell in the rabbit hole of crypto in 2016 when I discovered Ethereum and started to think about  fully onchain games.\n\nStarted to build one back in 2017 and released 3 more since then. I am fascinated by the possibility of worlds without owner: Autonomous World\n\nI setup a company of which I am the sole owner and member: Etherplay. And with it I set up to explore this exciting new domain. While this is currently only me, it will hopefully grow into something bigger as time goes by.\n\nThe games built are \n- https://ethernal.land\n- https://conquest.game\n- https://stratagems.world\n\nall open source and Stratagem is the one deployed on Base\n\nTo build these game I had to build tools to support them. This includes hardhat-deploy, fuzd, clones-with-immutables, ethereum-indexer, missiv and more",
-    "category": "Social",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/4a992d33-6e9c-4395-b6eb-4848be0b3b47.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/13ca0bd1-8d6e-4f67-bf75-8261888b974b.png",
-    "twitter": "https://x.com/wighawag",
-    "repos": [
-      "https://github.com/wighawag/solidity-proxy",
-      "https://github.com/wighawag/stratagems",
-      "https://github.com/wighawag/ethereum-contracts-test-suite",
-      "https://github.com/wighawag/ethereum-tx-observer",
-      "https://github.com/wighawag/fuzd",
-      "https://github.com/wighawag/hardhat-preprocessor",
-      "https://github.com/wighawag/ldenv",
-      "https://github.com/wighawag/catacombs",
-      "https://github.com/etherplay/ethernal",
-      "https://github.com/wighawag/missiv",
-      "https://github.com/wighawag/clones-with-immutable-args",
-      "https://github.com/wighawag/mandalas",
-      "https://github.com/wighawag/bleeps",
-      "https://github.com/wighawag/forge-deploy",
-      "https://github.com/wighawag/named-logs",
-      "https://github.com/wighawag/pwag",
-      "https://github.com/wighawag/rocketh",
-      "https://github.com/wighawag/vitest-solidity-coverage",
-      "https://www.npmjs.com/package/as-soon",
-      "https://github.com/wighawag/the-bleep-machine",
-      "https://github.com/wighawag/yooloot",
-      "https://github.com/wighawag/forge-exec",
-      "https://www.npmjs.com/package/change-name",
-      "https://www.npmjs.com/package/eip-1193",
-      "https://www.npmjs.com/package/eip-1193-json-provider",
-      "https://github.com/wighawag/autonomous-dungeon",
-      "https://github.com/etherplay/conquest-eth",
-      "https://www.npmjs.com/package/web3-connection",
-      "https://www.npmjs.com/package/solidity-proxy",
-      "https://github.com/wighawag/blockies-nft",
-      "https://www.npmjs.com/package/set-defaults",
-      "https://github.com/wighawag/bomber-woman",
-      "https://www.npmjs.com/package/rocketh",
-      "https://www.npmjs.com/package/remote-account",
-      "https://www.npmjs.com/package/pwag",
-      "https://www.npmjs.com/package/named-logs-console",
-      "https://www.npmjs.com/package/named-logs",
-      "https://www.npmjs.com/package/missiv",
-      "https://www.npmjs.com/package/ethereum-contracts-test-suite",
-      "https://github.com/wighawag/erc721-lease",
-      "https://www.npmjs.com/package/ethereum-indexer",
-      "https://www.npmjs.com/package/ethereum-tx-observer",
-      "https://www.npmjs.com/package/ldenv",
-      "https://www.npmjs.com/package/ipfs-gateway-emulator",
-      "https://github.com/wighawag/hardhat-deploy",
-      "https://www.npmjs.com/package/forge-deploy",
-      "https://www.npmjs.com/package/forge-exec",
-      "https://www.npmjs.com/package/forge-exec-ipc-client",
-      "https://www.npmjs.com/package/fuzd",
-      "https://www.npmjs.com/package/hardhat-deploy",
-      "https://www.npmjs.com/package/ihardhat-preprocessor",
-      "https://github.com/wighawag/solidity-kit",
-      "https://github.com/wighawag/transfer-gateway",
-      "https://github.com/wighawag/eip721-subgraph",
-      "https://github.com/wighawag/as-soon",
-      "https://github.com/jolly-roger-eth/web3-connection",
-      "https://github.com/jolly-roger-eth/ethereum-indexer",
-      "https://github.com/jolly-roger-eth/eip-1193",
-      "https://github.com/wighawag/universal-forwarder",
-      "https://github.com/etherplay/secp256k1-db"
     ]
   },
   {
@@ -2515,18 +2067,6 @@
     ]
   },
   {
-    "id": "0x52b74da84ea50e0a6ddb28c1c78e0baaa284b7a95298cf23bf65dafd7b0c6d19",
-    "name": "Skeleton ERA 💀",
-    "description": "Hello, I am an NFT designer. I have created 4 solid collections in Superchain. I am 25 years old. And I want to do more.",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/5966b8ec-5441-44a8-86d7-8158106aa8fd.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/44ebeedf-de0f-4b4c-a293-bcd7b2596a38.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/mali030303/Skeleton-ERA--"
-    ]
-  },
-  {
     "id": "0xdc3dce33fd5fb50cf932586d4257456ddf5040ba0955d97641646504c73dbd13",
     "name": "Slither",
     "description": "Slither is a Solidity and Vyper static analysis framework written in Python3. \n\nIt runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses. Slither enables developers to find vulnerabilities, enhance their code comprehension, and quickly prototype custom analyses.\n\nSlither has been used for many years by both security engineers and developers to secure their smart contracts. \n\nBy allowing developers to find the most common vulnerabilities on their smart contracts, Slither helps to improve the security of the Optimism ecosystem.\n\nSlither has 90+ detectors, and works on both Solidity and Vyper. In addition it provides printers, helping to review quickly features of contracts. It's python API can also be used to leverage its inbuilt analysis for custom needs.\n\nSlither can directly be run on a contract deployed on optimism, with `slither optim:0x..ADDRESS`",
@@ -2536,18 +2076,6 @@
     "twitter": "https://x.com/trailofbits",
     "repos": [
       "https://github.com/crytic/slither"
-    ]
-  },
-  {
-    "id": "0x2cb7fb23e5d066f65a80a09b2eab34d76bbac06de1af16c31dcf2e54119639c3",
-    "name": "Smellcheckmate",
-    "description": "Smell Checkmate is the first and only mobile app that allows you to rate others' hygiene, smell, and attitude anonymously. Our goal is to help people become aware of their appearance without hurting their feelings. Solving the Gap over the world..!!",
-    "category": "Social",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/eb3a7749-48e4-4acb-97c3-2c75a06cf354.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/8ed8b0c0-20c4-4304-a40d-47807613dfea.png",
-    "twitter": "https://x.com/Smellcheckmate",
-    "repos": [
-      "https://github.com/samir0x/smellcheckmate"
     ]
   },
   {
@@ -2735,43 +2263,15 @@
     ]
   },
   {
-    "id": "0xaa1b878800206da24ee7297fb202ef98a6af0fb3ec298a65ba6b675cb4f4144b",
-    "name": "Stepan's project",
-    "description": "Ignore this project -- I'm not actually applying for funding. This project was created to run E2E test on OP-Atlas",
-    "category": "CeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/c9612bd9-3423-4e20-a3f9-f654444b5853.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/da83183a-0deb-4b2a-a5d2-6a55a92124e3.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/stepandel/eas-resolver",
-      "https://github.com/flayerlabs/flaunchgg-contracts"
-    ]
-  },
-  {
     "id": "0x77a0eb2debb3ddd73bb629ae482d24771ef1b59029d28a04e13570c9e9644c44",
     "name": "Stereum L2 Optimism Integration",
-    "description": "Stereum  is dedicated to advancing Ethereum through open-source and open development. Our commitment lies in reducing technical barriers, supporting decentralization, and enhancing security within the Ethereum(EVM) ecosystem.\nWe integrated Optimism as an Integration into our Node Setup and Maintenance Gui based tool. Everybody is now able to spin up an Optimism node connected to a Ethereum node within minutes. Enabling low infratech people to access multilayer architectures completly by themselves, decentralized, 100% free, 100% untracked, 100% auto updated. \nAfter everytthing is synced you now are able to access \n1)your own RPC endpoint \n2)your onw data api \n3) your own websockets \nboth Ethereum and Opitimism. \nAs we would love to integrate further Optimistic rollups into our software we would be honoured and feel apreaciated if you would grant us a grant ",
+    "description": "Stereum is dedicated to advancing Ethereum through open-source and open development. Our commitment lies in reducing technical barriers, supporting decentralization, and enhancing security within the Ethereum(EVM) ecosystem.\nWe integrated Optimism as an Integration into our Node Setup and Maintenance Gui based tool. Everybody is now able to spin up an Optimism node connected to a Ethereum node within minutes. Enabling low infratech people to access multilayer architectures completly by themselves, decentralized, 100% free, 100% untracked, 100% auto updated. \nAfter everytthing is synced you now are able to access \n1)your own RPC endpoint \n2)your onw data api \n3) your own websockets \nboth Ethereum and Opitimism. \nAs we would love to integrate further Optimistic rollups into our software we would be honoured and feel apreaciated if you would grant us a grant ",
     "category": "Utility",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/47b18b46-5440-406c-8e07-bfcf27f8aa6e.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/a80d7697-6c6f-4f71-bfc1-7576b933dad4.png",
     "twitter": "https://x.com/stereumdev",
     "repos": [
       "https://github.com/stereum-dev/ethereum-node"
-    ]
-  },
-  {
-    "id": "0xf9a4e3b240bf6d40ee533e5ed63a8288b1a739ee382b1f23ccc5229b7bc8a498",
-    "name": "Summer.fi",
-    "description": "The best place to Borrow and Earn in DeFi\nPower up your portfolio by Borrowing, Lending and Multiplying your favourite assets. Made Safe and Easy by industry leading automation tools.",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/c5162386-faba-416c-8c5b-7fc89dbcabd0.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/ee14bd4a-1008-40b3-9f0f-da9c77b641f5.png",
-    "twitter": "https://x.com/summerfinance_",
-    "repos": [
-      "https://github.com/OasisDEX/summerfi-monorepo",
-      "https://github.com/OasisDEX/defi-position-manager-smartcontracts",
-      "https://github.com/OasisDEX/oasis-earn-sc",
-      "https://github.com/OasisDEX/summer-earn-protocol"
     ]
   },
   {
@@ -2787,31 +2287,6 @@
     ]
   },
   {
-    "id": "0x8bfdc42f26bf691d378d2073ae509c46b85c0eed8db8abc6987b6725dd0d056a",
-    "name": "Superfluid ",
-    "description": "Superfluid RETROPGF BADGEHOLDER ,RETRO FUNDING PROJECT, opRetro",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/1d1109a0-4974-4e27-a933-445eb7c9176d.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/87cfefb8-22dd-42b2-b82c-1244146f0dd6.png",
-    "twitter": "https://x.com/Sangjenar1",
-    "repos": [
-      "https://github.com/must479/zora-protocol",
-      "https://github.com/must479/ethereum-org-website",
-      "https://github.com/must479/simple-taiko-node",
-      "https://github.com/must479/openzeppelin-contracts",
-      "https://github.com/must479/splits-contracts",
-      "https://github.com/must479/app",
-      "https://github.com/must479/base",
-      "https://github.com/must479/master-op",
-      "https://github.com/must479/eth-docker",
-      "https://github.com/must479/go-ethereum",
-      "https://github.com/must479/ecosystem-contributions",
-      "https://github.com/must479/account-abstraction",
-      "https://github.com/must479/chainlink",
-      "https://github.com/must479/optimism"
-    ]
-  },
-  {
     "id": "0x40483b3554ae17882db98d1cfd3aae6b10ba8250736279d184fd947931ed02c3",
     "name": "Superfuse",
     "description": "Superfuse, is a toolchain and knowledge hub to build cross-chain contracts in Superchain Ecosystem. It includes:\n\n1) Superfuse wizard: It is a code generator/ interactive developer playground to develop a part of smart contract/deploy script/ test suites out of components from cross-chain specification. Select kind of contract that you want (eg. ERC7802, SuperchainERC20, and ERC20Votes).\n\n\n2) suerfuse-forge: a developer-friendly framework/library in solidity to build a variations of cross-chain contracts in superchain Ecosystem",
@@ -2822,18 +2297,6 @@
     "repos": [
       "https://github.com/Ratimon/superfuse-wizard",
       "https://github.com/Ratimon/superfuse-forge"
-    ]
-  },
-  {
-    "id": "0x8f7edabd00cd8a9bc0065eec465bd3d97ebe3f4632c8d3d52b336a9bc1d8fb3a",
-    "name": "SuperSwap",
-    "description": "SuperSwap is the first DEX aggregator on Ink, Kraken's Layer 2 blockchain, solving liquidity fragmentation across Ink-based DEXs. Our mission is to drive Ink adoption through seamless tools, starting with the aggregator and expanding to cross-chain swaps on the Superchain, and fiat-to-Superchain solutions.",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/f26f5a13-aade-4344-a5cf-2c596f6cc067.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/719a5ee2-1de5-410e-96de-b88e2bf4084a.png",
-    "twitter": "https://x.com/superswapink",
-    "repos": [
-      "https://github.com/SuperSwapink/SuperSwap-UI"
     ]
   },
   {
@@ -2851,7 +2314,7 @@
   {
     "id": "0x5c0234455c4b86b05ed0c612ac0d7e53cd2249686305af9b2184190b781b8063",
     "name": "Surl",
-    "description": " HTTP Library for Solidity based on curl ",
+    "description": "HTTP Library for Solidity based on curl ",
     "category": "Utility",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9379802f-3bc8-4e72-a0ad-f4a267ef4d42.png",
     "banner_url": null,
@@ -2896,31 +2359,6 @@
     "repos": [
       "https://github.com/RathFinance/tachyon-account",
       "https://github.com/RathFinance/tachyon-forwarder"
-    ]
-  },
-  {
-    "id": "0x2d38180d3da676251f337260f2a48fe03015629fce52943282f4d99ef8edba12",
-    "name": "Test 2",
-    "description": "lalala",
-    "category": "Social",
-    "thumbnail_url": null,
-    "banner_url": null,
-    "twitter": null,
-    "repos": [
-      "https://github.com/SaraxCG/Test"
-    ]
-  },
-  {
-    "id": "0x51504348243d8e8fa59cf2ba983d9255373e5eb23fe22a0d18c0d36028561ace",
-    "name": "Test Project",
-    "description": "Test Description",
-    "category": "CeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/caa05043-0907-40f2-b7a8-7be260de726e.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/dedb2e3d-695a-4808-9c3e-b9130335f934.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/JSeiferth/Testing",
-      "https://github.com/JSeiferth/Testingthisthing"
     ]
   },
   {
@@ -3014,43 +2452,6 @@
     ]
   },
   {
-    "id": "0x84893ce34d8069c43d8814db55a1ff5d472e4765650f0c37c1156b5ce97421ff",
-    "name": "TPulseFi",
-    "description": "I m a founder TPulseFi project (Worldapp)",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/91d24951-16d6-44a7-9338-a0f4e64ecddc.png",
-    "banner_url": null,
-    "twitter": "https://x.com/TradePulseToken",
-    "repos": [
-      "https://github.com/tradepulse-hub/tpulsefi_newapp",
-      "https://github.com/tradepulse-hub/tpfmain0101"
-    ]
-  },
-  {
-    "id": "0x935315db8c17993464cfb28337442ad60c6cd434305130a1d5d898e92d6d8123",
-    "name": "Trash NFTs",
-    "description": "Trash NFTs is a project built on Base that leverages the unique properties of the ERC404 token standard. We had the idea for Trash NFTs as a way to combine artichokelord’s incredible artwork with novel tech to create something fun that pushed the boundaries of what’s possible for a memecoin. We chose to build Trash NFTs on Base because we believe in the future of the Superchain and the supportive community of builders it fosters.\n\nBetween the two contracts associated with Trash NFTs, the project has generated over 1300 onchain transactions.\n\nDemo video: https://youtu.be/KORe_xnJx1w?si=6V52TlkOfLz3hySz\nVideo of artichokelord drawing the art: https://warpcast.com/trashnfts/0xc65d2a4e\n\nERC404 is an experimental token standard pioneered by Pandora on February 2, 2024. ERC404 tokens embrace characteristics of both ERC20 and ERC721 tokens: They are “semi-fungible,” enabling both highly liquid markets and uniqueness within a single asset. This allows collectors to sell their tokens when they want and in pieces, if they’d like, as well as introduces the ability to reroll your NFT traits by making more transactions. ERC404s are inherently fractionalized and designed to work natively with existing DeFi protocols. While innovative, it’s important to note that ERC404 is also experimental.\n\nWhen we first launched $TRASH, we forked Pandora’s contract and raced to be one of the first, if not the first project to deploy an ERC404 on Base. Pandora’s contract was limited to 5 variations of artwork, images that implied a reveal down the line, so we followed suit with 5 closed-lid NFTs of different rarities. Our next goal was to have a PFP collection with the lids removed, so we came up with the idea to create a new contract where you could stash your $TRASH and mint a Dumpster Diver. This contract is named The Dumpster. It is open source and available to any other ERC404 token that wishes to fork it to enable their holders to redeem their ERC404 token for an ERC721.\n\nIn addition to the ability to mint an ERC721 by depositing an ERC404, the Dumpster contract enables holders of Dumpster Divers PFP tokens to burn their ERC721 to redeem the original ERC404 that the ERC721 was minted with (retaining the rarity and token ID). A small cleaning fee (0.00042069 ETH, updatable by governance) is charged, and this mechanism can also be used for regenerating/rerolling or ‘recycling’, Dumpster Diver PFPs to get the desired traits.\n\nWe have grown to 185 holders and have generated $44k from trade fees (50% of which is $TRASH and 100% of which is reinvested in providing liquidity for our pools), and 1,654,148 DEGEN (~$40k) from liquidity mining rewards. We were also a finalist in the Backdrop Build V3 Accelerator Program (top 5% of applicants). \n\nTrash NFTs have built an effective machine: by owning the LPs that facilitate the swaps into $TRASH we capture 1% of the volume and store that in our treasury. We have two liquidity pools: 1) TRASH/ETH and 2) TRASH/ DEGEN, the rapidly growing meme token with utility in the Farcaster network and beyond. This exposes Trash NFTs to volatility, which generates more revenue because arbitrage bots stabilize the price across pools. \n\nTrash NFTs is also governed by a DAO called Waste Management that was initially allocated 20% of all $TRASH tokens. This DAO collects the cleaning fees associated with trait rerolls as well as the transaction fees and LP rewards from its DeFi activities. Finally, Trash NFTs has entered the meatspace by hosting a trash pickup event during Farcon 2024 with /humankind. \n\nWe are proud of Trash NFTs, as it has maintained and proven to be a sound investment for its holder base while operating successfully. There are definite improvements we continue working toward: 1) expanding growth efforts to the broader 404 ecosystem with partnerships (such as Scattering.io with which we have built a relationship) and promotion, 2) revamping The Dumpster website for a more seamless experience and 3) engaging the community to take leadership in expanding the DAO.",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/66f38c49-43d4-4812-831f-1b9792c23fbe.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/82043814-846b-47d4-9326-9a095dfeb70c.png",
-    "twitter": "https://x.com/trashNFTs404",
-    "repos": [
-      "https://github.com/TrashNFTs/Dumpster-Divers"
-    ]
-  },
-  {
-    "id": "0x41b61476ed56e21754276efdd23d62fabdcdb6e97a37a5a797d9a6c8e977d1dd",
-    "name": "Tribo Vault",
-    "description": "Tribo Vault is a mini app for the safe staking of our token CDT. The APY starts at 0.13% daily (~47.45% annual). Coins always remain in users' wallets. We sell CDT boxes and offer a 2x boost to multiply rewards — APY can reach up to 94.9%. Users can claim CDT rewards every 24 hours.",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/64dd3c24-fe29-41ca-9223-e238380f157f.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/56857fdb-e5b3-4d69-8e6d-4903ef6ff538.png",
-    "twitter": "https://x.com/tribocdt",
-    "repos": [
-      "https://github.com/CamiloTribo/cdt-soft-stake"
-    ]
-  },
-  {
     "id": "0x492d0bbb85672e7e5f1d439bfd8857ac0aa59a52010143bbaab1a411bf55be0c",
     "name": "TurtleShell",
     "description": "One day you wake up and your protocol got exploited …maybe you heard of Circuit Breakers as attempt to end that quite real nightmare.\n\nWith TurtleShell we are aiming to give every Smart Contract holding Assets the necessary bolster to prevent unintended outflow.\n\nAvailable open-source tools include:\n- Smart Contract SDK\n- Frontend SDK, for visualizing relevant security data",
@@ -3107,18 +2508,6 @@
       "https://github.com/upnodedev/opstack-bridge-ui",
       "https://github.com/upnodedev/opstack-bridge-indexer",
       "https://github.com/upnodedev/opstack-bridge-indexer-v2"
-    ]
-  },
-  {
-    "id": "0xb65d1a1f56c8bacffb8e8d7bfac237d459927bfb8924d25cc4f68c1996128abf",
-    "name": "Usecase Generator",
-    "description": "Privacy idea generator to generate ideas curated by the Web3Privacy Now community and experts.",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/328e5cfb-c289-45ef-bf69-322417c70b83.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a3fe7163-6615-4739-8bb0-bb63e331a691.png",
-    "twitter": "https://x.com/web3privacy",
-    "repos": [
-      "https://github.com/web3privacy/hackathonusecases"
     ]
   },
   {
@@ -3214,18 +2603,6 @@
     ]
   },
   {
-    "id": "0x6f455f9608732bc84e184233ac638310be78375076f4e77a9d3d5eff17907a3a",
-    "name": "vscode opstack debugger",
-    "description": "A VS Code extension to scan Solidity contracts for errors and run Hardhat tests on Base Sepolia, simplifying smart contract development for Optimism's Superchain.",
-    "category": "Utility",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/f3f84181-570f-4e12-8423-a9ca6babb05c.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a1efc461-e643-46a8-a047-ad68d2d00148.png",
-    "twitter": "https://x.com/ArsalanG75523/status/1939265722862936202",
-    "repos": [
-      "https://github.com/arsalang75523/.vscode-opstack-debugger"
-    ]
-  },
-  {
     "id": "0x819775803938d78eaa95809971ce94cae6a54b4df58505fa36153ffa1d55e12c",
     "name": "Vscode Solidity Extension",
     "description": "Solidity support for Visual Studio code\nVersion Downloads Installs Rating\n\nSolidity is the language used in Ethereum to create smart contracts, this extension provides:\n\nSyntax highlighting\nSnippets\nCompilation of the current contract (Press F1 Solidity : Compile Current Solidity Contract), or F5\nCompilation of all the contracts (Press F1 Solidity : Compile all Solidity Contracts), or Ctrl + F5 or Cmd + F5\nCode completion for all contracts / libraries in the current file and all referenced imports\nGoto definition\nFind all references in project\nHover information\nCode actions / quick fixes (change compiler, format address, add sdpx license.. )\nMono repo support (identifies the project by finding the files: remappings.txt, foundry.toml, brownie-config.yaml, truffle-config.js, hardhat.config.js, hardhat.config.ts)\nDefault project structure (solidity files needs to be in the src/ directory, and libraries in the lib/ directory). Libraries will follow the same structure.\nCompilation supporting EIP82 (dappfile and dependency packages)\nSupport for different solidity versions (Remote and local)\nDownload source code and Abi from Etherscan\nCode generation using Nethereum, it includes currently the default template for Nethereum service, dtos generation. (Open 'contractName.json' after compilation from the bin folder. Press F1 and press Solidity: Code generate from compilation output..) Auto generation of Nethereum files on compilation\nLinting using Solhint or Ethlint\nIt is also available as a standalone LSP",
@@ -3259,18 +2636,6 @@
     "twitter": "https://x.com/vyperlang?lang=en",
     "repos": [
       "https://github.com/vyperlang/vyper"
-    ]
-  },
-  {
-    "id": "0x70624cd9a8be4ead96e5097025eb645b9848e2643e5025a4006dee2cff1a4138",
-    "name": "WAGMI",
-    "description": "🚀 WAGMI is the memecoin marketplace, designed for both Traders and Creators. Now everyone has a chance to effortlessly create and trade memecoins securely.\n\n✔️ One-click creation, profitable trading, and endless fun await with WAGMI:\n• Create your memecoin just for $3\n• Get community support from WAGMI\n• Trade, analyze & chat in one place\n• Receive rewards being Trader or Creator\n• Safe trading, it is impossible to scam or get scammed on WAGMI",
-    "category": "DeFi",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/c1d88475-f853-44d6-82f4-d237bf52515e.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/32a4c74c-0a17-4d7b-947d-a378b7134ef9.png",
-    "twitter": "https://x.com/WagmiFairLaunch",
-    "repos": [
-      "https://github.com/wagmi1337/onchain-monorepo"
     ]
   },
   {
@@ -3375,19 +2740,6 @@
     ]
   },
   {
-    "id": "0x6a13d3e82b5a090fca8ff9ee8ce2637cef515fc24f51760f76f36030b76e0a55",
-    "name": "Wild Water Bottle Cap Token",
-    "description": "A tokenized Real World Asset (RWA) where the supply of the token matches the actual number of bottle caps that Jacob Homanics owns in the physical world.",
-    "category": "DeFi",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/a99551c8-c8e7-45a0-8dde-2325783d743b/e46e784d-007d-42e4-abf5-14580a92ddf0/294c2096-b771-4d91-ad9d-047fb380eaee.png",
-    "banner_url": "",
-    "twitter": "jacobhomanics",
-    "repos": [
-      "https://github.com/jacobhomanics/wild-water-bottle-cap-token",
-      "Hotmanics/wild-water-bottle-cap-token"
-    ]
-  },
-  {
     "id": "0x537097f27d55cb52d39b95c3ed65076349ab68aac48051d742d715456e0884d8",
     "name": "xdeployer",
     "description": "Hardhat plugin to deploy your smart contracts across multiple EVM chains with the same deterministic address. A total of 133 EVM chains are currently supported, including (almost) all OP-stack-powered chains.",
@@ -3452,15 +2804,16 @@
     ]
   },
   {
-    "id": "0xa2447abd4724c68eff8635f01a39a46bd00a2380a56513fbcd430653cfd74c98",
-    "name": "ZNS",
-    "description": "Decentralized naming solutions for the #Web3 🟢\nPersonalized for blockchain interactions with #AI\n\n255.000 domains on mainnet \n555.000 domains on testnet",
-    "category": "NFT",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/fc6d6546-8d5e-40dc-94b4-c9891e9db7fc.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/d166202b-eb0c-4819-829c-6c7b1fc0309d.png",
-    "twitter": "https://twitter.com/ZNSConnect",
+    "id": "manually-inserted:speedrun-ethereum",
+    "name": "Speedrun Ethereum",
+    "description": "SpeedRunEthereum is a hands-on series of challenges designed to help you learn by building. Each challenge delivers one key 'aha' moment, a mental unlock about how Ethereum really works. At the same time, you'll be building your Ethereum portfolio to show to prospective employers.",
+    "category": "Utility",
+    "thumbnail_url": "",
+    "banner_url": "",
+    "twitter": "https://x.com/BuidlGuidl",
     "repos": [
-      "https://github.com/ZNS-Connect/zns-docs"
+      "https://github.com/BuidlGuidl/SpeedRunEthereum-v2",
+      "https://github.com/scaffold-eth/se-2-challenges"
     ]
   }
 ]

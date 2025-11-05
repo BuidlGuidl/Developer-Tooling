@@ -6,7 +6,8 @@
     "fetch": "tsx src/fetch-bigquery.ts",
     "tag": "tsx src/add-project-tags.ts",
     "tag:resume": "tsx src/add-project-tags.ts",
-    "tag:ollama": "tsx src/add-project-tags-ollama.ts"
+    "tag:ollama": "tsx src/add-project-tags-ollama.ts",
+    "cleanup-tags": "tsx src/cleanup-tags.ts"
   },
   "devDependencies": {
     "@google-cloud/bigquery": "^7.9.1",
