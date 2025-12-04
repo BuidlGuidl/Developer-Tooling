@@ -2804,16 +2804,27 @@
     ]
   },
   {
-    "id": "manually-inserted:speedrun-ethereum",
-    "name": "Speedrun Ethereum",
-    "description": "SpeedRunEthereum is a hands-on series of challenges designed to help you learn by building. Each challenge delivers one key 'aha' moment, a mental unlock about how Ethereum really works. At the same time, you'll be building your Ethereum portfolio to show to prospective employers.",
+    "id": "0x9d93ec97ef2d3bd4c2b8d95abac9ce0cf43e4f3eb1f05709f8282da8200e69ee",
+    "name": "Frames.js",
+    "description": "frames.js is the leading open source javascript library and debugging environment to help developers make Frames for Farcaster, XMTP and Lens faster & easier. \n\nWe also have been building and maintaining a library for apps to adopt frames in their apps that has been integrated by the Base team in their Base names product.",
     "category": "Utility",
-    "thumbnail_url": "",
-    "banner_url": "",
-    "twitter": "https://x.com/BuidlGuidl",
+    "thumbnail_url": "https://storage.googleapis.com/op-atlas/230e8ac2-cea9-4cab-8b4f-8fd58ec6553e.png",
+    "banner_url": "https://storage.googleapis.com/op-atlas/a2dce749-56d7-44d7-a9cc-ffc08255e0f2.png",
+    "twitter": null,
     "repos": [
-      "https://github.com/BuidlGuidl/SpeedRunEthereum-v2",
-      "https://github.com/scaffold-eth/se-2-challenges"
+      "https://github.com/framesjs/frames.js"
+    ]
+  },
+  {
+    "id": "0x3061b642db56c507e265f03029735b0413a613bda43456a31e78128baeb18754",
+    "name": "Aave",
+    "description": "Aave is DeFi's largest lending protocol and one the most used protocols on Optimism.",
+    "category": "DeFi",
+    "thumbnail_url": "https://storage.googleapis.com/op-atlas/dcd0600f-d9bf-439e-9915-5922ea8e9655.png",
+    "banner_url": "https://storage.googleapis.com/op-atlas/031491b9-252c-4b9d-b450-16f3443184d9.png",
+    "twitter": null,
+    "repos": [
+      "https://github.com/Aave"
     ]
   }
 ]
