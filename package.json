@@ -5,17 +5,7 @@
   "scripts": {
     "fetch": "tsx src/fetch-bigquery.ts",
     "tag": "tsx src/add-project-tags.ts",
-    "tag:resume": "tsx src/add-project-tags.ts",
-    "tag:ollama": "tsx src/add-project-tags-ollama.ts",
-    "tag:readme": "tsx src/tag-with-readme.ts",
-    "tag:readme:generate": "tsx src/tag-with-readme.ts --phase generate",
-    "tag:readme:filter": "tsx src/tag-with-readme.ts --phase filter",
-    "tag:top": "tsx src/show-top-tags.ts",
-    "tag:review": "tsx src/review-tag.ts",
-    "tag:batch-review": "tsx src/batch-review-tags.ts",
-    "cleanup-tags": "tsx src/cleanup-tags.ts",
-    "tags:unique": "tsx src/list-unique-tags.ts",
-    "build:atlas-tags": "tsx src/build-op-atlas-tags.ts"
+    "project:add": "tsx src/add-manual-project.ts"
   },
   "devDependencies": {
     "@google-cloud/bigquery": "^7.9.1",
