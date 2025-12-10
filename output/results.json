@@ -14,7 +14,8 @@
       "cli",
       "transaction-management"
     ],
-    "website": "https://mcp.direct"
+    "website": "https://mcp.direct",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x2b77364f9d227b9b41ed84281857dcf016685e73ba909071a1b93135a4a0b7d9",
@@ -30,7 +31,8 @@
       "transaction-signing",
       "abi-encoding"
     ],
-    "website": "https://mhw0.github.io/libethc/"
+    "website": "https://mhw0.github.io/libethc/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xd7a4742a0a40480ce176892bb619295d2cdd357d7ad09411beaff6278014c191",
@@ -45,7 +47,8 @@
     "tags": [
       "analytics",
       "storage-layout"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x926606219b6876c28d7185401763b7492decd48a7e89a2fd27de9dbf176507ad",
@@ -63,7 +66,8 @@
       "security",
       "encryption"
     ],
-    "website": "https://github.com/ngmisl/etherml"
+    "website": "https://github.com/ngmisl/etherml",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x2d90d9565ef127727845637425880545cfebe0931160ce25afe929f8ab415706",
@@ -79,7 +83,8 @@
       "frontend",
       "user-experience"
     ],
-    "website": "https://node.tevm.sh"
+    "website": "https://node.tevm.sh",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x9dc9d9b8f79644cbe8634b022d4dd5ecaf4e438a71fe26256598f6e0d85a33a0",
@@ -95,7 +100,8 @@
       "cross-chain",
       "sdk"
     ],
-    "website": "https://superbeam.gitbook.io/superbeam"
+    "website": "https://superbeam.gitbook.io/superbeam",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x6f8f610667400044907494c879b717e806a03bf519dcfd786edc7f2fa61d6db8",
@@ -117,7 +123,8 @@
       "json-rpc",
       "cli"
     ],
-    "website": "https://open-rpc.org"
+    "website": "https://open-rpc.org",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x66818708d041152b7f9b45ee48e56ab6507ad493955fd256b62d7c9d8a27724f",
@@ -137,7 +144,8 @@
       "cross-chain",
       "docker"
     ],
-    "website": "https://www.bloctopus.io"
+    "website": "https://www.bloctopus.io",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x56ce7cbc27852a8d8ef5869dc9033a215c8893f799468f61527dacb9f92be790",
@@ -153,7 +161,8 @@
     "tags": [
       "json-rpc"
     ],
-    "website": "https://alloy.rs/"
+    "website": "https://alloy.rs/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xeef42373d10554d65aba9e6deb8333a4eddebba829e0afea0dc93e32d8075d2d",
@@ -171,7 +180,8 @@
       "erc721",
       "runtime-verification"
     ],
-    "website": "ercx.runtimeverification.com"
+    "website": "ercx.runtimeverification.com",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x738c0967c0f70a0a78d8794dcf2c40540f60ea9568e163dd5826b85e8e2a9a79",
@@ -190,7 +200,8 @@
       "cross-chain",
       "transaction-optimization"
     ],
-    "website": "enso.build"
+    "website": "enso.build",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x414ffb06789667ba95546e05e0456445145d3de23b05b3a8ce051cbc142bfb3f",
@@ -204,24 +215,8 @@
     ],
     "tags": [
       "authentication"
-    ]
-  },
-  {
-    "id": "0xfbc74fb5d15b7b2554277371a41ee6ff1bf392377bce5fbfce140c2980cc4f64",
-    "name": "Revoke.cash",
-    "description": "Revoke.cash provides 100% free and open source security tooling and education.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/bdbe8e18-5c93-4eca-b81c-f14ba070c682.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/a157371f-f244-4604-b8c6-0b1e5aa31c00.png",
-    "twitter": "https://x.com/RevokeCash",
-    "repos": [
-      "https://github.com/RevokeCash/revoke.cash",
-      "https://github.com/RevokeCash/browser-extension"
     ],
-    "tags": [
-      "education",
-      "security"
-    ],
-    "website": "https://revoke.cash"
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x696c9b46af5eeaa2fcfa86f23da23ed1ce7938df67d90d422e6ba7ee2604b512",
@@ -239,7 +234,8 @@
       "natural-language-processing",
       "developer-experience"
     ],
-    "website": "https://ethernaut-app.vercel.app/"
+    "website": "https://ethernaut-app.vercel.app/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x5200a7351f8d195401dc04631fb83e4836f73a2794f316b2739c03807f30a78b",
@@ -255,7 +251,8 @@
       "cli",
       "debugging-tools"
     ],
-    "website": "https://github.com/eth-brownie/brownie"
+    "website": "https://github.com/eth-brownie/brownie",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xc850d11fe786d1168bfeda108721101427dd5425d9d9e6595c35573f7616e940",
@@ -270,7 +267,8 @@
     "tags": [
       "cross-chain"
     ],
-    "website": "https://pay.daimo.com/"
+    "website": "https://pay.daimo.com/",
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0xf9c5d092fac6ad924253d685cc7ba21d4e519813e673a3a8300f33cb3a6b4e06",
@@ -285,7 +283,8 @@
     "tags": [
       "erc721"
     ],
-    "website": "https://www.nftscan.com/"
+    "website": "https://www.nftscan.com/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x8af71ece7f50d6962b589b19854ceac72b81e5f5b3014637b262c33809d5a395",
@@ -306,7 +305,8 @@
       "debugging-tools",
       "runtime-verification",
       "vyper"
-    ]
+    ],
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x4562c0630907577f433cad78c7e2cc03349d918b6c14ef982f11a2678f5999ad",
@@ -326,7 +326,8 @@
       "continuous-integration",
       "fuzz-testing",
       "performance-optimization"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x35295108e0c7b4625d650fbdabd4888417782539f56159d39ac2f0e2411f607b",
@@ -343,7 +344,8 @@
       "cli",
       "testing"
     ],
-    "website": "https://www.kurtosis.com"
+    "website": "https://www.kurtosis.com",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x85af258d3fae6bbd2e14ffa8f5b73b64e34b7f8efe685c40134c3f54774e8d6c",
@@ -362,7 +364,8 @@
       "cli",
       "account-abstraction"
     ],
-    "website": "https://etherspot.io/skandha/"
+    "website": "https://etherspot.io/skandha/",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x1e7a1f9763d25b6844567a7133b1005ef6ed785642a75229acf1b9b25202a5f3",
@@ -377,7 +380,8 @@
     "tags": [
       "frontend",
       "indexing"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x2866fcc8ea2ad6cc691b8367023c08ba84a34a14685b0154ba4601b7d4981069",
@@ -394,7 +398,8 @@
       "transaction-signing",
       "cli"
     ],
-    "website": "https://github.com/miguelmota/go-ethereum-hdwallet"
+    "website": "https://github.com/miguelmota/go-ethereum-hdwallet",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0xa873dcdcc84e0022edd2f7d5cc8646667b87bf06609d506cd8e39dbd7412fa59",
@@ -411,7 +416,8 @@
       "foundry",
       "mcp-server",
       "solidity-development"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xcd032b75396f45f1ef82c8a38142352afa6071fbcd840480408e10e2aab9006d",
@@ -434,7 +440,8 @@
       "type-safe",
       "analytics"
     ],
-    "website": "https://www.builders.garden/"
+    "website": "https://www.builders.garden/",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0xc6cac7cd3793888032cc8a9e5aef92550beeec2598f86f1ec6972ffd5b82a990",
@@ -450,7 +457,8 @@
       "solidity",
       "code-quality"
     ],
-    "website": "https://github.com/prettier-solidity/prettier-plugin-solidity"
+    "website": "https://github.com/prettier-solidity/prettier-plugin-solidity",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xa790f0641e8d72abc88efd13ca215e2dc7e736a4a59ca5a9e0020af29d6297f2",
@@ -467,7 +475,8 @@
       "erc721",
       "fuzz-testing",
       "solidity"
-    ]
+    ],
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x2a04bac7482169a929fd70444bbfac10654d0588e022db7527566dbfc307d2e9",
@@ -482,7 +491,8 @@
     "tags": [
       "cli",
       "solidity"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xb9996d35862a7c60282da2adf3447f043580f586fcb702ff6869896d15ef6344",
@@ -499,7 +509,8 @@
       "governance",
       "analytics",
       "fuzz-testing"
-    ]
+    ],
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0xdc3dce33fd5fb50cf932586d4257456ddf5040ba0955d97641646504c73dbd13",
@@ -517,7 +528,8 @@
       "solidity",
       "vyper",
       "continuous-integration"
-    ]
+    ],
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x7cbd306b4b54416b83eb723a79b88d09554e245b1d7b29e7e4b7958ca1011d1f",
@@ -534,7 +546,8 @@
       "debugging-tools",
       "type-safe"
     ],
-    "website": "https://ethdebug.github.io/format/"
+    "website": "https://ethdebug.github.io/format/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xcdeb1723ae43478e77b36f2b6dea33f9485963a66ca951408faad33e13452e10",
@@ -550,7 +563,8 @@
       "cli",
       "scalability"
     ],
-    "website": "https://www.wakeuplabs.io/"
+    "website": "https://www.wakeuplabs.io/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x77a0eb2debb3ddd73bb629ae482d24771ef1b59029d28a04e13570c9e9644c44",
@@ -568,7 +582,8 @@
       "api",
       "privacy-focused"
     ],
-    "website": "https://stereum.com"
+    "website": "https://stereum.com",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x363b77a4022f98f4d529b8a771d22f49b1092293980aab154fff63980bd1b2bf",
@@ -584,7 +599,8 @@
       "cli",
       "debugging-tools"
     ],
-    "website": "https://github.com/Rubilmax/viem-tracer"
+    "website": "https://github.com/Rubilmax/viem-tracer",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xfbecd6308658b3d40a5249d4b249d10537165f57ea528cc796aef5ce1eb1f0d8",
@@ -602,7 +618,8 @@
       "contract-deployment",
       "transaction-optimization"
     ],
-    "website": "https://github.com/Rubilmax/executooor"
+    "website": "https://github.com/Rubilmax/executooor",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x5999c3a9311c71fd2e02078c406d417565a3d04efe52570ba294be75a5befac8",
@@ -619,7 +636,8 @@
       "docker",
       "contract-management"
     ],
-    "website": "https://ethstorage.io/"
+    "website": "https://ethstorage.io/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x5c0234455c4b86b05ed0c612ac0d7e53cd2249686305af9b2184190b781b8063",
@@ -634,7 +652,8 @@
     "tags": [
       "solidity",
       "foundry"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xf4f7d13f2ac3c9805998d8540950883b872d7c5d7c81d6254dde8655af690b2a",
@@ -650,7 +669,8 @@
       "cli",
       "support",
       "contract-verification"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xe01f00da2ba1f43dd0dd1e2b93bbfc5a84021ded7e6d414e86fa12a8d4eeb347",
@@ -667,7 +687,8 @@
       "sdk",
       "multicall",
       "user-experience"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x471ef1b671bc421d04640a7fe832365c1aec2d298adc81f03d69a685b7cc894c",
@@ -682,7 +703,8 @@
     "tags": [
       "transaction-decoding"
     ],
-    "website": "https://loop-decoder-web.vercel.app/"
+    "website": "https://loop-decoder-web.vercel.app/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x0cc5d7a8088f227787992130b3cffe143db1c904af1ac27324f84e762b84f35c",
@@ -700,7 +722,8 @@
       "education",
       "solidity"
     ],
-    "website": "https://solarity.dev/"
+    "website": "https://solarity.dev/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xb024f6abfa79f7eb7af334f56015509bb70355709991d31bc689c7bea3250f7e",
@@ -720,7 +743,8 @@
       "code-quality",
       "test-automation",
       "continuous-integration"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xfeafe16f8c1a25aebe754f3653340a17943a483a3e389464e44cf14613e210f0",
@@ -741,7 +765,8 @@
       "storage-layout",
       "code-quality",
       "security"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x48220ef1d103189cd918e9290db4c4b99b463ae2817fb5ef0cc54556a7961b6f",
@@ -756,7 +781,8 @@
     "tags": [
       "encryption"
     ],
-    "website": "https://github.com/keccak256js/keccak256"
+    "website": "https://github.com/keccak256js/keccak256",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x3ec2d572a608cf939eaf7886402320b3b2229610c13bdb5cb0776bd097331e5a",
@@ -774,7 +800,8 @@
       "solidity-development",
       "storage-layout",
       "code-analysis"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xf152ccbfb3aa63c2ddcc070dc6d4462368eb25b69c3c3137cc459189af681402",
@@ -791,7 +818,8 @@
       "docker",
       "cli"
     ],
-    "website": "https://www.derive.xyz/"
+    "website": "https://www.derive.xyz/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xbd393d380c995845e0b26365d91e9730403baa30b4a80e955be1ab5713bba709",
@@ -807,7 +835,8 @@
       "defi",
       "gas-optimization"
     ],
-    "website": "https://www.derive.xyz/"
+    "website": "https://www.derive.xyz/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x46aff4985914b8e56b8fd62a9b8c3a03e2320315a9dfd6126e5ae272173cda87",
@@ -825,7 +854,8 @@
       "visualization",
       "docker",
       "scalability"
-    ]
+    ],
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xc66e357ad67e63954cd1eb79da4d507d8800518f06c82e423e93e8771e7b8d13",
@@ -838,7 +868,8 @@
       "https://github.com/Brahma-fi/console-kit"
     ],
     "tags": [],
-    "website": "https://www.brahma.fi/"
+    "website": "https://www.brahma.fi/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x90bbb485004d99e20be133d2c26abc1f63a2c1ec8107358e87853b001bfb6597",
@@ -856,7 +887,8 @@
       "solidity-development",
       "community-driven"
     ],
-    "website": "https://www.cyfrin.io/updraft"
+    "website": "https://www.cyfrin.io/updraft",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0x62d9a8a3b602c688610abfbe3965e04ca0d19c5c506f40e79cd185cb501d2018",
@@ -875,7 +907,8 @@
       "security",
       "encryption"
     ],
-    "website": "https://paulmillr.com/noble/"
+    "website": "https://paulmillr.com/noble/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xded45f5b4e2be2487ef301591cf49859e95ed6d2b33743a0c0b5e15c25e17694",
@@ -892,7 +925,8 @@
       "peer-to-peer",
       "real-time-data"
     ],
-    "website": "https://github.com/meldsun0/utp"
+    "website": "https://github.com/meldsun0/utp",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xe9495ac0f2a00d424f4f2dca80fe34c59c78d5cbf9acad0536c4c0ede540e053",
@@ -908,7 +942,8 @@
       "wallet",
       "game-development",
       "user-experience"
-    ]
+    ],
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x44ff313ae6fb57054de6d637adae710594180239badaf2bc51889d068f4cf02b",
@@ -930,7 +965,8 @@
       "modular-accounts",
       "upgradeable-contracts",
       "developer-experience"
-    ]
+    ],
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x4e13be6b98dd868cd13e9f4101431ab03d211f429b63f078fa7da260b54d256a",
@@ -948,7 +984,8 @@
       "solidity",
       "foundry"
     ],
-    "website": "https://www.alchemy.com/"
+    "website": "https://www.alchemy.com/",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x0c85267cd9d7e694e385467c9984fbc787228db0cf03e57254a5116001eac4ee",
@@ -964,24 +1001,8 @@
     "tags": [
       "performance-optimization"
     ],
-    "website": "https://rath.fi/"
-  },
-  {
-    "id": "0x45a05710ec665203dc05dfb3024e42532468fa6b75e6927c2da539d7fcac4f4f",
-    "name": "Open Labels Initiative",
-    "description": "This initiative tackles the issue of isolated and non-standardized datasets of address labels within the blockchain community. It introduces a flexible, open and community owned framework for anyone to use and contribute to. In addition to the framework, we also provide tooling for an open labels pool (based on attestations) as well as trust algorithms.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/8d868b56-a485-4b49-9bee-ea6dda9b812a.png",
-    "banner_url": null,
-    "twitter": "https://x.com/open_labels",
-    "repos": [
-      "https://github.com/openlabelsinitiative/oli-frontend",
-      "https://github.com/openlabelsinitiative/oli"
-    ],
-    "tags": [
-      "governance",
-      "community-driven"
-    ],
-    "website": "www.openlabelsinitiative.org"
+    "website": "https://rath.fi/",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x2ccf4b9bd6ed894c10befd9fe00c467c4bfd84ff057ee956ab708259cfa845a9",
@@ -999,7 +1020,8 @@
       "event-logging",
       "performance-optimization"
     ],
-    "website": "https://www.codetracer.com"
+    "website": "https://www.codetracer.com",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x3a942492f564e13e4a3fc11e9a8b5dcd8bf0213f9dd8571d888f32db84271c5f",
@@ -1014,7 +1036,8 @@
     "tags": [
       "chains"
     ],
-    "website": "https://www.npmjs.com/package/evm-rpcs-list"
+    "website": "https://www.npmjs.com/package/evm-rpcs-list",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xf00e745fe6d96359adc3dc45d6d811bf1140549ad830d927cda5ca0b694a3063",
@@ -1031,7 +1054,8 @@
       "visualization",
       "interactive-tools"
     ],
-    "website": "https://eip.tools/"
+    "website": "https://eip.tools/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x492486eda6bcb71b4891dd39a4e150db1f7ab46f64b83f2f5a02aed82497e9ed",
@@ -1048,7 +1072,8 @@
       "foundry",
       "testing"
     ],
-    "website": "https://www.npmjs.com/package/forge-stack-tracer"
+    "website": "https://www.npmjs.com/package/forge-stack-tracer",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x93c4efb5e2d7416c56ecdcd8244be8faf924194d65b514d90a7a51f6797cc012",
@@ -1068,7 +1093,8 @@
       "contract-deployment",
       "nextjs"
     ],
-    "website": "https://swiss-knife.xyz/"
+    "website": "https://swiss-knife.xyz/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x07222a857f4522026d91faec337e3cb8cf6ec5f7afb823e0742e1a6c398b81ff",
@@ -1086,7 +1112,8 @@
       "user-experience",
       "react-app"
     ],
-    "website": "https://impersonator.xyz/"
+    "website": "https://impersonator.xyz/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xd35cc78b456bf11d4acc96d2c227b29fa4115ad9d93ae211a31974a408ed8303",
@@ -1104,7 +1131,8 @@
       "cli",
       "verification"
     ],
-    "website": "diffuse.fi"
+    "website": "diffuse.fi",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xafb4dc19ccc63057da88110df49234b311044bc73b070041bb8df03e583943ab",
@@ -1121,7 +1149,8 @@
       "contract-interaction",
       "proxy-contracts"
     ],
-    "website": "https://abi.ninja/"
+    "website": "https://abi.ninja/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xc0809225b6287417d08ec0fde8d632ecc935296e61e239e7e44559c7dd7f2495",
@@ -1136,7 +1165,8 @@
     ],
     "tags": [
       "analytics"
-    ]
+    ],
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x7f330267969cf845a983a9d4e7b7dbcca5c700a5191269af377836d109e0bb69",
@@ -1160,7 +1190,8 @@
       "peer-to-peer",
       "censorship-resistant",
       "cli"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x7697147650b4b717ce5675982f2102da7c030498628fe37e3f403f875622b7f7",
@@ -1176,7 +1207,8 @@
       "security",
       "sdk"
     ],
-    "website": "https://www.gelato.network/relay"
+    "website": "https://www.gelato.network/relay",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xa492e54cf4d492c5f8a9c16038b4e5d47cd3bac575fbea7979f5cd1f1e575482",
@@ -1192,7 +1224,8 @@
       "sdk",
       "contract-interaction"
     ],
-    "website": "https://www.gelato.network/web3-functions"
+    "website": "https://www.gelato.network/web3-functions",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x670a2982f6d7786b58a8399bcabc23246365b21e533a97945e055791fc235e64",
@@ -1213,7 +1246,8 @@
       "performance-optimization",
       "community-driven"
     ],
-    "website": "https://hardhat.org/"
+    "website": "https://hardhat.org/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xaec1c406b2a124ec90aeebdde35c6c0cd9a90f0c7730b0911d2f648c8b99d062",
@@ -1231,7 +1265,8 @@
       "sdk",
       "account-abstraction",
       "transaction-signing"
-    ]
+    ],
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0xc377ed1b705bcc856a628f961f1e7c8ca943e6f3727b7c179c657e227e8e852c",
@@ -1246,7 +1281,8 @@
     "tags": [
       "merkle-trees"
     ],
-    "website": "https://github.com/merkletreejs/merkletreejs"
+    "website": "https://github.com/merkletreejs/merkletreejs",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x17fb589e599fe05e532b90c121eccc55b1249301e783dae226bad698872322da",
@@ -1265,7 +1301,8 @@
       "community-driven",
       "react-app"
     ],
-    "website": "https://ethernaut.openzeppelin.com/"
+    "website": "https://ethernaut.openzeppelin.com/",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0xcc9301a401320c626839db9c4415f28a6e1f2fb3abdf38ada785b57409bdedb6",
@@ -1283,7 +1320,8 @@
       "react",
       "nextjs"
     ],
-    "website": "http://dexkit.com"
+    "website": "http://dexkit.com",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x852f6213011d0ad31206df4993d22721102dbe615bb93492d6e8be8d89676243",
@@ -1302,7 +1340,8 @@
       "solidity",
       "contract-deployment"
     ],
-    "website": "https://github.com/Cyfrin/foundry-devops"
+    "website": "https://github.com/Cyfrin/foundry-devops",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x7e917a2d0718401c9fe2a82f43ea558f5128f251b1e658c76dc7ff9a5e9fd993",
@@ -1320,7 +1359,8 @@
       "developer-experience",
       "foundry"
     ],
-    "website": "https://github.com/PaulRBerg/prb-math"
+    "website": "https://github.com/PaulRBerg/prb-math",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x14eab8b10f729239d63df6c0cb85f666c3eb1f2dd440ebd003c1821f186a49da",
@@ -1340,7 +1380,8 @@
       "chains",
       "contract-verification",
       "cli"
-    ]
+    ],
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x8c0365628d69981ac162a89f2b391cc4adfd224e9a424f8e985e70e2421de6d1",
@@ -1356,7 +1397,8 @@
       "frontend",
       "contract-management"
     ],
-    "website": "Superui.app"
+    "website": "Superui.app",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x72d363f14ae85f47acfe748fb0a2bed73195582bb9863de18901f5dfe309b8f7",
@@ -1374,7 +1416,8 @@
       "analytics",
       "community-driven"
     ],
-    "website": "https://solodit.cyfrin.io/"
+    "website": "https://solodit.cyfrin.io/",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0xbaccff0188ef78c1bab0c9798b0faceee552de1dee4f763d1801a9c1d5e3bca5",
@@ -1391,7 +1434,8 @@
       "education",
       "formal-verification"
     ],
-    "website": "https://www.verifereum.org/"
+    "website": "https://www.verifereum.org/",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x495b81a381005f49592ee02a7ac6861b8da69762b7164180d0a1e4570f2d83bf",
@@ -1409,25 +1453,8 @@
       "cli",
       "vscode-extension",
       "community-driven"
-    ]
-  },
-  {
-    "id": "0x26a8d2bf9f36f9632cc4ae2157270087f3c0a0425f4f0847095451a7532293a3",
-    "name": "Samba",
-    "description": "Samba is a Portal Node that serves as an interface to the Portal network, facilitating connections between Portal nodes to form a decentralized, peer-to-peer network. Initially, Samba enables users to request data associated with the History subnetwork (in progress)\n\nHowever, as the project evolves, the goal is to expand Samba's capabilities to support all sub-networks outlined in the Portal specifications.\n\nSamba is written in Java and is built on the foundations of Teku and Besu.",
-    "thumbnail_url": null,
-    "banner_url": null,
-    "twitter": null,
-    "repos": [
-      "https://github.com/meldsun0/samba"
     ],
-    "tags": [
-      "docker",
-      "peer-to-peer",
-      "cli",
-      "networking"
-    ],
-    "website": "https://github.com/meldsun0/samba"
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x991062ec81edb818a542e45d7c142cc62bc06e68b582273bd2ae1b037c2d6791",
@@ -1443,7 +1470,8 @@
       "cross-chain",
       "security"
     ],
-    "website": "https://titanlayer.xyz/"
+    "website": "https://titanlayer.xyz/",
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0x154a42e5ca88d7c2732fda74d6eb611057fc88dbe6f0ff3aae7b89c2cd1666ab",
@@ -1466,7 +1494,8 @@
       "hardhat",
       "foundry",
       "cli"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x63f8e1e35986862f0bb24a619b72d12459497d2b6b94d93a9f2c232d376c54dc",
@@ -1481,7 +1510,8 @@
     "tags": [
       "frontend"
     ],
-    "website": "https://rainbowkit-theme.com/"
+    "website": "https://rainbowkit-theme.com/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xc0615947773148cbc340b175fb9afc98dbb4e0acd31d018b1ee41a5538785abf",
@@ -1499,7 +1529,8 @@
       "transaction-signing",
       "community-driven"
     ],
-    "website": "https://wagmi.sh"
+    "website": "https://wagmi.sh",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xfa7d950cfda2c634b052b6c07e75daaa95dd22ac1f220b6862cfd24221d4cabc",
@@ -1517,7 +1548,8 @@
       "code-quality",
       "community-driven",
       "cli"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x202a80f0f57630d04a26464d6492b3399059ca1187943032c37652eb2468a76f",
@@ -1533,7 +1565,8 @@
       "vyper",
       "debugging-tools"
     ],
-    "website": "https://titanoboa.readthedocs.io/en/latest/"
+    "website": "https://titanoboa.readthedocs.io/en/latest/",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0xaed5941b7a9f20de83f5c839bda507be43cbf41777fc623abf4bf05773298826",
@@ -1554,7 +1587,8 @@
       "json-rpc",
       "visualization"
     ],
-    "website": "https://otterscan.io/"
+    "website": "https://otterscan.io/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x67f6d1feb3b5e99caf0f2e7e4677494c57449de3980079589156e105df485488",
@@ -1573,7 +1607,8 @@
       "cli",
       "encryption"
     ],
-    "website": "https://github.com/Cyfrin/moccasin"
+    "website": "https://github.com/Cyfrin/moccasin",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x513265758a3804184b6a0771d99c1a4b04d3267bacd4b914e89ff991de229f6a",
@@ -1589,7 +1624,8 @@
       "solidity",
       "contract-deployment"
     ],
-    "website": "https://github.com/pcaversaccio/create2deployer"
+    "website": "https://github.com/pcaversaccio/create2deployer",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x537097f27d55cb52d39b95c3ed65076349ab68aac48051d742d715456e0884d8",
@@ -1608,26 +1644,8 @@
       "contract-deployment",
       "cli"
     ],
-    "website": "https://github.com/pcaversaccio/xdeployer"
-  },
-  {
-    "id": "0xc0ad090a80d748c19dce84d17f85d7b0016daa1c35f72ada2d92f469f8a77067",
-    "name": "rotki",
-    "description": "rotki is an opensource, local-first, and privacy-focused portfolio tracking tool that empowers users to manage their financial data without relying on centralized services. It supports multiple asset classes, including onchain and traditional investments, and offers robust management, analytics, and accounting features. Beyond its core functionality, rotki is modular, with components that have been used in other projects, making it a valuable tool for the broader Ethereum and Optimism superchain ecosystem.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/f83b26e1-f443-427a-960e-073c0d77901e.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/2aeb6332-039a-43d3-bb83-afaf9aaa47a6.png",
-    "twitter": "https://x.com/rotkiapp",
-    "repos": [
-      "https://github.com/rotki/rotki"
-    ],
-    "tags": [
-      "analytics",
-      "defi",
-      "privacy-focused",
-      "visualization",
-      "transaction-decoding"
-    ],
-    "website": "https://rotki.com/"
+    "website": "https://github.com/pcaversaccio/xdeployer",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x4dd10ba330a4a21459e2ba72f15fb5da2a63f7492e2b1567e6669c3d47fe6308",
@@ -1652,7 +1670,8 @@
     "tags": [
       "governance",
       "cli"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x819775803938d78eaa95809971ce94cae6a54b4df58505fa36153ffa1d55e12c",
@@ -1667,7 +1686,8 @@
     "tags": [
       "education",
       "solidity"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xa3d07f453f70d844196d89d79848aa2e70a0bd8b38bf0f493cba1547bb3bca5e",
@@ -1684,7 +1704,8 @@
       "json-rpc",
       "contract-interaction"
     ],
-    "website": "https://ethers.org"
+    "website": "https://ethers.org",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x2bb095e1f297c71da8bd4ee15097abad3b99e299fe14cd6aa704df3f36d0ae22",
@@ -1703,7 +1724,8 @@
       "solidity",
       "test-automation"
     ],
-    "website": "https://github.com/sc-forks/solidity-coverage"
+    "website": "https://github.com/sc-forks/solidity-coverage",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x4f8902ac6eba8e2243237247302ab778a1e1f496cf62e1696fbb8d57eff7701d",
@@ -1721,7 +1743,8 @@
       "cross-chain",
       "contract-deployment"
     ],
-    "website": "https://github.com/adraffy/blocksmith.js"
+    "website": "https://github.com/adraffy/blocksmith.js",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x939241afa4c4b9e1dda6b8250baa8f04fa8b0debce738cfd324c0b18f9926d25",
@@ -1749,7 +1772,8 @@
       "interactive-tools",
       "merkle-trees"
     ],
-    "website": "https://www.openzeppelin.com/"
+    "website": "https://www.openzeppelin.com/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x663e4d25ca3f327365240471b4831ea3c989cb132bbf6ae8f5c1e15268591795",
@@ -1765,7 +1789,8 @@
       "block-explorer",
       "chains"
     ],
-    "website": "http://www.blockscout.com"
+    "website": "http://www.blockscout.com",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x8589657542ff4b7c5071dfdeff18a041642a72344ede9acea701e9b39fb46fee",
@@ -1787,7 +1812,8 @@
       "code-coverage",
       "test-automation",
       "vscode-extension"
-    ]
+    ],
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0xbb067b01988521110c91737f058e7301f608be231d850a72af1516bd034d161c",
@@ -1806,7 +1832,8 @@
       "performance-optimization",
       "debugging-tools"
     ],
-    "website": "https://synpress.io/"
+    "website": "https://synpress.io/",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0xb773733e55b7267302f2622ae410a65a89552689387d0b86bce0f0cb833119d0",
@@ -1824,7 +1851,8 @@
       "cross-chain",
       "privacy-focused",
       "censorship-resistant"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x4ede10cd8332093fb0c1083828cc2e333d60f1551cef2d29bccb82bae1f5d7f7",
@@ -1843,7 +1871,8 @@
       "account-abstraction",
       "user-experience"
     ],
-    "website": "https://www.candide.dev/"
+    "website": "https://www.candide.dev/",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x28aec169f525d30fed96625a31fdd75ca906805d0ee4e7b1502945a9e1d29525",
@@ -1859,7 +1888,8 @@
       "wallet",
       "education",
       "account-abstraction"
-    ]
+    ],
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0xc7798704a6d730cea776c4866a9636bfa04c1201e29b6b0c99cc3603bc1bca25",
@@ -1875,7 +1905,8 @@
       "cli",
       "chains"
     ],
-    "website": "https://usecannon.com"
+    "website": "https://usecannon.com",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x40483b3554ae17882db98d1cfd3aae6b10ba8250736279d184fd947931ed02c3",
@@ -1895,7 +1926,8 @@
       "interactive-tools",
       "foundry"
     ],
-    "website": "https://superfuse.ninja/"
+    "website": "https://superfuse.ninja/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x166e2bfeae612e99675a055e2d3e3d02e49bdab377109bc528c32b7afe6cc920",
@@ -1914,7 +1946,8 @@
       "developer-experience",
       "transaction-optimization"
     ],
-    "website": "https://github.com/Ratimon/solid-grinder"
+    "website": "https://github.com/Ratimon/solid-grinder",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x37fe5886f4c77d5a5cb947deff90158c045a5d207572763187748ac4dd4bd9b9",
@@ -1928,7 +1961,8 @@
     ],
     "tags": [
       "multicall"
-    ]
+    ],
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x4c9626843c4e3f3c96d80b0ec6b1d10b7682fc9b6d67ab61ece5a87648535b1f",
@@ -1943,7 +1977,8 @@
     "tags": [
       "performance-optimization",
       "event-logging"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x97525ec91080ddd917eaccabf9d383cf70a2f78839ab21eeabe1687e312f2132",
@@ -1959,7 +1994,8 @@
       "indexing",
       "cli"
     ],
-    "website": "https://rindexer.xyz/"
+    "website": "https://rindexer.xyz/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xc88dff5a8bb7326e7d9103bf84e77425e202a8275abffbbbc08954c309acf511",
@@ -1979,7 +2015,8 @@
       "docker",
       "user-experience"
     ],
-    "website": "https://www.candide.dev/bundler"
+    "website": "https://www.candide.dev/bundler",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x4e175118c15129e6cc791203de92b23f11fef35ba4bc3fd18390f163e692c97d",
@@ -1998,7 +2035,8 @@
       "debugging-tools",
       "transaction-decoding",
       "merkle-trees"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x754c37e401e2527ab24b9d7ca3e042bfcbfebeef54a533f8833d46242d2c3017",
@@ -2019,7 +2057,8 @@
       "cross-chain",
       "solidity",
       "community-driven"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x5f9f1b45eb4a49e8c2482288e02c8fc1e0e60ad3e88f0ea87bbdb4932da1054d",
@@ -2037,7 +2076,8 @@
       "foundry",
       "erc721",
       "upgradeable-contracts"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x5dfcf84cc8ef7eb731a8175633c8da5cd3784fe57b05409f0df745b88443c034",
@@ -2058,7 +2098,8 @@
       "runtime-verification",
       "formal-verification"
     ],
-    "website": "simbolik.runtimeverification.com"
+    "website": "simbolik.runtimeverification.com",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0xabdfa10e699db5127100da1dd2403692afe8d86e793d57780f1c7e93437a73a0",
@@ -2070,7 +2111,8 @@
     "repos": [
       "https://github.com/shazow/whatsabi"
     ],
-    "tags": []
+    "tags": [],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x2247247c751707d897f5c0eab670426d9c1c26d84e96ac226004afbf0080cba4",
@@ -2090,7 +2132,8 @@
       "account-abstraction",
       "scalability"
     ],
-    "website": "www.alchemy.com"
+    "website": "www.alchemy.com",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x740bebbc731ec56dcc17c7d429656220a73960022c3809edf324bd8120285722",
@@ -2111,7 +2154,8 @@
       "solidity-development",
       "code-coverage"
     ],
-    "website": "https://www.bulloak.dev/"
+    "website": "https://www.bulloak.dev/",
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0xe6eb4d61eff4e2dc2d8dba01ac1b84c1683bdb1e8d677a66fa44a72e3f8b1faf",
@@ -2130,12 +2174,13 @@
       "cli",
       "abi-encoding"
     ],
-    "website": "zabi.sh"
+    "website": "zabi.sh",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x7e5614eb46520c523562a641649be228012355d0264c9130b2c1d9872bf5bad5",
     "name": "ABIExplorer",
-    "description": "I'm Collins Hillary and I’m excited to share a tool we’ve been working on: ABI Explorer.\n\nABI Explorer is like Postman for smart contracts; it allows developers and integrators to test and interact with smart contract functions directly using their ABIs. No need to write custom scripts or spin up a front end, just drop in your ABI, connect your wallet, and start calling functions.\n\nIt’s designed to make life easier for anyone working with smart contracts and also to:\n\nQuickly test read/write functions\n\nSimulate interactions before integrating into your dApp\n\nDebug contract behaviors on any chain, including Optimism\n\n\nWe built this to help streamline contract integration and testing workflows, especially for devs building with on-chain components.",
+    "description": "ABI Explorer is like Postman for smart contracts; it allows developers and integrators to test and interact with smart contract functions directly using their ABIs. No need to write custom scripts or spin up a front end, just drop in your ABI, connect your wallet, and start calling functions.\n\nIt’s designed to make life easier for anyone working with smart contracts and also to:\n\nQuickly test read/write functions\n\nSimulate interactions before integrating into your dApp\n\nDebug contract behaviors on any chain, including Optimism\n\n\nWe built this to help streamline contract integration and testing workflows, especially for devs building with on-chain components.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/afd98fa3-7bf7-45a5-9d07-0f1dbea2ba61.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/aa144789-e6d6-4af4-9634-7956915bfc8a.png",
     "twitter": null,
@@ -2145,7 +2190,8 @@
     "tags": [
       "contract-interaction"
     ],
-    "website": "https://abiexplorer.devligence.com/"
+    "website": "https://abiexplorer.devligence.com/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x1e2cc195ce13784ef1e382bbd542a6b25d982b83377a8e8ac2ca593d6c310adc",
@@ -2161,23 +2207,8 @@
       "education",
       "encryption"
     ],
-    "website": "https://build.web3privacy.info"
-  },
-  {
-    "id": "0x96a03f09bd8f6b4e82de71cb60626c5572e4a00d70f59dccaf512297f6deb93e",
-    "name": "Jobs",
-    "description": "One-point-of-entry to privacy jobs market.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/a07adba3-3b01-4b47-bb8b-e20bbafbffbb.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/e14eb400-65e2-4daa-aa66-feff0af5ca80.png",
-    "twitter": "https://x.com/web3privacy",
-    "repos": [
-      "https://github.com/web3privacy/jobs-app"
-    ],
-    "tags": [
-      "privacy-focused",
-      "community-driven"
-    ],
-    "website": "https://jobs.web3privacy.info/"
+    "website": "https://build.web3privacy.info",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0xa38c8f4ffa48fe01222fe1b5f2bc6c95e204a4f243d67bd0c9f92887d905d3d8",
@@ -2192,7 +2223,8 @@
     "tags": [
       "education"
     ],
-    "website": "https://academy.web3privacy.info/"
+    "website": "https://academy.web3privacy.info/",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0xec7002ee89bf249ae4fca1ebe718a66dea7247e33cfc9319f979a3f9fb324b24",
@@ -2210,7 +2242,8 @@
       "analytics",
       "community-driven"
     ],
-    "website": "https://explorer.web3privacy.info/"
+    "website": "https://explorer.web3privacy.info/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xbcfa7063514406f498f2792ae6435bf488709709391cebfa260a552703b4a8f9",
@@ -2225,12 +2258,13 @@
     "tags": [
       "game-development"
     ],
-    "website": "https://github.com/qingfengzxr/gdscript-web3"
+    "website": "https://github.com/qingfengzxr/gdscript-web3",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x4a5e771af86cf1938056b43cddbf0018dca1376d578f631f7449fe10ac4958ed",
     "name": "Nethereum",
-    "description": "",
+    "description": "Nethereum is the .Net integration library for Ethereum, simplifying the access and smart contract interaction with Ethereum nodes both public like Geth (or your preferred client) L2 chains like Optimism, Arbitrum (or your preferred L2), any compatible EVM chain (Gnosis, etc) and permissioned chains like Quorum.",
     "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
@@ -2243,7 +2277,8 @@
       "json-rpc",
       "transaction-signing",
       "abi-encoding"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x351967474a454b494260a488f3ceb77d993580a4fe79fb6b6d132c70634bc516",
@@ -2265,7 +2300,8 @@
       "type-safe",
       "cli"
     ],
-    "website": "https://ponder.sh"
+    "website": "https://ponder.sh",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x812ea3d88c189f53197820e1c648dd32c5b937467d93602a3ba5d0b764124f90",
@@ -2281,7 +2317,8 @@
       "cli",
       "contract-interaction"
     ],
-    "website": "https://github.com/zsystm/solizard"
+    "website": "https://github.com/zsystm/solizard",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xbe74d6076f833da93276495074d0356db90c495d3257f8958853e75e9df8e9c8",
@@ -2299,20 +2336,8 @@
       "contract-verification",
       "natural-language-processing",
       "solidity"
-    ]
-  },
-  {
-    "id": "0xdd81f0fbb21c949e5d67176b22a39cfdc7c774349214a450df78eb31174413db",
-    "name": "beaconcha.in",
-    "description": "xxx",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/4765fd74-b390-4e94-92a3-3ecd1c85f3e5.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/aaa6c7c2-b900-4e08-9dfa-36e7c382adc0.png",
-    "twitter": null,
-    "repos": [
-      "https://github.com/gobitfly/eth2-beaconchain-explorer"
     ],
-    "tags": [],
-    "website": "https://beaconcha.in"
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xebe03c3d6d33cad60124b9b05ef6e2ff056293a1de3c5fa51dfbb90c86c14bf7",
@@ -2332,7 +2357,8 @@
       "transaction-signing",
       "community-driven",
       "testing"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xa903038c6a307743fdca92164f38d5c392996c2417d66d5bf33012850d0585bf",
@@ -2345,7 +2371,8 @@
       "https://github.com/jiffy-labs/jiffyscan-frontend"
     ],
     "tags": [],
-    "website": "https://www.jiffyscan.xyz/"
+    "website": "https://www.jiffyscan.xyz/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xaa4cf223915387f8e0cd66640f86f4f770d0c1edfc4303ce1d596a735747e673",
@@ -2363,7 +2390,8 @@
       "governance",
       "solidity",
       "farcaster"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xa38f3efb4fb8f6fcefb80f0262645ac05d5548cad0308ee49520c48c4e8cbd1f",
@@ -2385,7 +2413,8 @@
       "tailwind-css",
       "community-driven"
     ],
-    "website": "https://www.growthepie.xyz/"
+    "website": "https://www.growthepie.xyz/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xab6214e09c6adc3022147ba7fffe1924f9bad3ecbe69e410f428808e91fd6f06",
@@ -2400,7 +2429,8 @@
     "tags": [
       "education"
     ],
-    "website": "https://github.com/zink-lang/zink"
+    "website": "https://github.com/zink-lang/zink",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x46d784ec075b98efe6a23e515cad06f1b7081f082cb0c7502c68a7a76c38c9e2",
@@ -2417,7 +2447,8 @@
       "wallet",
       "nextjs"
     ],
-    "website": "https://distributler.com/"
+    "website": "https://distributler.com/",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0xd63cb23c26cc3bda03b1cc2971589fd26c9d22f3bbc8f1ff2bb74613e6d1c36d",
@@ -2433,7 +2464,8 @@
       "solidity",
       "truffle"
     ],
-    "website": "https://github.com/GNSPS/solidity-bytes-utils"
+    "website": "https://github.com/GNSPS/solidity-bytes-utils",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xc6052138bbdae5976fa2866f46b0537182d4126c4bb97485738d1b43f2276134",
@@ -2455,7 +2487,8 @@
       "chains",
       "real-time-data"
     ],
-    "website": "https://www.linkedin.com/company/third-web/"
+    "website": "https://www.linkedin.com/company/third-web/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xfb3ac4e5f7665c6560e461c1b77ed896d355635947a6e58e217f345af8624dcd",
@@ -2474,7 +2507,8 @@
       "static-analysis",
       "contract-deployment",
       "proxy-contracts"
-    ]
+    ],
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x6d30328dd0e058bdd4c55c51d5f785268770040a66edbd2830902c4d87efee9c",
@@ -2491,7 +2525,8 @@
       "frontend",
       "privacy-focused"
     ],
-    "website": "https://clear-wallet.flashsoft.eu/"
+    "website": "https://clear-wallet.flashsoft.eu/",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x5e6c436e48e56d6d9622ba5d0be0035c314e2b29d2afc8f5f1ee8ac75cd42532",
@@ -2509,7 +2544,8 @@
       "governance",
       "cross-chain",
       "decentralized-governance"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x541b7b08401d799b87f583c102a6c94cee7105f1b29dc630de5edbbd966d7c13",
@@ -2528,7 +2564,8 @@
       "code-analysis",
       "type-safe"
     ],
-    "website": "fe-lang.org"
+    "website": "fe-lang.org",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x10e9fc6dd7d01e09bd9440d507846432333a06f779287b29199010e2f50579cd",
@@ -2544,7 +2581,8 @@
       "analytics",
       "layer-2",
       "visualization"
-    ]
+    ],
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x51cda5996ef1a2ccd8fcf4ee5792337695599454c83eb1218c3ad4388dcb5bf5",
@@ -2563,7 +2601,8 @@
       "cli",
       "type-safe"
     ],
-    "website": "https://sourcify.dev"
+    "website": "https://sourcify.dev",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xd4ed99cc6aaf73ca63b32f7a03b5427ac1d2955bf9efc31eb14f5773016988d0",
@@ -2579,7 +2618,8 @@
       "security",
       "docker",
       "transaction-signing"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xa0b16714baef75d97ec07fd48eaf42e79df92fe2a3c2d725d2388ede587ea54c",
@@ -2598,7 +2638,8 @@
       "cross-chain",
       "layer-2",
       "cli"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x81af86360a8e964cc907a5689a62e94231c7e42e05f49c0586716975d72e2e2e",
@@ -2621,7 +2662,8 @@
       "cli",
       "docker",
       "devops"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x7504e494cb8d227193182e083128912173c14eaeecec9b90fa453de28377b269",
@@ -2638,7 +2680,8 @@
       "gossipsub",
       "libp2p",
       "cli"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xada9c2eabe94a7af5d96b3cb1765c8e3d6fb8a7f8e33f12ebd6d66feb1a807a3",
@@ -2657,7 +2700,8 @@
     ],
     "tags": [
       "defi"
-    ]
+    ],
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0xdd8b2e68cad9afa0701c8f27bf085302b152dbca3393083d3c664e3fc75945ab",
@@ -2676,7 +2720,8 @@
       "solidity",
       "type-safe"
     ],
-    "website": "https://redprint.ninja/"
+    "website": "https://redprint.ninja/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x11a2255f272c84328438f5081139455d8fd2a302fd35f0f08acdff1f1c0d84e6",
@@ -2692,7 +2737,8 @@
       "education",
       "solidity"
     ],
-    "website": "https://nodeguardians.io/"
+    "website": "https://nodeguardians.io/",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0xcc8d03e014e121d10602eeff729b755d5dc6a317df0d6302c8a9d3b5424aaba8",
@@ -2711,7 +2757,8 @@
       "compiler",
       "cli"
     ],
-    "website": "https://soliditylang.org/"
+    "website": "https://soliditylang.org/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x1aacb85f1d87039696b876ddcae98c56d38ea9eed07b265409fdb256c8f8172a",
@@ -2727,7 +2774,8 @@
     "tags": [
       "block-explorer"
     ],
-    "website": "https://blockhead.info"
+    "website": "https://blockhead.info",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xdf1bb03d08808e2d789f5eac8462bdc560f1bb5b0877f0cf8c66ab53a0bc2f5c",
@@ -2743,7 +2791,8 @@
       "docker",
       "community-driven"
     ],
-    "website": "https://sigmaprime.io"
+    "website": "https://sigmaprime.io",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x9b014e8a2e062401d976745d9c8aafbf36bce7931586b36ecf3b9ad708bf2970",
@@ -2764,7 +2813,8 @@
       "frontend",
       "visualization"
     ],
-    "website": "https://blobscan.com/"
+    "website": "https://blobscan.com/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xd9d413772483111ca8ecfe5054737c6c80a65f03c0d289c632b05e3ec21d5680",
@@ -2780,7 +2830,8 @@
     "tags": [
       "cli",
       "cross-chain"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x5a7e7c7acb21521e99021d746740b368801cbfe531301e50bdbaafdc24a0aac5",
@@ -2796,7 +2847,8 @@
       "libp2p",
       "encryption",
       "gossipsub"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xc71faa1bcb4ceb785816c3f22823377e9e5e7c48649badd9f0a0ce491f20d4b3",
@@ -2816,7 +2868,8 @@
       "encryption",
       "gossipsub",
       "community-driven"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0xa7d78d566bfa319479ec048c94c3d8c1f4d628a9344ba157fc4974dbf472dc3e",
@@ -2837,7 +2890,8 @@
       "vscode-extension",
       "community-driven"
     ],
-    "website": "https://github.com/Cyfrin/aderyn"
+    "website": "https://github.com/Cyfrin/aderyn",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x7348ae42266ff626319e8ea5398343b847603b3cc7101b03d8e4fb2b75ea8db3",
@@ -2863,42 +2917,8 @@
       "runtime-verification",
       "contract-deployment",
       "static-analysis"
-    ]
-  },
-  {
-    "id": "0x6f550434232889366a40b5a6046615cdd444528db6fbe1f8186411f2f6ed676e",
-    "name": "Charged Particles - Web3 Packs",
-    "description": "Charged Particles the composability  protocol is officially live with our latest product \"Web3 Packs\", a one click tool that allows users to buy a series of curated token packs in a batch transaction and then immediately nests them inside a non-custodial NFT. Launched on the Mode Blockchain.",
-    "thumbnail_url": "https://cdn.charmverse.io/user-content/283d00d7-ee7f-4c77-bc4e-bf1242d3a6ef/828a7324-1bd4-4741-97ff-246bf4fd94d7/1000013494.png",
-    "banner_url": "https://cdn.charmverse.io/user-content/283d00d7-ee7f-4c77-bc4e-bf1242d3a6ef/22bf9280-28bd-4aa2-b462-f93c87d520ef/1000013495.png",
-    "twitter": "Definft",
-    "repos": [
-      "https://github.com/Charged-Particles/web3-packs-v2",
-      "https://github.com/Charged-Particles/Web3Packs-MODE",
-      "charged-particles",
-      "https://github.com/Charged-Particles/ionx-ccip"
     ],
-    "tags": [],
-    "website": "www.web3packs.com"
-  },
-  {
-    "id": "0xf839a585342327848d4541a6fcc315404e879537a60a1370f2cd45a94283a1ba",
-    "name": "Dappnode",
-    "description": "Since 2018, Dappnode has been a key software for blockchain infrastructure and a big part of decentralization in Ethereum.\nDappnode is a decentralized infrastructure platform that allows users to easily host their own decentralized applications (dApps) and blockchain nodes. Dappnode makes it easy to host and run various types of blockchain software, such as Ethereum, Bitcoin, IPFS, and others. The platform also provides users with a user-friendly interface to manage and monitor their nodes.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/69817332-d0d8-41e4-98bf-d691ac36a92f.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/7337ad49-5899-4fcf-9420-931cb7c45277.png",
-    "twitter": "https://twitter.com/dappnode",
-    "repos": [
-      "https://github.com/dappnode/DAppNode",
-      "https://github.com/dappnode/DAppNodeSDK"
-    ],
-    "tags": [
-      "docker",
-      "sdk",
-      "community-driven",
-      "github-actions"
-    ],
-    "website": "https://dappnode.com"
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x229bbc8163bdee3891cde1c18c74ab3afc72e8683692fc7f1b767570cbe7c4a7",
@@ -2920,7 +2940,8 @@
       "chains",
       "visualization"
     ],
-    "website": "https://evmexplorer.com/"
+    "website": "https://evmexplorer.com/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x2c97e213fef2bd3f30a71edf6ed48232640368d0083dc0a134a1b59391639bde",
@@ -2937,7 +2958,8 @@
       "foundry",
       "security",
       "symbolic-execution"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xf2a60464d2a56fb47d2f8c13001edea71eda11ffd8fffec5f559495c6a5878d4",
@@ -2957,7 +2979,8 @@
       "solidity",
       "scalability"
     ],
-    "website": "https://unruggable.com/"
+    "website": "https://unruggable.com/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x2704cd27b8c60b098d4fe8c5c0fbae2f8f5fe9067c687c501a4c6dc6e9887876",
@@ -2974,7 +2997,8 @@
       "analytics",
       "formal-verification",
       "symbolic-execution"
-    ]
+    ],
+    "category": "Security, Testing & Formal Verification"
   },
   {
     "id": "0x7d3f1d8e9da32b6e81e791a440b28ce9fbd79a5396acc4039d1cdc44c609c6d3",
@@ -2989,7 +3013,8 @@
     "tags": [
       "cli",
       "foundry"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xb2d109759fe14e11ac5cc100ab6006321ebdd7ffdefbd2efac93a002105f8e92",
@@ -3004,7 +3029,8 @@
     "tags": [
       "community-driven"
     ],
-    "website": "https://github.com/bluealloy/revm"
+    "website": "https://github.com/bluealloy/revm",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x6bd057da522918a4675396313ae33a2f2788a1ceeb3bd7ae228015e3eb317a7d",
@@ -3021,7 +3047,8 @@
       "type-safe",
       "hardhat"
     ],
-    "website": "https://viem.sh"
+    "website": "https://viem.sh",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x9151666888d0ca532a529be98a50d2eb992988117e202163f865fa9a27eb7149",
@@ -3040,7 +3067,8 @@
       "foundry",
       "hardhat"
     ],
-    "website": "https://solady.org"
+    "website": "https://solady.org",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x492d0bbb85672e7e5f1d439bfd8857ac0aa59a52010143bbaab1a411bf55be0c",
@@ -3063,7 +3091,8 @@
       "hardhat",
       "truffle"
     ],
-    "website": "turtleshell.xyz"
+    "website": "turtleshell.xyz",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xc2d8139cd61ddc75689610ee0cca0fe37ba8bec3270beb6aac6eac91c6256f60",
@@ -3081,7 +3110,8 @@
       "hardhat",
       "test-automation"
     ],
-    "website": "https://www.npmjs.com/package/hardhat-gas-reporter"
+    "website": "https://www.npmjs.com/package/hardhat-gas-reporter",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x9ca1f7b0e0d10d3bd2619e51a54f2e4175e029c87a2944cf1ebc89164ba77ea0",
@@ -3096,7 +3126,8 @@
     "tags": [
       "compiler",
       "devops"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x0008577196fa6ec286440b418e2f6305fc10e62ce759625d826be272ee6b45a3",
@@ -3113,7 +3144,8 @@
       "cli",
       "contract-deployment",
       "solidity"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x50159544ec22884b777a997a625c75bb02e55b1dc8934aad3b78678e7c11d039",
@@ -3132,7 +3164,8 @@
       "vyper",
       "erc721",
       "foundry"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x4cba820efd9e11754eb472ca0736756f27d0ece09adb3c9651bac5b29acc9a6d",
@@ -3148,7 +3181,8 @@
     "tags": [
       "cli"
     ],
-    "website": "https://www.blockflow.network/"
+    "website": "https://www.blockflow.network/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x1c25ae2899ab6edb1e55c8cda5b736bb861a31da22bb9aa538f3868807eb1c73",
@@ -3175,7 +3209,8 @@
       "education",
       "solidity-development"
     ],
-    "website": "bonadocs.com"
+    "website": "bonadocs.com",
+    "category": "Education & Community Resources"
   },
   {
     "id": "0x62e37e96aa6e1cbfb6bd24b97c4b8f1e12cc3fe35d5388d2f041c42a12b40745",
@@ -3191,7 +3226,8 @@
       "cross-chain",
       "defi"
     ],
-    "website": "https://stargate.finance/"
+    "website": "https://stargate.finance/",
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0xcbfdcf8f724d73504d1518d5ecd7d7256b12d37e68cd84569b383bfb6e2eeea4",
@@ -3207,7 +3243,8 @@
     "tags": [
       "cross-chain",
       "privacy-focused"
-    ]
+    ],
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0x0ee3defac0e2a31b995bc073ac02a2140aaf01679e141eb8d1d80409f75f90ea",
@@ -3222,7 +3259,8 @@
       "https://github.com/Steemhunt/mint.club-v2-sdk"
     ],
     "tags": [],
-    "website": "https://mint.club"
+    "website": "https://mint.club",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x93decae913f62c0a86519d0b0798e4a10c46c541bfc14dcff0193d6b026e9532",
@@ -3239,7 +3277,8 @@
       "defi",
       "gas-efficient"
     ],
-    "website": "https://llamapay.io/"
+    "website": "https://llamapay.io/",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x66cb156952c9cd26c329a490b1ae9a90167f3067bbea337888b5d70d374959d7",
@@ -3263,7 +3302,8 @@
       "user-experience",
       "solidity"
     ],
-    "website": "https://zk.email"
+    "website": "https://zk.email",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x38c38455bb0fd71d2929fcf799279569ab5f5c5d3e1f92f8642ce87aa25accdf",
@@ -3287,7 +3327,8 @@
       "tailwind-css",
       "foundry",
       "user-experience"
-    ]
+    ],
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0xae07bfec2c3c90937679f8c8c5c32e80407c09903aa03d1b5e5a075e67592b86",
@@ -3308,7 +3349,8 @@
       "dex-aggregator",
       "visualization"
     ],
-    "website": "https://defillama.com/"
+    "website": "https://defillama.com/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x120cdd8e43ae1efbafdf02eda876e1952c05a52870c8d5a8f56d9ec0f79f586d",
@@ -3329,7 +3371,8 @@
     "tags": [
       "analytics",
       "gas-efficient"
-    ]
+    ],
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0x7539f43dc91f9c406c83a06339708e4033cdbf630916c6dfb9de2b5ef811affd",
@@ -3348,7 +3391,8 @@
       "contract-management",
       "cli"
     ],
-    "website": "https://seamlessprotocol.com"
+    "website": "https://seamlessprotocol.com",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xe20f59eb1c8f9cb72e07b8d0f067bac997614fd6db06d8c031c5c9235f760dcc",
@@ -3365,7 +3409,8 @@
       "wallet",
       "multi-chain"
     ],
-    "website": "https://l2pass.com/"
+    "website": "https://l2pass.com/",
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0xa88844cea135382e3484e39c3172033437121b35ca0bc8b10b9b8253984876b5",
@@ -3382,7 +3427,8 @@
     "tags": [
       "governance",
       "sdk"
-    ]
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x8967594d2978692a35fea137ba640bb42f11cad907ca6b0bd01f3718fc4c7f5b",
@@ -3431,7 +3477,8 @@
       "foundry",
       "proxy-contracts"
     ],
-    "website": "https://hatsprotocol.xyz"
+    "website": "https://hatsprotocol.xyz",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x24ff0fb2933e55b169a80d9bd35a00a7011795387717b27445ccdc0f8660d740",
@@ -3451,7 +3498,8 @@
       "dex-aggregator",
       "multi-chain"
     ],
-    "website": "https://openocean.finance/"
+    "website": "https://openocean.finance/",
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0x517eaa9c56951de89261f2d7830ea49aae92f2a903104a17d9c5c2edd4959806",
@@ -3473,7 +3521,8 @@
       "dex-aggregator",
       "multi-chain",
       "performance-optimization"
-    ]
+    ],
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0x4d71401a0dbd9b3dd890fbc70baaf872d16db80af149e20f7ef1805fc94f6df6",
@@ -3491,7 +3540,8 @@
     "tags": [
       "cross-chain",
       "scalability"
-    ]
+    ],
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0x850df51e29f2846a5f085d88e6b6fc13fad51ad7161f8a825ed09d470668161a",
@@ -3506,7 +3556,8 @@
     "tags": [
       "wallet",
       "governance"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x08df6e20a3cfabbaf8f34d4f4d048fe7da40447c24be0f3ad513db6f13c755dd",
@@ -3532,7 +3583,8 @@
       "foundry",
       "contract-verification"
     ],
-    "website": "https://velodrome.finance"
+    "website": "https://velodrome.finance",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xb6266f3d955040aa7583f2f346db87abe0649f545389af3cc8fe302aacfc850b",
@@ -3557,7 +3609,8 @@
       "https://www.npmjs.com/package/@0xsplits/splits-sdk"
     ],
     "tags": [],
-    "website": "https://splits.org/"
+    "website": "https://splits.org/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0xfc54b4a9c537be25238cba3f05100b733aeee83a3eb3fdae60d651b3b913390c",
@@ -3579,7 +3632,8 @@
       "hardhat",
       "truffle"
     ],
-    "website": "https://github.com/Vectorized/multicaller"
+    "website": "https://github.com/Vectorized/multicaller",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x7a4bb37bc7997b8e9b34775164682ff1f441b716cd235f2e7cdce76677b66007",
@@ -3597,7 +3651,8 @@
       "cross-chain",
       "transaction-management"
     ],
-    "website": "https://zkcodex.com/"
+    "website": "https://zkcodex.com/",
+    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xf24315614063278ba3543e1717791132a9afa79b0e65baa01a85bcccbdfa215f",
@@ -3623,7 +3678,8 @@
       "defi",
       "transaction-optimization"
     ],
-    "website": "https://debridge.finance/"
+    "website": "https://debridge.finance/",
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0x66cce776ce6eaa99192120fc25b91ecc7b98e03210a08f0d3bfda82f542d3e1a",
@@ -3650,7 +3706,8 @@
       "verification",
       "scalability"
     ],
-    "website": "https://opti.domains"
+    "website": "https://opti.domains",
+    "category": "Cross-Chain & Interoperability"
   },
   {
     "id": "0xe40733f18903b26f7880bb2fd78c39f3992efe9f8b2e89994c2869eeb3ba4470",
@@ -3673,7 +3730,8 @@
       "analytics",
       "user-experience"
     ],
-    "website": "https://openfort.xyz"
+    "website": "https://openfort.xyz",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0xa08c7ab7824d147d6cb87ffb4e86cec454a030d48b8c395bad6d64456be3d911",
@@ -3693,7 +3751,8 @@
       "decentralized-governance",
       "contract-management"
     ],
-    "website": "https://aragon.org/"
+    "website": "https://aragon.org/",
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "0x79e8bf2d699790b563aa57fd34da1722bea3191ab5ff0601ba56020687702ab9",
@@ -3718,7 +3777,8 @@
       "sdk",
       "user-experience"
     ],
-    "website": "https://etherspot.io/"
+    "website": "https://etherspot.io/",
+    "category": "Transaction & Wallet Infrastructure"
   },
   {
     "id": "0x9d93ec97ef2d3bd4c2b8d95abac9ce0cf43e4f3eb1f05709f8282da8200e69ee",
@@ -3736,7 +3796,8 @@
       "react",
       "nextjs"
     ],
-    "website": "https://www.framesjs.org"
+    "website": "https://www.framesjs.org",
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x3061b642db56c507e265f03029735b0413a613bda43456a31e78128baeb18754",
@@ -3754,7 +3815,8 @@
       "foundry",
       "cli",
       "contract-deployment"
-    ]
+    ],
+    "category": "Smart Contract Development & Toolchains"
   },
   {
     "id": "manually-added:speedrunethereum",
@@ -3773,6 +3835,7 @@
       "contract-deployment",
       "frontend"
     ],
-    "website": "https://speedrunethereum.com/"
+    "website": "https://speedrunethereum.com/",
+    "category": "Education & Community Resources"
   }
 ]
