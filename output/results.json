@@ -1191,7 +1191,7 @@
       "censorship-resistant",
       "cli"
     ],
-    "category": "Smart Contract Development & Toolchains"
+    "category": "Client Libraries & SDKs (Front-End)"
   },
   {
     "id": "0x7697147650b4b717ce5675982f2102da7c030498628fe37e3f403f875622b7f7",
@@ -3836,6 +3836,262 @@
       "frontend"
     ],
     "website": "https://speedrunethereum.com/",
+    "category": "Education & Community Resources"
+  },
+  {
+    "id": "manually-added:ethpm",
+    "name": "ethPM",
+    "description": "ethPM is the immutable package manager to consume, distribute, or manage any EVM smart contract system.",
+    "website": "https://www.ethpm.com/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/ethpm/ethpm-cli",
+      "https://github.com/ethpm/ethpm-spec",
+      "https://github.com/ethpm/ethpm.js",
+      "https://github.com/ethpm/py-ethpm"
+    ],
+    "tags": [
+      "cli",
+      "solidity",
+      "contract-management"
+    ],
+    "category": "Smart Contract Development & Toolchains"
+  },
+  {
+    "id": "manually-added:governance-onchain-paymaster",
+    "name": "Governance Onchain Paymaster",
+    "description": "Paymasters for on-chain Governance",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/meliopolis/governance-paymaster"
+    ],
+    "tags": [
+      "account-abstraction",
+      "developer-experience"
+    ],
+    "category": "Transaction & Wallet Infrastructure"
+  },
+  {
+    "id": "manually-added:fealloc",
+    "name": "FeAlloc",
+    "description": "Implementing TinyAlloc in Fe-lang for the EVM",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/saifalkatout/FeAlloc"
+    ],
+    "tags": [],
+    "category": "Smart Contract Development & Toolchains"
+  },
+  {
+    "id": "manually-added:solide",
+    "name": "solide",
+    "description": "⚡Lightweight web based Smart Contract IDE",
+    "website": "https://evm.polearn.xyz/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": "https://x.com/0xProofOfLearn",
+    "repos": [
+      "https://github.com/solide-project/solide"
+    ],
+    "tags": [
+      "solidity",
+      "developer-experience"
+    ],
+    "category": "Smart Contract Development & Toolchains"
+  },
+  {
+    "id": "manually-added:wallet-test-framework",
+    "name": "Wallet Test Framework",
+    "description": "Wallet Testing Framework is an automated test suite for Ethereum wallets that validates the core, shared user flows—such as transfers, balance display, and basic interactions—that every wallet must support. By standardizing testing around these fundamentals, it helps wallet teams improve UX quality, reduce duplicated effort, and focus their energy on building differentiated, value-add features without compromising on reliability.",
+    "website": "https://wallet-test-framework.github.io/framework/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/wallet-test-framework/framework"
+    ],
+    "tags": [
+      "testing",
+      "wallet",
+      "user-experience",
+      "developer-experience",
+      "security"
+    ],
+    "category": "Security, Testing & Formal Verification"
+  },
+  {
+    "id": "manually-added:edb-the-ethereum-project-debugger",
+    "name": "EDB: The Ethereum Project Debugger",
+    "description": "EDB is a source-level Ethereum debugger that bridges high-level Solidity code and low-level EVM execution. It enables step-by-step execution, local variable inspection, custom expression evaluation, and precise breakpoints and watchpoints, giving developers fine-grained control and visibility when debugging smart contracts.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/edb-rs/edb"
+    ],
+    "tags": [
+      "solidity",
+      "debugging-tools",
+      "developer-experience",
+      "testing"
+    ],
+    "category": "Smart Contract Development & Toolchains"
+  },
+  {
+    "id": "manually-added:txtx",
+    "name": "txtx",
+    "description": "Txtx turns the stress, pain and tears of Smart Contract Infrastructure management by introducing Crypto Infrastructure as Code. \nRunbooks are the blueprint for Engineering Excellence, setting the new standard for Web3 Infrastructures.",
+    "website": "https://www.txtx.sh/",
+    "thumbnail_url": null,
+    "banner_url": "https://framerusercontent.com/assets/5mR0In8TgnrDGVmhFuLEHtvz9d8.png",
+    "twitter": "https://x.com/Reservoir0x",
+    "repos": [
+      "https://github.com/txtx/txtx"
+    ],
+    "tags": [
+      "devops",
+      "contract-management",
+      "contract-deployment",
+      "developer-experience"
+    ],
+    "category": "Smart Contract Development & Toolchains"
+  },
+  {
+    "id": "manually-added:orbitdb",
+    "name": "OrbitDB",
+    "description": "Peer-to-Peer Databases for the Decentralized Web",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/orbitdb/orbitdb"
+    ],
+    "tags": [
+      "peer-to-peer",
+      "censorship-resistant"
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
+  },
+  {
+    "id": "manually-added:ethereum-eips-ontology",
+    "name": "Ethereum EIPs Ontology",
+    "description": "An ontology of Ethereum terms extracted from the Ethereum glossaries and Ethereum Improvement Proposals (EIPs). Available in plain text and SKOS formats.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/prototypo/ethereum-eips-ontology"
+    ],
+    "tags": [],
+    "category": "Education & Community Resources"
+  },
+  {
+    "id": "manually-added:ethereum-rb",
+    "name": "ethereum.rb",
+    "description": "Ethereum library for the Ruby language",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/EthWorks/ethereum.rb"
+    ],
+    "tags": [
+      "sdk"
+    ],
+    "category": "Client Libraries & SDKs (Front-End)"
+  },
+  {
+    "id": "manually-added:hax",
+    "name": "hax",
+    "description": "hax is a tool for high assurance translations of a large subset of Rust into formal languages such as F* or Rocq.",
+    "website": "https://hax.cryspen.com/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/cryspen/hax"
+    ],
+    "tags": [
+      "formal-verification"
+    ],
+    "category": "Security, Testing & Formal Verification"
+  },
+  {
+    "id": "manually-added:erc-4337-documentation",
+    "name": "ERC-4337 Documentation",
+    "description": "Complete guide to ERC-4337 Account Abstraction - smart accounts, bundlers, paymasters, and more",
+    "website": "https://docs.erc4337.io/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/eth-infinitism/aa-mkdocs"
+    ],
+    "tags": [
+      "account-abstraction",
+      "education"
+    ],
+    "category": "Education & Community Resources"
+  },
+  {
+    "id": "manually-added:intellij-solidity",
+    "name": "IntelliJ Solidity",
+    "description": "Solidity plugin for IntelliJ",
+    "website": "https://intellij-solidity.dev/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/intellij-solidity/intellij-solidity"
+    ],
+    "tags": [
+      "solidity",
+      "developer-experience",
+      "code-quality"
+    ],
+    "category": "Smart Contract Development & Toolchains"
+  },
+  {
+    "id": "manually-added:w3pk",
+    "name": "w3pk",
+    "description": "Passwordless Web3 authentication SDK with encrypted wallets and privacy features.",
+    "website": "https://w3pk.w3hc.org/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/w3hc/w3pk"
+    ],
+    "tags": [
+      "wallet"
+    ],
+    "category": "Transaction & Wallet Infrastructure"
+  },
+  {
+    "id": "manually-added:solidity-testing-handbook",
+    "name": "Solidity Testing Handbook",
+    "description": "Solidity Testing Handbook is a comprehensive guide to testing smart contracts in the Solidity programming language. It covers the basics of testing, the different types of tests, and the tools available for testing.",
+    "website": "https://solidity-testing-handbook.vercel.app/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [],
+    "tags": [
+      "testing",
+      "education"
+    ],
     "category": "Education & Community Resources"
   }
 ]
