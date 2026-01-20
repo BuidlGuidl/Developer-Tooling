@@ -134,11 +134,11 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/99fa13be-c8ef-4df9-980e-58736e3ddc29.png",
     "twitter": "https://x.com/0xbloctopus",
     "repos": [
-      "https://github.com/LZeroAnalytics/lzero-reth",
-      "https://github.com/LZeroAnalytics/ethereum-package",
-      "https://github.com/LZeroAnalytics/blockscout-package",
-      "https://github.com/LZeroAnalytics/chainlink-node-package",
-      "https://github.com/LZeroAnalytics/layerzero-package"
+      "https://github.com/0xBloctopus/lzero-reth",
+      "https://github.com/0xBloctopus/ethereum-package",
+      "https://github.com/0xBloctopus/blockscout-package",
+      "https://github.com/0xBloctopus/chainlink-node-package",
+      "https://github.com/0xBloctopus/layerzero-package"
     ],
     "tags": [
       "cross-chain",
@@ -2475,7 +2475,6 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/c78355fc-3512-4554-a6df-70392a31cae2.png",
     "twitter": "@thirdweb",
     "repos": [
-      "thirdweb-dev",
       "https://github.com/thirdweb-dev/insight",
       "https://github.com/thirdweb-dev/js",
       "https://github.com/thirdweb-dev/contracts"
@@ -2768,7 +2767,6 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/7c1ee7ff-ad46-4b74-a941-48cc7ddc2dbe.png",
     "twitter": "https://x.com/0xBlockhead",
     "repos": [
-      "darrylyeo/blockhead",
       "https://github.com/darrylyeo/blockhead"
     ],
     "tags": [
@@ -2824,7 +2822,6 @@
     "banner_url": "https://cdn.charmverse.io/user-content/e3eb66db-408b-4e21-bc69-c2927fd15b32/874ceabb-8637-48ef-935d-747218d514fc/opstackkit-cover.jpg",
     "twitter": "opstackkit",
     "repos": [
-      "opstack-kit",
       "https://github.com/opstack-kit/opstack-kit"
     ],
     "tags": [
@@ -2931,8 +2928,7 @@
       "https://github.com/Pfed-prog/NextJsExplorer",
       "https://github.com/Pfed-prog/EVMExplorer-Blockscout",
       "https://github.com/Pfed-prog/EVMExplorer-Uniswap",
-      "https://github.com/Pfed-prog/EVMExplorer-Utility",
-      "Pfed-prog/NextJsExplorer"
+      "https://github.com/Pfed-prog/EVMExplorer-Utility"
     ],
     "tags": [
       "analytics",
@@ -3155,7 +3151,6 @@
     "banner_url": "https://storage.googleapis.com/op-atlas/e205286d-1799-4d72-992a-a8ebe394c59b.png",
     "twitter": null,
     "repos": [
-      "https://pypi.org/project/snekmate",
       "https://www.npmjs.com/package/snekmate",
       "https://github.com/pcaversaccio/snekmate"
     ],
@@ -3227,23 +3222,6 @@
       "defi"
     ],
     "website": "https://stargate.finance/",
-    "category": "Cross-Chain & Interoperability"
-  },
-  {
-    "id": "0xcbfdcf8f724d73504d1518d5ecd7d7256b12d37e68cd84569b383bfb6e2eeea4",
-    "name": "Dmail Network",
-    "description": "Stay Informed and Connected with Intelligent and Secure Messaging & Notifications.\n\nDmail Network is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/12b2e427-b292-4b27-8896-9053900bfdb4.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/3b615f64-5b2e-4092-a10d-f0e311ced954.png",
-    "twitter": "https://x.com/Dmailofficial",
-    "repos": [
-      "https://github.com/dmailofficial/dmail",
-      "https://mail.dmail.ai/compose"
-    ],
-    "tags": [
-      "cross-chain",
-      "privacy-focused"
-    ],
     "category": "Cross-Chain & Interoperability"
   },
   {
@@ -3634,25 +3612,6 @@
     ],
     "website": "https://github.com/Vectorized/multicaller",
     "category": "Smart Contract Development & Toolchains"
-  },
-  {
-    "id": "0x7a4bb37bc7997b8e9b34775164682ff1f441b716cd235f2e7cdce76677b66007",
-    "name": "zkCodex",
-    "description": "zkCodex is a comprehensive blockchain analytics platform that enhances how users engage with and analyze EVM-compatible networks. By combining powerful tracking capabilities with advanced DeFi tools, zkCodex offers an all-in-one solution for blockchain interaction and analysis.\n\n\n#Analytics & Tracking\nMulti-Chain Support: Monitor activities across 35+ networks including Ethereum, Optimism, Base and Ink...\nReal-time Analytics: Track transaction volumes, smart contract interactions, and daily activities\nPerformance Metrics: Analyze wallet performance through comprehensive scoring and detailed metrics\n\n#On-Chain\nGM Streak: Build daily streaks and earn rewards\nContract Deployer: Deploy tokens, NFTs, and contracts\nCounter: Multi-network transaction tool\nDApp Interactions: Engage with blockchain apps seamlessly\n\n\n#Tools & Utilities\nSmart Contract Tools: Deploy and interact with contracts securely\nTransaction Management: Monitor and analyze your transaction history\nEVM Utilities: Access essential tools for blockchain operations",
-    "thumbnail_url": "https://storage.googleapis.com/op-atlas/89825b92-1ec4-4b91-a8a6-0060c3fe354a.png",
-    "banner_url": "https://storage.googleapis.com/op-atlas/cc030ee4-0070-4979-b6e6-a733393e6db6.png",
-    "twitter": "https://x.com/zkcodex",
-    "repos": [
-      "https://github.com/zkcodex/zkCodex"
-    ],
-    "tags": [
-      "analytics",
-      "defi",
-      "cross-chain",
-      "transaction-management"
-    ],
-    "website": "https://zkcodex.com/",
-    "category": "Data, Analytics & Tracing"
   },
   {
     "id": "0xf24315614063278ba3543e1717791132a9afa79b0e65baa01a85bcccbdfa215f",
