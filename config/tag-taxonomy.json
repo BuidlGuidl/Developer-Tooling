@@ -89,7 +89,8 @@
     "compiler",
     "gossipsub",
     "libp2p",
-    "dex-aggregator"
+    "dex-aggregator",
+    "agent-skills"
   ]
 }
 
