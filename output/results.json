@@ -4296,8 +4296,8 @@
     "name": "Ethereum RPC MCP Server",
     "description": "A Model Context Protocol (MCP) server for interacting with Ethereum blockchain.",
     "website": null,
-    "thumbnail_url": "https://opengraph.githubassets.com/421e816e701a43765ef549871180f21a0f0bb1788437aa365709553210ab42fa/0xKoda/eth-mcp",
-    "banner_url": "https://opengraph.githubassets.com/421e816e701a43765ef549871180f21a0f0bb1788437aa365709553210ab42fa/0xKoda/eth-mcp",
+    "thumbnail_url": null,
+    "banner_url": null,
     "twitter": null,
     "repos": [
       "https://github.com/0xKoda/eth-mcp"
@@ -4314,7 +4314,7 @@
     "name": "MCP Etherscan Server",
     "description": "An MCP (Model Context Protocol) server that provides Ethereum blockchain data tools via Etherscan's API. Features include checking ETH balances, viewing transaction history, tracking ERC20 transfers, fetching contract ABIs, monitoring gas prices, and resolving ENS names.",
     "website": null,
-    "thumbnail_url": "https://opengraph.githubassets.com/ad7801fe5a431ed5e4f2fe92c2e7099ff1537625446503fd35c84b25a2d29af6/crazyrabbitLTC/mcp-etherscan-server",
+    "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
     "repos": [
@@ -4332,7 +4332,7 @@
     "name": "Trail of Bits Skills Marketplace",
     "description": "A Claude Code plugin marketplace from Trail of Bits providing skills to enhance AI-assisted security analysis, testing, and development workflows.",
     "website": null,
-    "thumbnail_url": "https://opengraph.githubassets.com/0cbe34a3fa99603c55ebb0fd85ad2e0ca9ff1076c7e12aa1ec0b079f566f47db/trailofbits/skills",
+    "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
     "repos": [
@@ -4351,8 +4351,8 @@
     "name": "Ethereum Wingman",
     "description": "A comprehensive Ethereum development tutor and guide built as an Agent Skill. Teaches smart contract development through SpeedRun Ethereum challenges, Scaffold-ETH tooling, and security best practices.",
     "website": "https://ethwingman.com/",
-    "thumbnail_url": "https://ethwingman.com/ethwingman.png",
-    "banner_url": null,
+    "thumbnail_url": null,
+    "banner_url": "https://ethwingman.com/ethwingman.png",
     "twitter": null,
     "repos": [
       "https://github.com/austintgriffith/ethereum-wingman"
@@ -4370,7 +4370,7 @@
     "name": "eth-mcp",
     "description": "MCP server that enables AI agents to build and deploy applications in the Ethereum ecosystem.",
     "website": "https://eth-mcp.com/",
-    "thumbnail_url": "https://eth-mcp.dev/card.png",
+    "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
     "repos": [
@@ -4390,7 +4390,7 @@
     "name": "Solidity Security",
     "description": "Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementing security measures for blockchain applications.",
     "website": "https://sethhobson.com/",
-    "thumbnail_url": "https://opengraph.githubassets.com/f4348a44c3dce858e04eb70e4235c260c3b8c0618030b21eb7be7a3306b77936/wshobson/agents",
+    "thumbnail_url": null,
     "banner_url": null,
     "twitter": null,
     "repos": [
@@ -4409,7 +4409,7 @@
     "name": "Voltaire",
     "description": "Voltaire is a modern general-purpose Ethereum library for TypeScript, Zig, C, and Swift. Type-safe primitives, WASM-accelerated performance, and designed for AI-assisted development.",
     "website": "https://voltaire.tevm.sh/",
-    "thumbnail_url": "https://opengraph.githubassets.com/ddb76f5e80cfae1183fef8d7ffc8611ccd6c1873521427ed484317023d63876c/evmts/voltaire",
+    "thumbnail_url": null,
     "banner_url": null,
     "twitter": "https://twitter.com/tevmtools",
     "repos": [
