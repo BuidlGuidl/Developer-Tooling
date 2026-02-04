@@ -6,9 +6,7 @@
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/9d83fea6-88b8-4985-b0e9-4a675be218df.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/763ce438-66da-4384-a634-9108e26a63a4.png",
     "twitter": null,
-    "repos": [
-      "https://github.com/mcpdotdirect/evm-mcp-server"
-    ],
+    "repos": [],
     "tags": [
       "mcp-server",
       "cli",
