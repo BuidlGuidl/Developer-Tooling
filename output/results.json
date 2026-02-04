@@ -4422,5 +4422,24 @@
     ],
     "category": "Client Libraries & SDKs (Front-End)",
     "llms_txt_url": "https://voltaire.tevm.sh/llms.txt"
+  },
+  {
+    "id": "manually-added:quicknode-mcp-server",
+    "name": "QuickNode MCP Server",
+    "description": "QuickNode MCP Server brings the power of QuickNode's blockchain infrastructure directly to your AI assistant.",
+    "website": "https://quicknode.com/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": "https://x.com/quicknode",
+    "repos": [
+      "https://github.com/quiknode-labs/qn-mcp",
+      "https://www.npmjs.com/package/@quicknode/mcp"
+    ],
+    "tags": [
+      "mcp-server",
+      "api"
+    ],
+    "category": "Data, Analytics & Tracing",
+    "llms_txt_url": null
   }
 ]
