@@ -1,5 +1,0 @@
-{
-  "whitelistedTags": ["mcp-server", "game-development"],
-  "description": "Tags in this list will always be included during the filtering phase, even if they don't meet frequency requirements (too few or too many projects). Add important tags here that should always be kept."
-}
-

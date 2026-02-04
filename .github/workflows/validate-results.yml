@@ -1,0 +1,28 @@
+name: Validate results.json
+
+on:
+  pull_request:
+    paths:
+      - "output/results.json"
+      - "output/taxonomy.json"
+      - "scripts/validate-results.mjs"
+  push:
+    branches:
+      - main
+    paths:
+      - "output/results.json"
+      - "output/taxonomy.json"
+      - "scripts/validate-results.mjs"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: node scripts/validate-results.mjs
+

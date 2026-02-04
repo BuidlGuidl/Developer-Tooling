@@ -1,5 +1,0 @@
-{
-  "blacklistedTags": ["tools","dapps","evm","crypto","rpc","binance-smart-chain", "client","ecosystem","integration", "open-source", "smart-contracts", "user-friendly-interface", "compatible", "utility-tool", "blockchain", "developer-utility", "developer-tools", "development", "npm-package", "go"],
-  "prefixFilters": ["postgresql","ecosystem", "web3", "ethereum", "web3", "nodejs", "rust", "javascript", "typescript", "python", "golang", "java", "c++","cpp", "c#", "php", "ruby", "swift", "kotlin", "scala", "haskell", "erlang", "elixir", "ocaml"],
-  "description": "Tags in this list will be excluded during the filtering phase, regardless of frequency. Add tags here that you want to exclude from the final results. Prefix filters will exclude any tag that starts with the filter followed by a hyphen (e.g., 'go' will filter out 'go-ecosystem', 'go-mama', etc.)."
-}

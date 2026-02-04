@@ -1,0 +1,106 @@
+name: Suggest a project
+description: Suggest a project to add to the Developer Tooling list
+title: "Add project: <name>"
+labels: ["project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion!
+
+        - If you want to contribute a PR, you can also directly edit `output/results.json`.
+        - To see which tags and categories exist, check `output/taxonomy.json`.
+
+  - type: markdown
+    attributes:
+      value: "## Project info"
+
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: What does it do? 1-3 sentences is perfect.
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Website URL (optional)
+      placeholder: https://example.com
+
+  - type: input
+    id: llms_txt_url
+    attributes:
+      label: LLMs Text URL (optional)
+      placeholder: https://example.com/llms.txt
+
+  - type: input
+    id: thumbnail_url
+    attributes:
+      label: Thumbnail image URL (optional)
+      description: Square-ish image used as icon in lists/cards.
+      placeholder: https://example.com/thumbnail.png
+
+  - type: input
+    id: banner_url
+    attributes:
+      label: Banner image URL (optional)
+      description: Wide image used in headers/hero areas.
+      placeholder: https://example.com/banner.png
+
+  - type: input
+    id: twitter
+    attributes:
+      label: Twitter / X URL (optional)
+      placeholder: https://x.com/…
+
+  - type: textarea
+    id: repos
+    attributes:
+      label: GitHub repo or NPM package URL(s)
+      description: Provide at least one repo or NPM package URL. One per line is fine.
+      placeholder: |
+        https://github.com/org/repo
+        https://github.com/org/another-repo
+        https://www.npmjs.com/package/package-name
+        https://www.npmjs.com/package/another-package-name
+    validations:
+      required: true
+
+  - type: textarea
+    id: tags
+    attributes:
+      label: Tags
+      description: List tag slugs (kebab-case). Use tags from `output/taxonomy.json`. If you think a new tag is needed, propose it here.
+      placeholder: |
+        foundry
+        security
+        static-analysis
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Must match a category name from `output/taxonomy.json`.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I checked `output/taxonomy.json` for existing tags and categories
+          required: true
+        - label: I provided at least one GitHub repo or NPM package URL
+          required: true
