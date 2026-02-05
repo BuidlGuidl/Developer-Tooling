@@ -4441,5 +4441,23 @@
     ],
     "category": "Data, Analytics & Tracing",
     "llms_txt_url": null
+  },
+  {
+    "id": "manually-added:ethereum-mcp",
+    "name": "Ethereum MCP",
+    "description": "RAG-powered MCP server for Ethereum consensus specs, EIPs, and client source code. Provides indexing and search via CLI and MCP tools.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/b17z/ethereum-mcp"
+    ],
+    "tags": [
+      "mcp-server",
+      "standards-and-specifications"
+    ],
+    "category": "Education & Community Resources",
+    "llms_txt_url": null
   }
 ]
