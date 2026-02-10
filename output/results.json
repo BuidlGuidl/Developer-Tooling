@@ -4459,5 +4459,43 @@
     ],
     "category": "Education & Community Resources",
     "llms_txt_url": null
+  },
+  {
+    "id": "manually-added:blockscout-mcp-server",
+    "name": "Blockscout MCP Server",
+    "description": "Wraps Blockscout APIs and exposes blockchain data (balances, tokens, NFTs, contract metadata) via MCP for use in AI agents and IDEs.",
+    "website": "https://www.blockscout.com",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/blockscout/mcp-server"
+    ],
+    "tags": [
+      "mcp-server",
+      "block-explorer",
+      "analytics"
+    ],
+    "category": "Data, Analytics & Tracing",
+    "llms_txt_url": null
+  },
+  {
+    "id": "manually-added:ens-mcp-server",
+    "name": "ENS MCP Server",
+    "description": "MCP server for Ethereum Name Service (ENS), enabling agents to resolve names, reverse-lookup addresses, check availability, and retrieve ENS records.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/justaname-id/ens-mcp-server",
+      "https://www.npmjs.com/package/mcp-server-ens"
+    ],
+    "tags": [
+      "mcp-server",
+      "developer-experience"
+    ],
+    "category": "Transaction & Wallet Infrastructure",
+    "llms_txt_url": null
   }
 ]
