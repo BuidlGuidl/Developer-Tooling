@@ -24,7 +24,7 @@ While using an agent, ask something like:
 
 Commits are expected to keep the data files valid and consistent with the taxonomy.
 
-- **Pre-commit hook (recommended)**: this repo installs a `pre-commit` hook that runs the validator on every commit.
+- **Pre-commit hook**: this repo installs a `pre-commit` hook that runs the validator on every commit.
   - The hook runs: `node scripts/validate-results.mjs`
   - If you installed dependencies via `npm install`, the hook is installed automatically via the `prepare` script.
   - If you need to reinstall it manually, run: `npm run prepare`
@@ -40,4 +40,4 @@ npm run validate:results
   - **Unique IDs**: every `results[i].id` must be a non-empty string and **unique** across the file.
   - **Repos required**: every entry must have `repos` with at least one valid `http(s)` URL.
   - **Tags must exist**: every `tags[]` value must be present in `output/taxonomy.json` `tags`.
-  - **Categories must match**: if `category` is set, it must match a category name in `output/taxonomy.json` (missing category is allowed but discouraged).
+  - **Categories must match**: if `category` is set, it must match a category name in `output/taxonomy.json`.
