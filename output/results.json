@@ -4497,5 +4497,25 @@
     ],
     "category": "Transaction & Wallet Infrastructure",
     "llms_txt_url": null
+  },
+  {
+    "id": "manually-added:erc8128",
+    "name": "@slicekit/erc8128",
+    "description": "TypeScript library to sign and verify HTTP requests with Ethereum wallets using ERC-8128 (RFC 9421 HTTP Message Signatures extension), enabling wallet-based authentication and request integrity.",
+    "website": "https://erc8128.org",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/slice-so/erc8128",
+      "https://www.npmjs.com/package/@slicekit/erc8128"
+    ],
+    "tags": [
+      "authentication",
+      "sdk",
+      "standards-and-specifications"
+    ],
+    "category": "Transaction & Wallet Infrastructure",
+    "llms_txt_url": "https://erc8128.slice.so/llms.txt"
   }
 ]
