@@ -3596,7 +3596,7 @@
       "https://www.npmjs.com/package/@ethereum-attestation-service/eas-contracts"
     ],
     "tags": [
-      "governance",
+      "verification",
       "sdk"
     ],
     "category": "Client Libraries & SDKs (Front-End)",
@@ -4517,5 +4517,69 @@
     ],
     "category": "Transaction & Wallet Infrastructure",
     "llms_txt_url": "https://erc8128.slice.so/llms.txt"
+  },
+  {
+    "id": "manually-added:siwa",
+    "name": "SIWA",
+    "description": "Sign In With Agent — lets servers authenticate AI agents and filter out humans. Built on ERC-8004 and ERC-8128, with SDK support for Next.js, Express, Hono, and Fastify.",
+    "website": "https://siwa.id/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": "https://x.com/builders_garden",
+    "repos": [
+      "https://github.com/builders-garden/siwa",
+      "https://www.npmjs.com/package/@buildersgarden/siwa"
+    ],
+    "tags": [
+      "authentication",
+      "agent-skills",
+      "sdk"
+    ],
+    "category": "Transaction & Wallet Infrastructure",
+    "llms_txt_url": "https://siwa.id/skill.md"
+  },
+  {
+    "id": "manually-added:agenthub-allium",
+    "name": "AgentHub by Allium",
+    "description": "Gives AI agents onchain data in one prompt — 150+ chains, token prices, wallet balances, and transaction history. Streamlined sign-up and skill installation for Claude, ChatGPT, and agent frameworks.",
+    "website": "https://agents.allium.so/",
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://www.npmjs.com/package/@allium-labs/mcp"
+    ],
+    "tags": [
+      "mcp-server",
+      "agent-skills",
+      "api",
+      "analytics",
+      "indexing",
+      "multi-chain",
+      "real-time-data"
+    ],
+    "category": "Data, Analytics & Tracing",
+    "llms_txt_url": "https://agents.allium.so/skills/skill.md"
+  },
+  {
+    "id": "manually-added:ethereum-mcp-ethcf",
+    "name": "Ethereum MCP (ETHCF)",
+    "description": "Query Ethereum in plain English. MCP server with 153 tools across Etherscan, DefiLlama, CoinGecko, growthepie, Blobscan, and Dune — balances, TVL, yields, prices, 60+ chains. Built for researchers.",
+    "website": null,
+    "thumbnail_url": null,
+    "banner_url": null,
+    "twitter": null,
+    "repos": [
+      "https://github.com/ETHCF/ethereum-mcp"
+    ],
+    "tags": [
+      "mcp-server",
+      "analytics",
+      "multi-chain",
+      "block-explorer",
+      "real-time-data"
+    ],
+    "category": "Data, Analytics & Tracing",
+    "llms_txt_url": null
   }
 ]
