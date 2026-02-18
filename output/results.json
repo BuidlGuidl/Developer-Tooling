@@ -1745,7 +1745,7 @@
   {
     "id": "0x4dd10ba330a4a21459e2ba72f15fb5da2a63f7492e2b1567e6669c3d47fe6308",
     "name": "Web3j",
-    "description": "Web3j is the Java and Android integration library for Ethereum.\n\nCreated in 2016, and still going strong in 2025 it is core plumbing to Ethereum for one of the world's most widely used development platforms, the JVM.\n\nIt has been downloaded millions of times, and is used by everyone including\n- Enterprises such as J.P. Morgan, Fnality and NTT Data\n- Web3 infrastructure companies such as Alchemy \n- The Besu Ethereum Execution client\n- It's even been integrated natively into the Android OS by Freedom Factory in ethOS which powers the  upcoming Ethereum phone the DGEN1\n\nWe decided in 2024 to bring Web3j into the Hyperledger Foundation, which provides high-quality governance of open source (similar to the Apache Foundation). It's still, the same team at Web3 Labs responsible for maintaining and supporting the library for its wide and varied user base. The Hyperledger association is great for visibility, but doesn't provide any funding for the project!\n\nWe rely on grant funding to sustain this library and hopeful to qualify for this RPGF round.\n\nUnfortunately, we missed out on OP RPGF 3 as we had not realised projects were eligible for multiple rounds so did not apply following our success in OP RPGF 2.\n\n🙏🏻",
+    "description": "Lightweight, modular, reactive Java and Android library for Ethereum. JSON-RPC client API, wallet support, and auto-generated Solidity contract wrappers for deployment and interaction. Includes CLI, Maven/Gradle plugins, and ENS support.",
     "thumbnail_url": "https://storage.googleapis.com/op-atlas/be0b64a3-1fcb-4f95-ad91-6a2589a5315f.png",
     "banner_url": "https://storage.googleapis.com/op-atlas/e1ea2162-1ef8-46ea-afdc-37f0bb4dee4a.png",
     "twitter": "https://x.com/web3labs",
@@ -1763,7 +1763,10 @@
       "https://github.com/hyperledger-web3j/web3j-sokt"
     ],
     "tags": [
-      "governance",
+      "sdk",
+      "contract-deployment",
+      "contract-interaction",
+      "wallet",
       "cli"
     ],
     "category": "Client Libraries & SDKs (Front-End)",
